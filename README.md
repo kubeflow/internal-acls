@@ -1,2 +1,3 @@
 # internal-acls
-Repository used to main group ACLs used by Kubeflow developers
+
+Repository used to maintain group ACLs used by the Kubeflow community.
