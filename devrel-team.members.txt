@@ -10,6 +10,7 @@ kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
 pmackinn@redhat.com
+ricliu@google.com
 sanyamkapoor@google.com
 wibuch@microsoft.com
 yelsayed@google.com
