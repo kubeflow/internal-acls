@@ -9,6 +9,7 @@ jlewi@kubeflow.org
 kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
+michal.jastrzebski@intel.com
 pmackinn@redhat.com
 puneith@google.com
 ricliu@google.com
