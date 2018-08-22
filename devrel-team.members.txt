@@ -16,3 +16,8 @@ ricliu@google.com
 sanyamkapoor@google.com
 wibuch@microsoft.com
 yelsayed@google.com
+mdemoret@nvidia.com
+erichards@nvidia.com
+hseltmann@nvidia.com
+davidg@nvidia.com
+rolson@nvidia.com
