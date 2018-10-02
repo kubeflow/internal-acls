@@ -1,4 +1,3 @@
-agwl@google.com
 aronchick@google.com
 chasm@google.com
 jlewi@google.com
