@@ -1,0 +1,10 @@
+caicloud-team@kubeflow.org
+cc@seldon.io
+deyuan@caicloud.io
+gaoce@caicloud.io
+google-team@kubeflow.org
+kunming@google.com
+lunkai@google.com
+michellecasbon@google.com
+redhat-team@kubeflow.org
+wibuch@microsoft.com
