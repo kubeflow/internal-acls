@@ -9,3 +9,5 @@ gam update group google-kubeflow-admins@kubeflow.org sync member file google-kub
 gam update group google-team@kubeflow.org sync member file google-team.members.txt
 gam update group kf-demo-owners@kubeflow.org sync member file kf-demo-owners.members.txt
 gam update group devrel-team@kubeflow.org sync member file devrel-team.members.txt
+gam update group modeldb-team@kubeflow.org sync member file modeldb-team.members.txt
+gam update group code-search-team@kubeflow.org sync member file code-search-team.members.txt
