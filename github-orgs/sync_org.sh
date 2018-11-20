@@ -24,7 +24,7 @@ if [ -z ${TOKEN_FILE} ]; then
 	exit 1	
 fi
 
-if [ -z ${CONFIR} ]; then
+if [ -z ${CONFIRM} ]; then
 	echo CONFIRM not set defaulting to dryrun mode
     CONFIRM=false
 fi	
@@ -33,5 +33,10 @@ cd ${TEST_INFRA_DIR}
 
 bazel run //prow/cmd/peribolos -- --fix-org-members --config-path ${DIR}/kubeflow/org.yaml \
 	--github-token-path ${TOKEN_FILE} \
-	--required-admins=jlewi,abhi-g,google-admin,googlebot,richardsliu,vicaire \
+	--required-admins=jlewi \
+	--required-admins=abhi-g \
+	--required-admins=google-admin \
+	--required-admins=googlebot \
+	--required-admins=richardsliu \
+	--required-admins=vicaire \
 	--confirm=${CONFIRM}
