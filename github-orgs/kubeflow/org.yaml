@@ -1,0 +1,326 @@
+orgs:
+    kubeflow:
+        admins:
+        - abhi-g
+        - google-admin
+        - googlebot
+        - jlewi
+        - richardsliu
+        - vicaire
+        billing_email: vishnukanan@gmail.com
+        company: ""
+        default_repository_permission: read
+        description: Kubeflow is an open, community driven project to make it easy to deploy
+          and manage an ML stack on Kubernetes
+        email: ""
+        has_organization_projects: true
+        has_repository_projects: true
+        location: ""
+        members:
+        - abkosar
+        - activatedgeek
+        - ahousley
+        - ajayalfred
+        - Akado2009
+        - alsrgv
+        - amsaha
+        - amygdala
+        - andreyvelich
+        - anfeng
+        - Ark-kun
+        - ashahba
+        - balajismaniam
+        - beberg
+        - BenTheElder
+        - bhupc
+        - carmark
+        - carmine
+        - ChanYiLin
+        - cheyang
+        - chrisheecho
+        - cjwagner
+        - clemens-mewald
+        - cliveseldon
+        - codeflitting
+        - connordoyle
+        - cwbeitel
+        - danisla
+        - dakoner
+        - ddutta
+        - ddysher
+        - DeeperMind
+        - disktnk
+        - DjangoPeng
+        - dlaqab
+        - dmueller2001
+        - dsdinter
+        - dwhitena
+        - dynamicwebpaige
+        - elsonrodriguez
+        - erikerlandson
+        - everpeace
+        - ewilderj
+        - frederick0329
+        - fxue
+        - gaocegege
+        - gaoning777
+        - garganubhav
+        - gsunner
+        - hongye-sun
+        - idvoretskyi
+        - inc0
+        - ioandr
+        - IronPan
+        - jbottum
+        - jiezhang
+        - Jimexist
+        - jinxingwang
+        - johnugeorge
+        - jose5918
+        - jzp1025
+        - k8s-ci-robot
+        - karthikv2k
+        - katieole
+        - katsiapis
+        - kiratp
+        - kkasravi
+        - krzyzacy
+        - kubeflow-bot
+        - kunmingg
+        - ldcastell
+        - libbyandhelen
+        - lienhua34
+        - lluunn
+        - marcoceppi
+        - mattf
+        - Maximophone
+        - mhausenblas
+        - mitake
+        - moxyoron
+        - mpvartak
+        - netankit
+        - neuromage
+        - nickchase
+        - nqn
+        - ojarjur
+        - paveldournov
+        - pdmack
+        - pineking
+        - puneith
+        - pvellanki
+        - qimingj
+        - r2d4
+        - raddaoui
+        - ramdootp
+        - randxie
+        - rileyjbauer
+        - rongou
+        - ryanolson
+        - salehay
+        - sambaiz
+        - sarahmaddox
+        - sasha-gitg
+        - sshrdp
+        - ScorpioCPH
+        - songole
+        - suleisl2000
+        - swiftdiaries
+        - texasmichelle
+        - TheJaySmith
+        - tmckayus
+        - vditya
+        - vishh
+        - vkoukis
+        - wbuchwalter
+        - willb
+        - willingc
+        - wjarek
+        - xychu
+        - xyhuang
+        - yebrahim
+        - yixinshi
+        - yncxcw
+        - yph152
+        - YujiOshima
+        - yupbank
+        - ziamsyed
+        - zjj2wry
+        members_can_create_repositories: false
+        name: Kubeflow
+        teams:
+          Caicloud:
+            description: Team of members from Caicloud
+            maintainers:
+            - ddysher
+            - gaocegege
+            members:
+            - lienhua34
+            - codeflitting
+            - zjj2wry
+            - yph152
+            privacy: closed
+          Cisco:
+            description: Team @Cisco contributing to KubeFlow
+            maintainers:
+            - ddutta
+            members:
+            - johnugeorge
+            - xyhuang
+            - Akado2009
+            - libbyandhelen
+            - garganubhav
+            - ramdootp
+            privacy: closed
+          Google:
+            description: Folks from Google working on Kubeflow
+            maintainers:
+            - jlewi
+            - abhi-g
+            - vicaire
+            - richardsliu
+            members:
+            - ewilderj
+            - bhupc
+            - danisla
+            - kiratp
+            - karthikv2k
+            - r2d4
+            - BenTheElder
+            - krzyzacy
+            - yebrahim
+            - IronPan
+            - ojarjur
+            - dlaqab
+            - cjwagner
+            - sarahmaddox
+            - vishh
+            - texasmichelle
+            - TheJaySmith
+            - fxue
+            - chrisheecho
+            - moxyoron
+            - yixinshi
+            - lluunn
+            - kunmingg
+            - ziamsyed
+            - sasha-gitg
+            privacy: closed
+          Intel:
+            description: Team at Intel contributing to Kubeflow.
+            maintainers:
+            - elsonrodriguez
+            members:
+            - nqn
+            - balajismaniam
+            - jose5918
+            - ashahba
+            privacy: closed
+          Red Hat:
+            description: Contributors from Red Hat
+            members:
+            - willb
+            - mattf
+            - erikerlandson
+            - tmckayus
+            - pdmack
+            privacy: closed
+          Seldon:
+            description: Engineers at Seldon contributing to Kubeflow
+            maintainers:
+            - cliveseldon
+            members:
+            - Maximophone
+            - gsunner
+            privacy: closed
+          caffe2-team:
+            description: Folks working on the caffe2 operator
+            members:
+            - carmark
+            - gaocegege
+            privacy: closed
+          caipe-dev:
+            description: 'One of the Google teams '
+            maintainers:
+            - jlewi
+            - frederick0329
+            privacy: closed
+          ci-bots:
+            description: Team for bots
+            members:
+            - k8s-ci-robot
+            - kubeflow-bot
+            privacy: closed
+          core-approvers:
+            description: A list of committers to the core repositories comprising Kubeflow.
+            maintainers:
+            - jlewi
+            members:
+            - willb
+            - tmckayus
+            - wbuchwalter
+            - gaocegege
+            - ScorpioCPH
+            - vishh
+            - DjangoPeng
+            - lluunn
+            privacy: closed
+          examples-approvers:
+            description: Approvers for the examples repository
+            maintainers:
+            - jlewi
+            members:
+            - wbuchwalter
+            - texasmichelle
+            - puneith
+            privacy: closed
+          kube-bench-team:
+            description: Kubeflow benchmarking
+            maintainers:
+            - jlewi
+            members:
+            - gaocegege
+            - xyhuang
+            privacy: closed
+          pipelines:
+            description: ""
+            maintainers:
+            - vicaire
+            members:
+            - neuromage
+            - yebrahim
+            - Ark-kun
+            - IronPan
+            - ajayalfred
+            - gaoning777
+            - paveldournov
+            - katieole
+            - qimingj
+            - rileyjbauer
+            - hongye-sun
+            privacy: closed
+          release-planning:
+            description: Team responsible for planning releases; has write permission on all
+              repos to manipulate issues
+            maintainers:
+            - jlewi
+            - chrisheecho
+            members:
+            - idvoretskyi
+            - carmine
+            privacy: closed
+          release-team:
+            description: Release team; permissions needed to create branches and other actions.
+            maintainers:
+            - jlewi
+            - richardsliu
+            members:
+            - kunmingg
+            privacy: closed
+          web-team:
+            description: Web site team
+            maintainers:
+            - ewilderj
+            members:
+            - inc0
+            privacy: closed
+
