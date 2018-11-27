@@ -3,11 +3,8 @@
 # Sync groups using the gam CLI
 set -ex
 
-gam update group ci-team@kubeflow.org sync member file ci-team.members.txt
-gam update group release-team@kubeflow.org sync member file release-team.members.txt
-gam update group google-kubeflow-admins@kubeflow.org sync member file google-kubeflow-admins.members.txt
-gam update group google-team@kubeflow.org sync member file google-team.members.txt
-gam update group kf-demo-owners@kubeflow.org sync member file kf-demo-owners.members.txt
-gam update group devrel-team@kubeflow.org sync member file devrel-team.members.txt
-gam update group modeldb-team@kubeflow.org sync member file modeldb-team.members.txt
-gam update group code-search-team@kubeflow.org sync member file code-search-team.members.txt
+KF_GROUPS=( "ci-team" "release-team" "google-kubeflow-admins" "google-team" "kf-demo-owners" "devrel-team" "modeldb-team" "code-search-team" "kubeflow-examples-gcr-writers" )
+for g in "${KF_GROUPS[@]}"
+do
+	gam update group ${g}@kubeflow.org sync member file ${g}.members.txt
+done
