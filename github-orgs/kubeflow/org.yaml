@@ -70,7 +70,9 @@ orgs:
         - gaoning777
         - garganubhav
         - gsunner
+        - gyliu513
         - hongye-sun
+        - hougangliu
         - idvoretskyi
         - inc0
         - ioandr
@@ -210,6 +212,12 @@ orgs:
             - kunmingg
             - ziamsyed
             - sasha-gitg
+            privacy: closed
+          IBM:
+            description: Team at IBM contributing to Kubeflow.
+            members:
+            - gyliu513
+            - hougangliu
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
