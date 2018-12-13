@@ -155,6 +155,7 @@ orgs:
         - yupbank
         - ziamsyed
         - zjj2wry
+        - jinchihe
         members_can_create_repositories: false
         name: Kubeflow
         teams:
