@@ -67,6 +67,7 @@ orgs:
         - ewilderj
         - frederick0329
         - fxue
+        - gabrielwen
         - gaocegege
         - gaoning777
         - garganubhav
@@ -216,6 +217,7 @@ orgs:
             - kunmingg
             - ziamsyed
             - sasha-gitg
+            - gabrielwen
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
