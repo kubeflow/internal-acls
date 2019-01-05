@@ -135,6 +135,7 @@ orgs:
         - sasha-gitg
         - sshrdp
         - ScorpioCPH
+        - sijieamoy
         - songole
         - suleisl2000
         - swiftdiaries
@@ -157,8 +158,9 @@ orgs:
         - yph152
         - YujiOshima
         - yupbank
+        - zhenghuiwang
         - ziamsyed
-        - zjj2wry
+        - zjj2wry        
         members_can_create_repositories: false
         name: Kubeflow
         teams:
