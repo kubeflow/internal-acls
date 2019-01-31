@@ -227,6 +227,7 @@ orgs:
             - sasha-gitg
             - gabrielwen
             - zhenghuiwang
+            - avdaredevil
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
