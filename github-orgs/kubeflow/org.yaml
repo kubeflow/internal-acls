@@ -165,7 +165,8 @@ orgs:
         - yupbank
         - zhenghuiwang
         - ziamsyed
-        - zjj2wry        
+        - zjj2wry
+        - zabbasi
         members_can_create_repositories: false
         name: Kubeflow
         teams:
@@ -229,6 +230,7 @@ orgs:
             - gabrielwen
             - zhenghuiwang
             - avdaredevil
+            - zabbasi
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
