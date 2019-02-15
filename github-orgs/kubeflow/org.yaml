@@ -130,6 +130,7 @@ orgs:
         - randxie
         - rileyjbauer
         - rongou
+        - rpasricha
         - ryanolson
         - salehay
         - sambaiz
@@ -231,6 +232,7 @@ orgs:
             - zhenghuiwang
             - avdaredevil
             - zabbasi
+            - rpasricha
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
