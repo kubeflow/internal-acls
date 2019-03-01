@@ -123,6 +123,7 @@ orgs:
         - paveldournov
         - pdmack
         - pineking
+        - prodonjs
         - puneith
         - pvellanki
         - qimingj
@@ -235,6 +236,7 @@ orgs:
             - avdaredevil
             - zabbasi
             - rpasricha
+            - prodonjs
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
