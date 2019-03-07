@@ -9,9 +9,11 @@ ewj@google.com
 github-team@kubeflow.org
 hseltmann@nvidia.com
 inc007@gmail.com
+ioannis@arrikto.com
 jlewi.dataflow@gmail.com
 jlewi@kubeflow.org
 kam.d.kasravi@intel.com
+kimwnasptd@arrikto.com
 kunming@google.com
 lunkai@google.com
 mdemoret@nvidia.com
@@ -22,5 +24,6 @@ rolson@nvidia.com
 sanche@google.com
 sanyamkapoor@google.com
 thealamkin@google.com 
+vkoukis@arrikto.com
 wibuch@microsoft.com
 yelsayed@google.com
