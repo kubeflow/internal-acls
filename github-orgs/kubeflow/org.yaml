@@ -331,6 +331,7 @@ orgs:
             - qimingj
             - rileyjbauer
             - hongye-sun
+            - animeshsingh
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
