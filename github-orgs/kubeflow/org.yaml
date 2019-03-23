@@ -68,6 +68,7 @@ orgs:
         - eLco
         - ellis-bigelow
         - elsonrodriguez
+        - elviraux
         - erikerlandson
         - everpeace
         - ewilderj
@@ -197,6 +198,7 @@ orgs:
             - libbyandhelen
             - garganubhav
             - ramdootp
+            - elviraux
             privacy: closed
           Google:
             description: Folks from Google working on Kubeflow
