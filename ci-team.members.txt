@@ -10,3 +10,4 @@ redhat-team@kubeflow.org
 wibuch@microsoft.com
 yangpa@google.com
 holden.karau@gmail.com
+kam.d.kasravi@intel.com
