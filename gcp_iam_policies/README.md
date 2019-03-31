@@ -7,12 +7,17 @@ Store IAM policies for various GCP projects.
 ```
 gcloud projects --format=yaml get-iam-policy ${PROJECT} > ${PROJECT}.iam.policy.yaml
 ```
-## To update the iam policy for a project
+## To push the local changes to  the iam policy for a project
 
 1. Update the YAML file for the project
 1. Run the update command
 
    ```
-    ./update_iam_policy.sh --project=${PROJECT}
+    ./update_iam_policy.sh push --project=${PROJECT}
    ```
 
+## To fetch the current policy
+
+```
+ ./update_iam_policy.sh fetch --project=${PROJECT}
+```

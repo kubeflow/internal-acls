@@ -1,0 +1,7 @@
+bindings:
+- members:
+  - group:github-team@kubeflow.org
+  - user:jlewi@kubeflow.org
+  role: roles/owner
+etag: BwWFWfq12qM=
+version: 1
