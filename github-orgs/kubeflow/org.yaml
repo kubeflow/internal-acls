@@ -12,7 +12,7 @@ orgs:
         company: ""
         default_repository_permission: read
         description: Kubeflow is an open, community driven project to make it easy to deploy
-          and manage an ML stack on Kubernetes
+          and manage a ML stack on Kubernetes
         email: ""
         has_organization_projects: true
         has_repository_projects: true
