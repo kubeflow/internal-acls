@@ -179,6 +179,7 @@ orgs:
         - YujiOshima
         - yupbank
         - yuzisun
+        - ywskycn
         - zhenghuiwang
         - ziamsyed
         - zjj2wry
@@ -186,6 +187,16 @@ orgs:
         members_can_create_repositories: false
         name: Kubeflow
         teams:
+          Ant Financial:
+            description: Team of members from Ant Financial
+            maintainers:
+            - terrytangyuan
+            - ywskycn
+            members:
+            - ScorpioCPH
+            - terrytangyuan
+            - ywskycn
+            privacy: closed
           Caicloud:
             description: Team of members from Caicloud
             maintainers:
