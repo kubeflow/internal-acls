@@ -4,6 +4,7 @@ amyu@google.com
 cc@seldon.io
 chasm@google.com
 davidg@nvidia.com
+elikatsis@arrikto.com
 erichards@nvidia.com
 ewj@google.com
 github-team@kubeflow.org
