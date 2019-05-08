@@ -7,6 +7,7 @@ davidg@nvidia.com
 erichards@nvidia.com
 ewj@google.com
 github-team@kubeflow.org
+hanneshapke@gmail.com
 hseltmann@nvidia.com
 inc007@gmail.com
 ioannis@arrikto.com
@@ -28,4 +29,3 @@ vkoukis@arrikto.com
 wibuch@microsoft.com
 yanniszark@arrikto.com
 yelsayed@google.com
-hanneshapke@gmail.com
