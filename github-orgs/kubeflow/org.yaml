@@ -325,6 +325,7 @@ orgs:
             - vishh
             - DjangoPeng
             - lluunn
+            - terrytangyuan
             privacy: closed
           examples-approvers:
             description: Approvers for the examples repository
