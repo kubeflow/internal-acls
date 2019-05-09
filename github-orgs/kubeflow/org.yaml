@@ -312,29 +312,6 @@ orgs:
             - k8s-ci-robot
             - kubeflow-bot
             privacy: closed
-          core-approvers:
-            description: A list of committers to the core repositories comprising Kubeflow.
-            maintainers:
-            - jlewi
-            members:
-            - willb
-            - tmckayus
-            - wbuchwalter
-            - gaocegege
-            - ScorpioCPH
-            - vishh
-            - DjangoPeng
-            - lluunn
-            privacy: closed
-          examples-approvers:
-            description: Approvers for the examples repository
-            maintainers:
-            - jlewi
-            members:
-            - wbuchwalter
-            - texasmichelle
-            - puneith
-            privacy: closed
           kube-bench-team:
             description: Kubeflow benchmarking
             maintainers:
