@@ -1,5 +1,6 @@
 abolfazl.shahbazi@intel.com
 caicloud-team@kubeflow.org
+cartick@google.com
 cc@seldon.io
 deyuan@caicloud.io
 gaoce@caicloud.io
@@ -12,4 +13,3 @@ michellecasbon@google.com
 redhat-team@kubeflow.org
 wibuch@microsoft.com
 yangpa@google.com
-caritck@google.com
