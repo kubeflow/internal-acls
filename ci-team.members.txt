@@ -12,3 +12,4 @@ michellecasbon@google.com
 redhat-team@kubeflow.org
 wibuch@microsoft.com
 yangpa@google.com
+caritck@google.com
