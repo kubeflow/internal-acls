@@ -1,5 +1,6 @@
 abolfazl.shahbazi@intel.com
 caicloud-team@kubeflow.org
+cartick@google.com
 cc@seldon.io
 deyuan@caicloud.io
 gaoce@caicloud.io
