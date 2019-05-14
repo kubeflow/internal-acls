@@ -270,12 +270,13 @@ orgs:
           Intel:
             description: Team at Intel contributing to Kubeflow.
             maintainers:
-            - elsonrodriguez
-            members:
-            - nqn
-            - balajismaniam
-            - jose5918
             - ashahba
+            - kkasravi
+            members:
+            - ashahba
+            - balajismaniam
+            - kkasravi
+            - nqn
             privacy: closed
           Red Hat:
             description: Contributors from Red Hat
