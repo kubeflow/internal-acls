@@ -31,8 +31,9 @@ parseArgs() {
 }
 
 
+
 usage() {
-  echo "Usage: update_iam_policy --project=PROJECT"
+  echo "Usage: update_iam_policy <fetch|push> --project=PROJECT"
 }
 
 getIamPolicy() {
