@@ -268,13 +268,6 @@ orgs:
             - rpasricha
             - prodonjs
             privacy: closed
-          Huawei:
-            description: Team of members from Huawei.
-            maintainers:
-            - wackxu
-            members:
-            - wackxu
-            privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
             maintainers:
