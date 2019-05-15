@@ -63,7 +63,11 @@ if [ "${action}" == "dump" ]; then
 	bazel run //prow/cmd/peribolos -- --dump=kubeflow \
 		--github-token-path ${token_file} > --config-path ${DIR}/kubeflow/org.yaml
 elif [ "${action}" == "sync" ]; then
-	bazel run //prow/cmd/peribolos -- --fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
+	# Fix teams to create delete any teams
+	bazel run //prow/cmd/peribolos -- \
+		--fix-teams \
+		--fix-team-members \
+		--fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
 		--github-token-path ${token_file} \
 		--required-admins=jlewi \
 		--required-admins=abhi-g \
@@ -72,6 +76,7 @@ elif [ "${action}" == "sync" ]; then
 		--required-admins=richardsliu \
 		--required-admins=vicaire \
 		--confirm=${confirm}
+    echo "Note: if dryrun=true you might get errors updating groups if the group doesn't exist"
 else 
   echo "command=${action} is not a valid command; valid commands are dump and sync"
   exit 1

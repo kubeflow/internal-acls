@@ -1,3 +1,7 @@
+# Guidelines
+#  1. Please keep members alphabetized
+#  2. In groups users should not be listed as maintainers and users
+#     groups should be administered through this file and not the UI
 orgs:
     kubeflow:
         admins:
@@ -200,8 +204,6 @@ orgs:
             - ywskycn
             members:
             - ScorpioCPH
-            - terrytangyuan
-            - ywskycn
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
@@ -274,9 +276,7 @@ orgs:
             - ashahba
             - kkasravi
             members:
-            - ashahba
             - balajismaniam
-            - kkasravi
             - nqn
             privacy: closed
           Red Hat:
