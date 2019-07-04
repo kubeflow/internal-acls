@@ -119,6 +119,7 @@ orgs:
         - kiratp
         - kkasravi
         - kmarquardsen
+        - krishnadurai
         - krzyzacy
         - kubeflow-bot
         - kunmingg
@@ -235,6 +236,7 @@ orgs:
             - garganubhav
             - ramdootp
             - elviraux
+            - krishnadurai
             privacy: closed
           Google:
             description: Folks from Google working on Kubeflow
