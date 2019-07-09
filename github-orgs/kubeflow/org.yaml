@@ -186,6 +186,7 @@ orgs:
         - willb
         - willingc
         - wjarek
+        - wuchunghsuan
         - xieydd
         - xychu
         - xyhuang
@@ -223,6 +224,7 @@ orgs:
             - codeflitting
             - zjj2wry
             - yph152
+            - wuchunghsuan
             privacy: closed
           Cisco:
             description: Team @Cisco contributing to KubeFlow
