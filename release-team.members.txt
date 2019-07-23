@@ -4,8 +4,6 @@ gabrielwen@google.com
 jlewi@google.com
 kunming@google.com
 lunkai@google.com
-mrick@google.com
 prodonjs@google.com
 ricliu@google.com
 zhenghui@google.com
-zahraabbasi@google.com
