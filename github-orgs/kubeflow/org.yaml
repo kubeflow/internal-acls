@@ -11,7 +11,6 @@ orgs:
         - jlewi
         - richardsliu
         - theadactyl
-        - vicaire
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
