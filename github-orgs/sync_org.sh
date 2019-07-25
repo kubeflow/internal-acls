@@ -74,7 +74,6 @@ elif [ "${action}" == "sync" ]; then
 		--required-admins=google-admin \
 		--required-admins=googlebot \
 		--required-admins=richardsliu \
-		--required-admins=vicaire \
 		--confirm=${confirm}
     echo "Note: if dryrun=true you might get errors updating groups if the group doesn't exist"
 else 
