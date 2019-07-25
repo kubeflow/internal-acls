@@ -144,6 +144,7 @@ orgs:
         - neuromage
         - nickchase
         - nqn
+        - numerology
         - ojarjur
         - paveldournov
         - pdmack
@@ -354,6 +355,7 @@ orgs:
             - rileyjbauer
             - hongye-sun
             - jingzhang36
+            - numerology
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
