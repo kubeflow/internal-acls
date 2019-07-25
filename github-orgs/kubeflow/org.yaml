@@ -249,7 +249,6 @@ orgs:
             maintainers:
             - jlewi
             - abhi-g
-            - vicaire
             - richardsliu
             members:
             - ellis-bigelow
@@ -341,7 +340,7 @@ orgs:
           pipelines:
             description: ""
             maintainers:
-            - vicaire
+            - IronPan
             members:
             - neuromage
             - yebrahim
