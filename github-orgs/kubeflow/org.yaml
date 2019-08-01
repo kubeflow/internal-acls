@@ -357,7 +357,7 @@ orgs:
             - rmgogogo
             - hongye-sun
             - jingzhang36
-            - numerology            
+            - numerology
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
