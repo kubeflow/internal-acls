@@ -161,6 +161,7 @@ orgs:
         - rem20806
         - rileyjbauer
         - rlenferink
+        - rmgogogo
         - rongou
         - rpasricha
         - ryanolson
@@ -284,6 +285,7 @@ orgs:
             - zabbasi
             - rpasricha
             - prodonjs
+            - rmgogogo
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
@@ -352,6 +354,7 @@ orgs:
             - katieole
             - qimingj
             - rileyjbauer
+            - rmgogogo
             - hongye-sun
             - jingzhang36
             - numerology
