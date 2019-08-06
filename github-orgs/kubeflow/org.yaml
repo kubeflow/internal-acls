@@ -347,7 +347,6 @@ orgs:
             - neuromage
             - yebrahim
             - Ark-kun
-            - IronPan
             - ajayalfred
             - gaoning777
             - paveldournov
@@ -358,6 +357,16 @@ orgs:
             - hongye-sun
             - jingzhang36
             - numerology
+            privacy: closed
+          project-maintainers:
+            description: Team responsible for managing project kanban boards
+            maintainers:
+            - jlewi
+            - abhi-g
+            members:            
+            - carmine
+            - kkasravi
+            - vkoukis
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
