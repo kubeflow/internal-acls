@@ -70,6 +70,7 @@ orgs:
         - dmueller2001
         - dsdinter
         - dthomson25
+        - dushyanthsc
         - dwhitena
         - dynamicwebpaige
         - edlee2121
@@ -294,6 +295,7 @@ orgs:
             - prodonjs
             - quanjielin
             - rmgogogo
+            - dushyanthsc
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
@@ -365,6 +367,7 @@ orgs:
             - hongye-sun
             - jingzhang36
             - numerology
+            - dushyanthsc
             privacy: closed
           project-maintainers:
             description: Team responsible for managing project kanban boards
