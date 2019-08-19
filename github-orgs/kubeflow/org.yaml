@@ -146,6 +146,7 @@ orgs:
         - nickchase
         - nqn
         - numerology
+        - ohmystack
         - ojarjur
         - paveldournov
         - pdmack
@@ -219,6 +220,7 @@ orgs:
             - ywskycn
             members:
             - ScorpioCPH
+            - ohmystack
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
