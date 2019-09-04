@@ -31,12 +31,14 @@ parseArgs() {
 }
 
 
+
 usage() {
-  echo "Usage: update_iam_policy --project=PROJECT"
+  echo "Usage: update_iam_policy <fetch|push> --project=PROJECT"
 }
 
 getIamPolicy() {
-  local POLICYFILE=$1
+  local PROJECT=$1
+  local POLICYFILE=$2
   gcloud projects --format=yaml get-iam-policy ${PROJECT} > ${POLICYFILE}
 }
 
@@ -63,7 +65,7 @@ updateIamPolicy() {
   NAME=$(basename ${POLICY_FILE})
   LIVE_POLICY=$(tempfile -p ${NAME}.live)
 
-  getIamPolicy ${LIVE_POLICY}
+  getIamPolicy ${PROJECT} ${LIVE_POLICY}
 
   ACTUAL_ETAG=$(yq -r ".etag" ${LIVE_POLICY})
 
@@ -80,7 +82,7 @@ updateIamPolicy() {
   # Update the policy
   gcloud projects set-iam-policy ${PROJECT} ${POLICY_FILE}
 
-  getIamPolicy ${LIVE_POLICY}
+  getIamPolicy ${PROJECT} ${LIVE_POLICY}
   NEW_ETAG=$(yq -r ".etag" ${LIVE_POLICY})
   yq -y -r ".etag=\"${NEW_ETAG}\"" ${POLICY_FILE} > ${POLICY_FILE}.new
   mv ${POLICY_FILE}.new ${POLICY_FILE}
@@ -89,7 +91,7 @@ updateIamPolicy() {
 }
 
 main() {
-
+  echo ${action}
   # List of required parameters
   names=(project)
 
@@ -107,13 +109,21 @@ main() {
   fi
 
   POLICY_FILE=${project}.iam.policy.yaml
-  if [ ! -f ${POLICY_FILE} ]; then
-    echo "Policy file ${POLICY_FILE} doesn't exist"
+
+  if [ "${action}" == "fetch" ]; then
+    echo "Fetching current policy"
+    getIamPolicy ${project} ${POLICY_FILE}
+  
+  elif [ "${action}" == "push" ]; then
+    echo "Syncing current policy"
+    updateIamPolicy ${project} ${POLICY_FILE}
+  else
+    echo unrecognized command ${action}
     exit 1
   fi
-
-  updateIamPolicy ${project} ${POLICY_FILE}
 }
 
+action=$1
+shift
 parseArgs "$*"
 main

@@ -28,10 +28,13 @@ parseArgs() {
   done
 }
 
+
+action=$1
+shift
 parseArgs $*
 
 usage() {
-	echo "sync_org.sh --test_infra_dir=<kubernetes-test-infra-dir> --token_file=<path-to-github-token> [--confirm] [--admins]"
+	echo "sync_org.sh <command> --test_infra_dir=<kubernetes-test-infra-dir> --token_file=<path-to-github-token> [--confirm] [--admins]"
 }
 
 if [ -z ${test_infra_dir} ]; then
@@ -55,12 +58,25 @@ if ${admins}; then
 	FIX_ADMINS=--fix-org-members
 fi
 
-bazel run //prow/cmd/peribolos -- --fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
-	--github-token-path ${token_file} \
-	--required-admins=jlewi \
-	--required-admins=abhi-g \
-	--required-admins=google-admin \
-	--required-admins=googlebot \
-	--required-admins=richardsliu \
-	--required-admins=vicaire \
-	--confirm=${confirm}
+if [ "${action}" == "dump" ]; then
+	#bazel run //prow/cmd/peribolos -- --help
+	bazel run //prow/cmd/peribolos -- --dump=kubeflow \
+		--github-token-path ${token_file} > --config-path ${DIR}/kubeflow/org.yaml
+elif [ "${action}" == "sync" ]; then
+	# Fix teams to create delete any teams
+	bazel run //prow/cmd/peribolos -- \
+		--fix-teams \
+		--fix-team-members \
+		--fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
+		--github-token-path ${token_file} \
+		--required-admins=jlewi \
+		--required-admins=abhi-g \
+		--required-admins=google-admin \
+		--required-admins=googlebot \
+		--required-admins=richardsliu \
+		--confirm=${confirm}
+    echo "Note: if dryrun=true you might get errors updating groups if the group doesn't exist"
+else 
+  echo "command=${action} is not a valid command; valid commands are dump and sync"
+  exit 1
+fi

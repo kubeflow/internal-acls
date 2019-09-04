@@ -1,3 +1,7 @@
+# Guidelines
+#  1. Please keep members alphabetized
+#  2. In groups users should not be listed as maintainers and users
+#     groups should be administered through this file and not the UI
 orgs:
     kubeflow:
         admins:
@@ -7,7 +11,6 @@ orgs:
         - jlewi
         - richardsliu
         - theadactyl
-        - vicaire
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
@@ -18,10 +21,12 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
+        - abcdefgs0324
         - abkosar
         - achalshant
         - ahousley
         - ajayalfred
+        - ajchili
         - Akado2009
         - alexmt
         - alsrgv
@@ -40,8 +45,10 @@ orgs:
         - BenTheElder
         - bhupc
         - bikramnehra
+        - Bobgy
         - carmark
         - carmine
+        - ccarpentiere
         - ChanYiLin
         - cheyang
         - chrisheecho
@@ -55,60 +62,80 @@ orgs:
         - dakoner
         - ddutta
         - ddysher
+        - derekhh
         - DeeperMind
         - disktnk
         - DjangoPeng
         - dlaqab
         - dmueller2001
+        - dreamryx
         - dsdinter
         - dthomson25
+        - dushyanthsc
         - dwhitena
         - dynamicwebpaige
         - edlee2121
         - eLco
+        - elikatsis
         - ellis-bigelow
         - elsonrodriguez
         - elviraux
         - erikerlandson
         - everpeace
         - ewilderj
+        - fisherxu
         - frederick0329
         - fxue
         - gabrielwen
         - gaocegege
         - gaoning777
         - garganubhav
+        - greynutw
         - gsunner
         - gyliu513
+        - hamelsmu
+        - holdenk
         - hongye-sun
         - hougangliu
+        - hmtai
         - idvoretskyi
         - inc0
         - ioandr
         - IronPan
         - jbottum
         - jessesuen
+        - Jeffwan
+        - jian-he
         - jiezhang
         - Jimexist
         - jinchihe
+        - jingzhang36
         - jinxingwang
+        - joeliedtke
         - johnugeorge
         - jose5918
+        - josiemundi
         - jzp1025
         - k8s-ci-robot
         - karthikv2k
         - katieole
         - katsiapis
+        - kevinbache
         - kimwnasptd
         - kiratp
         - kkasravi
+        - kmarquardsen
+        - krishnadurai
         - krzyzacy
         - kubeflow-bot
         - kunmingg
+        - KingOnTheStar
         - ldcastell
         - libbyandhelen
         - lienhua34
         - lluunn
+        - maanavd
+        - mameshini
         - marcoceppi
         - mattf
         - Maximophone
@@ -117,10 +144,13 @@ orgs:
         - moxyoron
         - mpvartak
         - mukulikak
+        - mvartakAtVerta
         - netankit
         - neuromage
         - nickchase
         - nqn
+        - numerology
+        - ohmystack
         - ojarjur
         - paveldournov
         - pdmack
@@ -129,11 +159,16 @@ orgs:
         - puneith
         - pvellanki
         - qimingj
+        - quanjielin
         - r2d4
         - raddaoui
+        - rakelkar
         - ramdootp
         - randxie
+        - rem20806
         - rileyjbauer
+        - rlenferink
+        - rmgogogo
         - rongou
         - rpasricha
         - ryanolson
@@ -143,6 +178,7 @@ orgs:
         - sasha-gitg
         - sshrdp
         - ScorpioCPH
+        - scottilee
         - sijieamoy
         - songole
         - stpabhi
@@ -151,24 +187,32 @@ orgs:
         - swiftdiaries
         - terrytangyuan
         - texasmichelle
+        - thedriftofwords
         - TheJaySmith
         - tmckayus
+        - Tomcli
         - vditya
         - vishh
         - vkoukis
+        - wackxu
         - wbuchwalter
         - willb
         - willingc
         - wjarek
+        - wuchunghsuan
+        - xauthulei
         - xieydd
         - xychu
         - xyhuang
+        - yanniszark
         - yebrahim
         - yixinshi
         - yncxcw
         - yph152
         - YujiOshima
         - yupbank
+        - yuzisun
+        - ywskycn
         - zhenghuiwang
         - ziamsyed
         - zjj2wry
@@ -176,6 +220,15 @@ orgs:
         members_can_create_repositories: false
         name: Kubeflow
         teams:
+          Ant Financial:
+            description: Team of members from Ant Financial
+            maintainers:
+            - terrytangyuan
+            - ywskycn
+            members:
+            - ScorpioCPH
+            - ohmystack
+            privacy: closed
           Caicloud:
             description: Team of members from Caicloud
             maintainers:
@@ -186,6 +239,7 @@ orgs:
             - codeflitting
             - zjj2wry
             - yph152
+            - wuchunghsuan
             privacy: closed
           Cisco:
             description: Team @Cisco contributing to KubeFlow
@@ -199,13 +253,13 @@ orgs:
             - garganubhav
             - ramdootp
             - elviraux
+            - krishnadurai
             privacy: closed
           Google:
             description: Folks from Google working on Kubeflow
             maintainers:
             - jlewi
             - abhi-g
-            - vicaire
             - richardsliu
             members:
             - ellis-bigelow
@@ -216,6 +270,7 @@ orgs:
             - karthikv2k
             - r2d4
             - BenTheElder
+            - Bobgy
             - krzyzacy
             - yebrahim
             - IronPan
@@ -240,16 +295,18 @@ orgs:
             - zabbasi
             - rpasricha
             - prodonjs
+            - quanjielin
+            - rmgogogo
+            - dushyanthsc
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
             maintainers:
-            - elsonrodriguez
-            members:
-            - nqn
-            - balajismaniam
-            - jose5918
             - ashahba
+            - kkasravi
+            members:
+            - balajismaniam
+            - nqn
             privacy: closed
           Red Hat:
             description: Contributors from Red Hat
@@ -286,29 +343,6 @@ orgs:
             - k8s-ci-robot
             - kubeflow-bot
             privacy: closed
-          core-approvers:
-            description: A list of committers to the core repositories comprising Kubeflow.
-            maintainers:
-            - jlewi
-            members:
-            - willb
-            - tmckayus
-            - wbuchwalter
-            - gaocegege
-            - ScorpioCPH
-            - vishh
-            - DjangoPeng
-            - lluunn
-            privacy: closed
-          examples-approvers:
-            description: Approvers for the examples repository
-            maintainers:
-            - jlewi
-            members:
-            - wbuchwalter
-            - texasmichelle
-            - puneith
-            privacy: closed
           kube-bench-team:
             description: Kubeflow benchmarking
             maintainers:
@@ -320,19 +354,33 @@ orgs:
           pipelines:
             description: ""
             maintainers:
-            - vicaire
+            - IronPan
             members:
             - neuromage
             - yebrahim
             - Ark-kun
-            - IronPan
             - ajayalfred
             - gaoning777
             - paveldournov
             - katieole
             - qimingj
             - rileyjbauer
+            - rmgogogo
             - hongye-sun
+            - jingzhang36
+            - numerology
+            - dushyanthsc
+            privacy: closed
+          project-maintainers:
+            description: Team responsible for managing project kanban boards
+            maintainers:
+            - jlewi
+            - abhi-g
+            members:            
+            - carmine
+            - kkasravi
+            - vkoukis
+            - elviraux
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
@@ -351,6 +399,8 @@ orgs:
             - richardsliu
             members:
             - kunmingg
+            - zhenghuiwang
+            - gabrielwen
             privacy: closed
           web-team:
             description: Web site team

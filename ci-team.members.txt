@@ -1,12 +1,15 @@
+abolfazl.shahbazi@intel.com
 caicloud-team@kubeflow.org
+cartick@google.com
 cc@seldon.io
 deyuan@caicloud.io
 gaoce@caicloud.io
 google-team@kubeflow.org
+holden.karau@gmail.com
+kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
 michellecasbon@google.com
 redhat-team@kubeflow.org
 wibuch@microsoft.com
 yangpa@google.com
-holden.karau@gmail.com
