@@ -376,11 +376,18 @@ orgs:
             maintainers:
             - jlewi
             - abhi-g
-            members:            
+            members:
+            - avdaredevil                
             - carmine
-            - kkasravi
-            - vkoukis
             - elviraux
+            - gabrielwen
+            - kkasravi
+            - kunmingg
+            - lluunn
+            - quanjielin   
+            - richardsliu
+            - vkoukis
+            - zhenghuiwang
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
