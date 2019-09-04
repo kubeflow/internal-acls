@@ -372,8 +372,7 @@ orgs:
             - dushyanthsc
             privacy: closed
           git-ops:
-            description: Team responsible for planning releases; has write permission on all
-              repos to manipulate issues
+            description: Team that will create new CI/CD with GitHub Actions & Apps
             maintainers:
             - jlewi
             - chrisheecho
