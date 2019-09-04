@@ -371,6 +371,18 @@ orgs:
             - numerology
             - dushyanthsc
             privacy: closed
+          git-ops:
+            description: Team responsible for planning releases; has write permission on all
+              repos to manipulate issues
+            maintainers:
+            - jlewi
+            - chrisheecho
+            - abhi-g
+            members:
+            - hamelsmu
+            - inc0
+            - imjohnbo
+            privacy: closed
           project-maintainers:
             description: Team responsible for managing project kanban boards
             maintainers:
