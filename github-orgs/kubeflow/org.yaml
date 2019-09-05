@@ -371,6 +371,16 @@ orgs:
             - numerology
             - dushyanthsc
             privacy: closed
+          github-actions:
+            description: Team that will create new CI/CD with GitHub Actions
+            maintainers:
+            - jlewi
+            - abhi-g
+            members:
+            - hamelsmu
+            - inc0
+            - imjohnbo
+            privacy: closed
           project-maintainers:
             description: Team responsible for managing project kanban boards
             maintainers:
