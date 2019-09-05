@@ -371,14 +371,31 @@ orgs:
             - numerology
             - dushyanthsc
             privacy: closed
+          github-actions:
+            description: Team that will create new CI/CD with GitHub Actions
+            maintainers:
+            - jlewi
+            - abhi-g
+            members:
+            - hamelsmu
+            - inc0
+            - imjohnbo
+            privacy: closed
           project-maintainers:
             description: Team responsible for managing project kanban boards
             maintainers:
             - jlewi
             - abhi-g
-            members:            
+            members:
+            - avdaredevil                
             - carmine
+            - elviraux
+            - gabrielwen
             - kkasravi
+            - kunmingg
+            - lluunn
+            - quanjielin   
+            - richardsliu
             - vkoukis
             - elviraux
             - jbottum
@@ -386,6 +403,7 @@ orgs:
             - cspavlou
             - scottilee
             - aronchick
+            - zhenghuiwang
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
