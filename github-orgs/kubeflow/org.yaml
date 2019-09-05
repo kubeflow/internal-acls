@@ -375,7 +375,6 @@ orgs:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
             - jlewi
-            - chrisheecho
             - abhi-g
             members:
             - hamelsmu
