@@ -7,4 +7,5 @@ maqiuyu@google.com
 google-kubeflow-admins@kubeflow.org
 ricliu@google.com
 rleidle@google.com
+scottleehello@gmail.com
 yangpa@google.com
