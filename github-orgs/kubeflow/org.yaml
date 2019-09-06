@@ -102,6 +102,7 @@ orgs:
         - inc0
         - ioandr
         - IronPan
+        - james-jwu
         - jbottum
         - jessesuen
         - Jeffwan
@@ -298,6 +299,7 @@ orgs:
             - quanjielin
             - rmgogogo
             - dushyanthsc
+            - james-jwu
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
@@ -370,6 +372,7 @@ orgs:
             - jingzhang36
             - numerology
             - dushyanthsc
+            - james-jwu
             privacy: closed
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
