@@ -21,3 +21,7 @@ DESCRIPTION="Some group description"
   name ${GROUP_NAME} description "${DESCRIPTION}" \
   allow_external_members true
 ```
+
+Currently after modifying org.yaml, pytest should be manually run in
+github-orgs directory to verify the change. This test will be run
+automatically in a future change.
