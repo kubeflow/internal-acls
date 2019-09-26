@@ -2,6 +2,7 @@ abhishek@google.com
 apverma@google.com
 gabrielwen@google.com
 jlewi@google.com
+kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
 prodonjs@google.com
