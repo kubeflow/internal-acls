@@ -5,6 +5,7 @@ cc@seldon.io
 deyuan@caicloud.io
 gaoce@caicloud.io
 google-team@kubeflow.org
+hejinchi@cn.ibm.com
 holden.karau@gmail.com
 kam.d.kasravi@intel.com
 kunming@google.com
