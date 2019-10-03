@@ -11,5 +11,6 @@ kunming@google.com
 lunkai@google.com
 michellecasbon@google.com
 redhat-team@kubeflow.org
+scottleehello@gmail.com
 wibuch@microsoft.com
 yangpa@google.com
