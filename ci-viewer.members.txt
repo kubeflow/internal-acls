@@ -1,0 +1,6 @@
+abolfazl.shahbazi@intel.com
+cc@seldon.io
+gaoce@caicloud.io
+hejinchi@cn.ibm.com
+holden.karau@gmail.com
+redhat-team@kubeflow.org

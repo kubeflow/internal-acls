@@ -59,7 +59,7 @@ updateIamPolicy() {
     exit 1
   fi
 
-  EXPECTED_ETAG=$(yq -r ".etag" ${POLICY_FILE})
+  EXPECTED_ETAG=$(yq r "${POLICY_FILE}" "etag")
 
   # File to store policy fetched via gcloud
   NAME=$(basename ${POLICY_FILE})
@@ -67,7 +67,7 @@ updateIamPolicy() {
 
   getIamPolicy ${PROJECT} ${LIVE_POLICY}
 
-  ACTUAL_ETAG=$(yq -r ".etag" ${LIVE_POLICY})
+  ACTUAL_ETAG=$(yq r ${LIVE_POLICY} "etag")
 
   echo "Current etag in ${POLICY_FILE} is ${EXPECTED_ETAG}"
   echo "Current IAM policy has etag ${ACTUAL_ETAG}"
@@ -83,8 +83,8 @@ updateIamPolicy() {
   gcloud projects set-iam-policy ${PROJECT} ${POLICY_FILE}
 
   getIamPolicy ${PROJECT} ${LIVE_POLICY}
-  NEW_ETAG=$(yq -r ".etag" ${LIVE_POLICY})
-  yq -y -r ".etag=\"${NEW_ETAG}\"" ${POLICY_FILE} > ${POLICY_FILE}.new
+  NEW_ETAG=$(yq r ${LIVE_POLICY} "etag" )
+  yq  w  ${POLICY_FILE} "etag" "${NEW_ETAG}"  > ${POLICY_FILE}.new
   mv ${POLICY_FILE}.new ${POLICY_FILE}
 
   popd 

@@ -1,5 +1,6 @@
 bindings:
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -9,25 +10,54 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5efa-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-74fc-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8b79-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/bigquery.admin
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -37,25 +67,54 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-214d-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-74fc-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8a85-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/cloudbuild.builds.editor
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -65,25 +124,52 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/cloudsql.admin
 - members:
+  - serviceAccount:apps-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -93,31 +179,62 @@ bindings:
   - serviceAccount:kf-vmaster-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-6976-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/compute.networkAdmin
 - members:
   - serviceAccount:service-29647740582@compute-system.iam.gserviceaccount.com
   role: roles/compute.serviceAgent
 - members:
+  - group:example-maintainers@kubeflow.org
+  - user:avdaredevil@gmail.com
+  role: roles/container.developer
+- members:
   - serviceAccount:service-29647740582@container-engine-robot.iam.gserviceaccount.com
   role: roles/container.serviceAgent
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -127,25 +244,53 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-74fc-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/dataflow.admin
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -155,23 +300,50 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-cd98-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/dataproc.editor
 - members:
   - serviceAccount:29647740582-compute@developer.gserviceaccount.com
@@ -190,6 +362,7 @@ bindings:
   - user:yangpa@google.com
   role: roles/iap.httpsResourceAccessor
 - members:
+  - serviceAccount:apps-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -199,25 +372,52 @@ bindings:
   - serviceAccount:kf-vmaster-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-2427-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/logging.logWriter
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -227,28 +427,56 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8d00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/ml.admin
 - members:
   - serviceAccount:service-29647740582@cloud-ml.google.com.iam.gserviceaccount.com
   role: roles/ml.serviceAgent
 - members:
+  - serviceAccount:apps-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -258,25 +486,52 @@ bindings:
   - serviceAccount:kf-vmaster-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-96e5-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/monitoring.metricWriter
 - members:
+  - serviceAccount:apps-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n02-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -285,18 +540,49 @@ bindings:
   - serviceAccount:kf-vmaster-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8a85-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/monitoring.viewer
 - members:
   - serviceAccount:kubeflow-deploy-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -304,6 +590,7 @@ bindings:
   - user:lunkai@google.com
   role: roles/owner
 - members:
+  - serviceAccount:apps-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -313,25 +600,52 @@ bindings:
   - serviceAccount:kf-vmaster-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-6976-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/servicemanagement.admin
 - members:
+  - serviceAccount:apps-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -342,28 +656,54 @@ bindings:
   - serviceAccount:kf-vmaster-n00-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-admin@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/source.admin
 - members:
   - serviceAccount:service-29647740582@sourcerepo-service-accounts.iam.gserviceaccount.com
   role: roles/sourcerepo.serviceAgent
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -373,25 +713,54 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-cd98-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-fd5e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/storage.admin
 - members:
+  - serviceAccount:apps-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -401,25 +770,52 @@ bindings:
   - serviceAccount:kf-vmaster-n00-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5cdc-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-vm@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/storage.objectViewer
 - members:
+  - serviceAccount:apps-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:deployapp-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-v0-6-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
@@ -429,26 +825,56 @@ bindings:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n01-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n02-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kf-vmaster-n03-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   - serviceAccount:kf-vmaster-n04-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-0ce4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-1bec-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-2c22-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-30c8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-7d6e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-917f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-95b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-98ce-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a1d7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-a77a-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kfctl-e6de-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1140-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1145-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1624-user@kubeflow-ci-deployment.iam.gserviceaccount.com
-  - serviceAccount:kftest-0628-1842-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0419-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-0ff0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-17e3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-28ae-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-3132-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-448c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4800-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-49a4-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-4ab9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-539b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5729-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-5a6b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-68da-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-74fc-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8077-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-89a5-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8c05-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-8cb3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-a9b0-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b513-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-b872-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bab3-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-bfb9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c793-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c7fd-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-c9f7-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ccc9-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d030-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-d879-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-db7c-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-dd86-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e00e-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e3c6-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-e796-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ec13-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed55-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed5f-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ed82-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f143-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-f2b8-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff0b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:kfctl-ff4b-user@kubeflow-ci-deployment.iam.gserviceaccount.com
+  - serviceAccount:myapp2-user@kubeflow-ci-deployment.iam.gserviceaccount.com
   role: roles/viewer
 - members:
-  - group:example-maintainers@kubeflow.org
-  role: roles/container.developer
-etag: BwWOWSxBxKA=
+  - group:ci-viewer@kubeflow.org
+  role: roles/logging.viewer
+- members:
+  - group:ci-viewer@kubeflow.org
+  role: roles/container.viewer
+etag: BwWUWYqtpGM=
 version: 1
