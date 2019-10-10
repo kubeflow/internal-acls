@@ -261,6 +261,7 @@ orgs:
             - ramdootp
             - elviraux
             - krishnadurai
+            - swiftdiaries
             privacy: closed
           Google:
             description: Folks from Google working on Kubeflow
@@ -414,6 +415,7 @@ orgs:
             - scottilee
             - vkoukis
             - zhenghuiwang
+            - swiftdiaries
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
