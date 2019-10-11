@@ -413,9 +413,9 @@ orgs:
             - richardsliu
             - theadactyl
             - scottilee
+            - swiftdiaries
             - vkoukis
             - zhenghuiwang
-            - swiftdiaries
             privacy: closed
           release-planning:
             description: Team responsible for planning releases; has write permission on all
