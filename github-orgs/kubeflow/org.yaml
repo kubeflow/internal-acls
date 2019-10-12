@@ -261,6 +261,7 @@ orgs:
             - ramdootp
             - elviraux
             - krishnadurai
+            - swiftdiaries
             privacy: closed
           Google:
             description: Folks from Google working on Kubeflow
@@ -412,6 +413,7 @@ orgs:
             - richardsliu
             - theadactyl
             - scottilee
+            - swiftdiaries
             - vkoukis
             - zhenghuiwang
             privacy: closed
