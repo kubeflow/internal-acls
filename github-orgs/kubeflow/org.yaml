@@ -177,6 +177,7 @@ orgs:
         - rongou
         - rpasricha
         - ryanolson
+        - ryandawsonuk
         - salehay
         - sambaiz
         - sarahmaddox
@@ -333,6 +334,7 @@ orgs:
             members:
             - Maximophone
             - gsunner
+            - ryandawsonuk
             privacy: closed
           caffe2-team:
             description: Folks working on the caffe2 operator
