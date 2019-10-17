@@ -1,4 +1,3 @@
-adselvar@cisco.com
 cartick@google.com
 clarketm@google.com
 google-team@kubeflow.org
