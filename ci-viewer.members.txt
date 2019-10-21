@@ -7,3 +7,5 @@ holden.karau@gmail.com
 iman.tabrizian@gmail.com
 nrchakradhar379@gmail.com
 redhat-team@kubeflow.org
+dsun20@bloomberg.net
+yliu989@bloomberg.net
