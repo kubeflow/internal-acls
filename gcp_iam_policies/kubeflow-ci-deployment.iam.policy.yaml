@@ -876,5 +876,8 @@ bindings:
 - members:
   - group:ci-viewer@kubeflow.org
   role: roles/container.viewer
+- members:
+  - group:ci-viewer@kubeflow.org
+  role: roles/serviceusage.serviceUsageConsumer
 etag: BwWUWYqtpGM=
 version: 1

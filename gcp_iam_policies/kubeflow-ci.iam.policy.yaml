@@ -132,6 +132,9 @@ bindings:
   - group:ci-viewer@kubeflow.org
   role: roles/container.viewer
 - members:
+  - group:ci-viewer@kubeflow.org
+  role: roles/serviceusage.serviceUsageConsumer
+- members:
   - serviceAccount:kf-vmaster-n00-user@kubeflow-ci.iam.gserviceaccount.com
   - serviceAccount:kfctl-fc5b-user@kubeflow-ci.iam.gserviceaccount.com
   - serviceAccount:kubeflow-ci-fairing-user@kubeflow-ci.iam.gserviceaccount.com
