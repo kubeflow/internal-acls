@@ -1,9 +1,12 @@
 abolfazl.shahbazi@intel.com
 adselvar@cisco.com
 cc@seldon.io
+dsun20@bloomberg.net
 gaoce@caicloud.io
 hejinchi@cn.ibm.com
 holden.karau@gmail.com
+ifilonenko@bloomberg.net
 iman.tabrizian@gmail.com
 nrchakradhar379@gmail.com
 redhat-team@kubeflow.org
+yliu989@bloomberg.net
