@@ -379,6 +379,9 @@ orgs:
             description: Team working on XGBoost Operator
             maintainers:
             - terrytangyuan
+            members:
+            - johnugeorge
+            - richardsliu
             privacy: closed
           common-team:
             description: Team working on kubeflow/common
