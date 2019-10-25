@@ -363,6 +363,34 @@ orgs:
             - gaocegege
             - xyhuang
             privacy: closed
+          mpi-operator-team:
+            description: Team working on MPI Operator
+            maintainers:
+            - anfeng
+            - rongou
+            - terrytangyuan
+            members:
+            - cheyang
+            - everpeace
+            - gaocegege
+            - fisherxu
+            privacy: closed
+          xgboost-operator-team:
+            description: Team working on XGBoost Operator
+            maintainers:
+            - terrytangyuan
+            members:
+            - johnugeorge
+            - richardsliu
+            privacy: closed
+          common-team:
+            description: Team working on kubeflow/common
+            maintainers:
+            - richardsliu
+            - johnugeorge
+            - gaocegege
+            - terrytangyuan
+            privacy: closed
           pipelines:
             description: ""
             maintainers:
