@@ -149,6 +149,7 @@ orgs:
         - mitake
         - moxyoron
         - mpvartak
+        - MrXinWang
         - mukulikak
         - mvartakAtVerta
         - netankit
@@ -239,6 +240,11 @@ orgs:
             members:
             - ScorpioCPH
             - ohmystack
+            privacy: closed
+          Arm:
+            description: Team of members from Arm
+            members:
+            - MrXinWang
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
