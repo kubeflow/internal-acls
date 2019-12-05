@@ -92,6 +92,7 @@ orgs:
         - gaocegege
         - gaoning777
         - garganubhav
+        - google-oss-robot
         - greynutw
         - gsunner
         - gyliu513
@@ -355,6 +356,7 @@ orgs:
           ci-bots:
             description: Team for bots
             members:
+            - google-oss-robot
             - k8s-ci-robot
             - kubeflow-bot
             privacy: closed
