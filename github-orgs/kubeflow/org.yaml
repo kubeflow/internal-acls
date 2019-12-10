@@ -437,10 +437,12 @@ orgs:
             - avdaredevil
             - carmine
             - cspavlou
+            - elikatsis
             - elviraux
             - gabrielwen
             - jbottum
             - johnugeorge
+            - kimwnasptd
             - kkasravi
             - kunmingg
             - lluunn
@@ -450,8 +452,10 @@ orgs:
             - terrytangyuan
             - theadactyl
             - scottilee
+            - stefanofioravanzo
             - swiftdiaries
             - vkoukis
+            - yanniszark
             - zhenghuiwang
             privacy: closed
           release-planning:
