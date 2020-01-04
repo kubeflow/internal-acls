@@ -233,6 +233,8 @@ orgs:
         - ziamsyed
         - zjj2wry
         - zabbasi
+        - luotigerlsx
+        - saurabh24292
         members_can_create_repositories: false
         name: Kubeflow
         teams:
@@ -316,6 +318,8 @@ orgs:
             - rmgogogo
             - dushyanthsc
             - james-jwu
+            - luotigerlsx
+            - saurabh24292
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
