@@ -143,6 +143,7 @@ orgs:
         - libbyandhelen
         - lienhua34
         - lluunn
+        - luotigerlsx
         - maanavd
         - mameshini
         - marcoceppi
@@ -190,6 +191,7 @@ orgs:
         - sambaiz
         - sarahmaddox
         - sasha-gitg
+        - saurabh24292
         - sshrdp
         - ScorpioCPH
         - scottilee
@@ -233,8 +235,6 @@ orgs:
         - ziamsyed
         - zjj2wry
         - zabbasi
-        - luotigerlsx
-        - saurabh24292
         members_can_create_repositories: false
         name: Kubeflow
         teams:
