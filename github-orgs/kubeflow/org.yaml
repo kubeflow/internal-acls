@@ -143,6 +143,7 @@ orgs:
         - libbyandhelen
         - lienhua34
         - lluunn
+        - luotigerlsx
         - maanavd
         - mameshini
         - marcoceppi
@@ -190,6 +191,7 @@ orgs:
         - sambaiz
         - sarahmaddox
         - sasha-gitg
+        - saurabh24292
         - sshrdp
         - ScorpioCPH
         - scottilee
@@ -316,6 +318,8 @@ orgs:
             - rmgogogo
             - dushyanthsc
             - james-jwu
+            - luotigerlsx
+            - saurabh24292
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
