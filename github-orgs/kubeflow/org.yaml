@@ -185,6 +185,7 @@ orgs:
         - rmgogogo
         - rongou
         - rpasricha
+        - rui5i
         - ryanolson
         - ryandawsonuk
         - salehay
@@ -423,6 +424,7 @@ orgs:
             - numerology
             - dushyanthsc
             - james-jwu
+            - rui5i
             privacy: closed
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
