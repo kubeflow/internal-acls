@@ -180,6 +180,7 @@ orgs:
         - rakelkar
         - ramdootp
         - randxie
+        - realsen
         - rebeccamcfadden
         - rileyjbauer
         - rlenferink
@@ -322,6 +323,7 @@ orgs:
             - james-jwu
             - luotigerlsx
             - saurabh24292
+            - realsen
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
@@ -426,6 +428,7 @@ orgs:
             - dushyanthsc
             - james-jwu
             - rui5i
+            - realsen
             privacy: closed
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
