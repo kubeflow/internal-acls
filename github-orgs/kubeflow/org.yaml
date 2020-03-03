@@ -244,6 +244,7 @@ orgs:
         - ziamsyed
         - zjj2wry
         - zabbasi
+        - amitripshtos
         members_can_create_repositories: false
         name: Kubeflow
         teams:
