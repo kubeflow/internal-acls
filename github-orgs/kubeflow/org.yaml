@@ -401,6 +401,8 @@ orgs:
             - everpeace
             - gaocegege
             - fisherxu
+            repos:
+                mpi-operator: admin
             privacy: closed
           xgboost-operator-team:
             description: Team working on XGBoost Operator
@@ -409,6 +411,8 @@ orgs:
             members:
             - johnugeorge
             - richardsliu
+            repos:
+                xgboost-operator: admin
             privacy: closed
           common-team:
             description: Team working on kubeflow/common
@@ -417,6 +421,8 @@ orgs:
             - johnugeorge
             - gaocegege
             - terrytangyuan
+            repos:
+                common: admin
             privacy: closed
           pipelines:
             description: ""
