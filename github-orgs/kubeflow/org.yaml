@@ -248,6 +248,7 @@ orgs:
         - ziamsyed
         - zjj2wry
         - zabbasi
+        - zhujl1991
         members_can_create_repositories: false
         name: Kubeflow
         teams:
@@ -259,6 +260,7 @@ orgs:
             members:
             - ScorpioCPH
             - ohmystack
+            - zhujl1991
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
