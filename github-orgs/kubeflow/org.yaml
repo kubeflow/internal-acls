@@ -157,6 +157,7 @@ orgs:
         - marcoceppi
         - mattf
         - Maximophone
+        - merlintang
         - mhausenblas
         - mitake
         - moxyoron
@@ -407,6 +408,7 @@ orgs:
             description: Team working on XGBoost Operator
             maintainers:
             - terrytangyuan
+            - merlintang
             members:
             - johnugeorge
             - richardsliu
