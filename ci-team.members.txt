@@ -4,4 +4,5 @@ google-team@kubeflow.org
 kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
+seedjeffwan@gmail.com
 yangpa@google.com
