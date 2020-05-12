@@ -1,6 +1,7 @@
 cartick@google.com
 clarketm@google.com
 google-team@kubeflow.org
+hejinchi@cn.ibm.com
 kam.d.kasravi@intel.com
 kunming@google.com
 lunkai@google.com
