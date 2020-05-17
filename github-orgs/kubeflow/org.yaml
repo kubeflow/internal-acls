@@ -275,6 +275,16 @@ orgs:
             - sperlingxx
             - zhujl1991
             privacy: closed
+          AWS:
+            description: Team of members from AWS
+            maintainers:
+            - Jeffwan
+            members:
+            - PatrickXYS
+            - surajkota
+            - RedbackThomson
+            - akartsky
+            privacy: closed
           Caicloud:
             description: Team of members from Caicloud
             maintainers:
@@ -433,6 +443,7 @@ orgs:
             - johnugeorge
             - gaocegege
             - terrytangyuan
+            - Jeffwan
             privacy: closed
           pipelines:
             description: ""
@@ -512,6 +523,7 @@ orgs:
             - richardsliu
             members:
             - gabrielwen
+            - Jeffwan
             - kunmingg
             - terrytangyuan
             - zhenghuiwang
