@@ -503,6 +503,7 @@ orgs:
             members:
             - idvoretskyi
             - carmine
+            - terrytangyuan
             privacy: closed
           release-team:
             description: Release team; permissions needed to create branches and other actions.
