@@ -501,8 +501,8 @@ orgs:
             - jlewi
             - chrisheecho
             members:
-            - idvoretskyi
             - carmine
+            - idvoretskyi
             - terrytangyuan
             privacy: closed
           release-team:
@@ -511,10 +511,10 @@ orgs:
             - jlewi
             - richardsliu
             members:
-            - kunmingg
-            - zhenghuiwang
             - gabrielwen
+            - kunmingg
             - terrytangyuan
+            - zhenghuiwang
             privacy: closed
           web-team:
             description: Web site team
