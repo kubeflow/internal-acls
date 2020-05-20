@@ -501,8 +501,9 @@ orgs:
             - jlewi
             - chrisheecho
             members:
-            - idvoretskyi
             - carmine
+            - idvoretskyi
+            - terrytangyuan
             privacy: closed
           release-team:
             description: Release team; permissions needed to create branches and other actions.
@@ -510,9 +511,10 @@ orgs:
             - jlewi
             - richardsliu
             members:
-            - kunmingg
-            - zhenghuiwang
             - gabrielwen
+            - kunmingg
+            - terrytangyuan
+            - zhenghuiwang
             privacy: closed
           web-team:
             description: Web site team
