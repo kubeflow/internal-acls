@@ -680,6 +680,8 @@ orgs:
             - gaocegege
             - richardsliu
             privacy: closed
+            repos:
+              common: write
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
@@ -704,14 +706,27 @@ orgs:
             description: Team working on MPI Operator
             maintainers:
             - rongou
-            - anfeng
             - terrytangyuan
             members:
+            - anfeng
             - everpeace
             - cheyang
             - gaocegege
             - fisherxu
             privacy: closed
+            repos:
+              mpi-operator: write
+          mxnet-operator-team:
+            description: Team working on MXNet Operator
+            maintainers:
+            - terrytangyuan
+            - Jeffwan
+            members:
+            - suleisl2000
+            - wackxu
+            privacy: closed
+            repos:
+              mxnet-operator: write
           pipelines:
             description: ""
             maintainers:
@@ -818,7 +833,6 @@ orgs:
             - Jeffwan
             - gabrielwen
             - terrytangyuan
-            - terrytangyuan
             - zhenghuiwang
             privacy: closed
             repos:
@@ -851,8 +865,11 @@ orgs:
           xgboost-operator-team:
             description: Team working on XGBoost Operator
             maintainers:
+            - merlintang
             - terrytangyuan
-            - richardsliu
             members:
             - johnugeorge
+            - richardsliu
             privacy: closed
+            repos:
+              xgboost-operator: write
