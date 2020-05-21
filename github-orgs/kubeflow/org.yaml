@@ -791,6 +791,7 @@ orgs:
               manifests: write
               metadata: write
               mpi-operator: write
+              mxnet-operator: write
               pytorch-operator: write
               reporting: write
               testing: write
