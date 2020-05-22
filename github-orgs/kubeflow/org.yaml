@@ -507,8 +507,11 @@ orgs:
             - ywskycn
             - terrytangyuan
             members:
-            - ohmystack
             - ScorpioCPH
+            - merlintang
+            - ohmystack
+            - sperlingxx
+            - zhujl1991
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
