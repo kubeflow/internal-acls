@@ -513,6 +513,16 @@ orgs:
             - sperlingxx
             - zhujl1991
             privacy: closed
+          AWS:
+            description: Team of members from AWS
+            maintainers:
+            - Jeffwan
+            members:
+            - akartsky
+            - PatrickXYS
+            - RedbackThomson
+            - surajkota
+            privacy: closed
           Caicloud:
             description: Team of members from Caicloud
             maintainers:
@@ -678,6 +688,7 @@ orgs:
           common-team:
             description: Team working on kubeflow/common
             maintainers:
+            - Jeffwan
             - johnugeorge
             - terrytangyuan
             - gaocegege
@@ -846,6 +857,7 @@ orgs:
               examples: write
               fairing: write
               katib: write
+              kfctl: write
               kfserving: write
               kubebench: write
               kubeflow: write
