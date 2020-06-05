@@ -532,11 +532,7 @@ orgs:
             - ddysher
             - gaocegege
             members:
-            - lienhua34
             - codeflitting
-            - wuchunghsuan
-            - zjj2wry
-            - yph152
             privacy: closed
           Cisco:
             description: Team @Cisco contributing to KubeFlow
@@ -688,6 +684,7 @@ orgs:
               triage-issues: read
               website: write
               xgboost-operator: write
+              fate-operator: write
           common-team:
             description: Team working on kubeflow/common
             maintainers:
