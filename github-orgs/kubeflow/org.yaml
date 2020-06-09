@@ -871,7 +871,7 @@ orgs:
               website: write
               xgboost-operator: write
           katib-release:
-            description: Team working on Katib release; permission needed to create branches
+            description: Team working on Katib release; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
             - gaocegege
