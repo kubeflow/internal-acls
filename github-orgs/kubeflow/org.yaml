@@ -870,6 +870,15 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          katib-release:
+            description: Team working on Katib release; permission needed to create branches
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write
           web-team:
             description: Web site team
             maintainers:
