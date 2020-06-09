@@ -707,6 +707,15 @@ orgs:
             - hamelsmu
             - imjohnbo
             privacy: closed
+          katib-release:
+            description: Team working on Katib release; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write
           kube-bench-team:
             description: Kubeflow benchmarking
             maintainers:
