@@ -720,6 +720,14 @@ orgs:
             privacy: closed
             repos:
               katib: write
+          kfctl-release:
+            description: Team that will cut kfctl releases
+            maintainers:
+            - adrian555
+            - crobby
+            privacy: closed
+            repos:
+              kfctl: write
           kube-bench-team:
             description: Kubeflow benchmarking
             maintainers:
