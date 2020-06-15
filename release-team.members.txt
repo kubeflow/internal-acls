@@ -8,4 +8,5 @@ lunkai@google.com
 prodonjs@google.com
 quanlin@google.com
 ricliu@google.com
+terrytangyuan@gmail.com
 zhenghui@google.com

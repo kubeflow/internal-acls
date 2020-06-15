@@ -5,8 +5,10 @@ dsun20@bloomberg.net
 gaoce@caicloud.io
 hejinchi@cn.ibm.com
 holden.karau@gmail.com
+icoffey@vmware.com
 ifilonenko@bloomberg.net
 iman.tabrizian@gmail.com
 nrchakradhar379@gmail.com
 redhat-team@kubeflow.org
 yliu989@bloomberg.net
+gongyuan@google.com

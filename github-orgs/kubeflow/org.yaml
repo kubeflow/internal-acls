@@ -26,29 +26,31 @@ orgs:
         - achalshant
         - adrian555
         - ahousley
-        - ajayalfred
         - ajchili
         - Akado2009
+        - akartsky
         - alexmt
         - alsrgv
         - amsaha
         - amygdala
         - andreyvelich
-        - animeshsingh
         - anfeng
+        - animeshsingh
         - Ark-kun
         - aronchick
         - ashahab
         - ashahba
-        - astirya
         - avdaredevil
         - axsaucedo
         - balajismaniam
         - beberg
         - BenTheElder
+        - berndverst
         - bhupc
         - bikramnehra
+        - bmorphism
         - Bobgy
+        - c-bata
         - carmark
         - carmine
         - ccarpentiere
@@ -57,24 +59,25 @@ orgs:
         - cheyang
         - chrisheecho
         - cjwagner
-        - clemens-mewald
+        - ckadner
+        - clarketm
         - cliveseldon
         - codeflitting
-        - connordoyle
+        - ConnorDoyle
+        - crobby
         - cspavlou
         - cwbeitel
         - danisla
-        - dakoner
         - ddutta
         - ddysher
-        - derekhh
         - DeeperMind
+        - derekhh
+        - discordianfish
         - disktnk
         - DjangoPeng
-        - discordianfish
-        - dlaqab
         - dmueller2001
         - dreamryx
+        - drewbutlerbb4
         - dsdinter
         - dthomson25
         - dushyanthsc
@@ -83,7 +86,7 @@ orgs:
         - edlee2121
         - eLco
         - elikatsis
-        - ellis-bigelow
+        - ellistarn
         - elsonrodriguez
         - elviraux
         - erikerlandson
@@ -94,7 +97,6 @@ orgs:
         - fenglixa
         - fisherxu
         - frederick0329
-        - fxue
         - gabrielwen
         - gaocegege
         - gaoning777
@@ -104,10 +106,12 @@ orgs:
         - gsunner
         - gyliu513
         - hamelsmu
+        - haozheng95
+        - hmtai
         - holdenk
         - hongye-sun
         - hougangliu
-        - hmtai
+        - iancoffey
         - idvoretskyi
         - imjohnbo
         - inc0
@@ -116,9 +120,11 @@ orgs:
         - james-jwu
         - janeman98
         - jbottum
-        - jessesuen
         - Jeffwan
+        - jessesuen
+        - jessiezcc        
         - jian-he
+        - jiahaoc1993
         - jiezhang
         - Jimexist
         - jinchihe
@@ -134,9 +140,9 @@ orgs:
         - karthikv2k
         - katieole
         - katsiapis
-        - kevinbache
+        - kevinyu98
         - kimwnasptd
-        - kiratp
+        - KingOnTheStar
         - kkasravi
         - kmarquardsen
         - krishnadurai
@@ -144,24 +150,23 @@ orgs:
         - kubeflow-bot
         - kunmingg
         - kwasi
-        - KingOnTheStar
+        - LaynePeng
         - ldcastell
         - libbyandhelen
         - lienhua34
-        - lluunn
         - luotigerlsx
-        - maanavd
+        - MaanavD
         - mameshini
         - marcoceppi
         - mattf
         - Maximophone
+        - merlintang
         - mhausenblas
         - mitake
         - moxyoron
         - mpvartak
         - MrXinWang
         - mukulikak
-        - mvartakAtVerta
         - netankit
         - neuromage
         - nickchase
@@ -170,6 +175,8 @@ orgs:
         - numerology
         - ohmystack
         - ojarjur
+        - owlet42
+        - PatrickXYS
         - paveldournov
         - pdmack
         - pineking
@@ -177,7 +184,6 @@ orgs:
         - pugangxa
         - puneith
         - pvellanki
-        - qimingj
         - quanjielin
         - QxiaoQ
         - r2d4
@@ -185,28 +191,31 @@ orgs:
         - rakelkar
         - ramdootp
         - randxie
-        - realsen
+        - raviranjan0309
+        - Realsen
         - rebeccamcfadden
-        - rileyjbauer
+        - RedbackThomson
         - rlenferink
         - rmgogogo
         - rongou
         - rpasricha
         - rui5i
-        - ryanolson
         - ryandawsonuk
+        - ryanolson
         - salehay
         - sambaiz
         - sarahmaddox
         - sasha-gitg
         - saurabh24292
-        - sshrdp
         - ScorpioCPH
         - scottilee
         - sijieamoy
         - songole
+        - sperlingxx
+        - sshrdp
         - stpabhi
         - suleisl2000
+        - surajkota
         - svalleru
         - swiftdiaries
         - Swikar
@@ -220,11 +229,12 @@ orgs:
         - vditya
         - vishh
         - vkoukis
+        - vpavlin
         - wackxu
         - wbuchwalter
         - willb
         - willingc
-        - wjarek
+        - woop
         - wuchunghsuan
         - xaniasd
         - xauthulei
@@ -240,22 +250,286 @@ orgs:
         - YujiOshima
         - yupbank
         - yuzisun
+        - yuzliu
         - ywskycn
+        - zabbasi
         - zhenghuiwang
+        - zhujl1991
         - ziamsyed
         - zjj2wry
-        - zabbasi
         members_can_create_repositories: false
         name: Kubeflow
+        repos:
+          .github:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Org wide templates
+            has_projects: true
+          arena:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: 'A CLI for Kubeflow. '
+            has_projects: true
+          batch-predict:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for batch predict
+            has_projects: true
+          caffe2-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Experimental repository for a caffe2 operator
+            has_projects: true
+          chainer-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for chainer operator
+            has_projects: true
+          code-intelligence:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: ML-Powered Developer Tools, using Kubeflow
+            has_projects: true
+            homepage: https://medium.com/kubeflow/reducing-maintainer-toil-on-kubeflow-with-github-actions-and-machine-learning-f8568374daa1?source=friends_link&sk=ac77444f00c230e7d787edbfb0081918
+          common:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Common APIs and libraries shared by other Kubeflow operator repositories.
+            has_projects: true
+          community:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Information about the Kubeflow community including proposals and
+              governance information.
+            has_projects: true
+          community-infra:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Declarative configurations for KF community infrastructure
+            has_projects: true
+          crd-validation:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Validation Generation for Kubeflow CRD on Kubernetes
+            has_projects: true
+          example-seldon:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Example for end-to-end machine learning on Kubernetes using Kubeflow
+              and Seldon Core
+            has_projects: true
+          examples:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: A repository to host extended examples and tutorials
+            has_projects: true
+          fairing:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Python SDK for building, training, and deploying ML models
+            has_projects: true
+          features:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for features; used by PMs
+            has_projects: true
+          frontend:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for kubeflow frontend
+            has_projects: true
+          gcp-blueprints:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Blueprints for Deploying Kubeflow on Google Cloud Platform and Anthos
+            has_projects: true
+          homebrew-cask:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            archived: true
+            description: "\U0001F37B A CLI workflow for the administration of macOS applications
+              distributed as binaries"
+            has_issues: false
+            has_projects: true
+            has_wiki: false
+            homepage: https://brew.sh
+          homebrew-core:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: "\U0001F37B Default formulae for the missing package manager for
+              macOS"
+            has_issues: false
+            has_projects: true
+            has_wiki: false
+            homepage: https://brew.sh
+          internal-acls:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository used to main group ACLs used by Kubeflow developers
+            has_projects: true
+          katib:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for hyperparameter tuning
+            has_projects: true
+          kfctl:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: kfctl is a CLI for deploying and managing Kubeflow
+            has_projects: true
+          kfp-tekton:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: 'Kubeflow Pipeline compiler to compile KFP DSL to Tekton YAML. '
+            has_projects: true
+          kfp-tekton-backend:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Experimental project plugging Tekton yaml behind KFP API and UI engine
+            has_projects: true
+          kfserving:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Serverless Inferencing on Kubernetes
+            has_projects: true
+          kubebench:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for benchmarking
+            has_projects: true
+          kubeflow:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Machine Learning Toolkit for Kubernetes
+            has_projects: true
+          manifests:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: A repository for Kustomize manifests
+            has_projects: true
+          marketing-materials:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            has_projects: true
+          metadata:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for assets related to Metadata.
+            has_projects: true
+          mpi-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubernetes Operator for Allreduce-style Distributed Training
+            has_projects: true
+            has_wiki: false
+            homepage: https://www.kubeflow.org/docs/components/training/mpi/
+          mxnet-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: A Kubernetes operator for mxnet jobs
+            has_projects: true
+          pipelines:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Machine Learning Pipelines for Kubeflow
+            has_projects: true
+          pytorch-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: PyTorch on Kubernetes
+            has_projects: true
+          reporting:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Repository for collecting and analyzing metrics about Kubeflow usage.
+            has_projects: true
+          testing:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Test infrastructure and tooling for Kubeflow.
+            has_projects: true
+          tf-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Tools for ML/Tensorflow on Kubernetes.
+            has_projects: true
+          triage-issues:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            archived: true
+            description: For triaging issues in kubeflow
+            has_projects: true
+          website:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubeflow's public website
+            has_projects: true
+          xgboost-operator:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Incubating project for xgboost operator
+            has_projects: true
         teams:
           Ant Financial:
             description: Team of members from Ant Financial
             maintainers:
-            - terrytangyuan
             - ywskycn
+            - terrytangyuan
             members:
             - ScorpioCPH
+            - merlintang
             - ohmystack
+            - sperlingxx
+            - zhujl1991
+            privacy: closed
+          AWS:
+            description: Team of members from AWS
+            maintainers:
+            - Jeffwan
+            members:
+            - akartsky
+            - PatrickXYS
+            - RedbackThomson
+            - surajkota
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
@@ -263,11 +537,7 @@ orgs:
             - ddysher
             - gaocegege
             members:
-            - lienhua34
             - codeflitting
-            - zjj2wry
-            - yph152
-            - wuchunghsuan
             privacy: closed
           Cisco:
             description: Team @Cisco contributing to KubeFlow
@@ -276,14 +546,16 @@ orgs:
             members:
             - johnugeorge
             - xyhuang
+            - elviraux
+            - krishnadurai
             - Akado2009
             - libbyandhelen
             - garganubhav
-            - ramdootp
-            - elviraux
-            - krishnadurai
             - swiftdiaries
+            - ramdootp
             privacy: closed
+            repos:
+              kubebench: write
           Google:
             description: Folks from Google working on Kubeflow
             maintainers:
@@ -291,56 +563,51 @@ orgs:
             - abhi-g
             - richardsliu
             members:
-            - ellis-bigelow
             - ewilderj
             - bhupc
             - danisla
-            - kiratp
             - karthikv2k
             - r2d4
             - BenTheElder
-            - Bobgy
             - krzyzacy
-            - yebrahim
             - IronPan
             - ojarjur
-            - dlaqab
+            - rmgogogo
+            - gabrielwen
+            - Bobgy
+            - avdaredevil
             - cjwagner
             - sarahmaddox
+            - prodonjs
             - vishh
             - texasmichelle
             - TheJaySmith
-            - fxue
+            - saurabh24292
+            - zhenghuiwang
+            - luotigerlsx
+            - zabbasi
             - chrisheecho
             - moxyoron
             - yixinshi
-            - lluunn
+            - Realsen
+            - quanjielin
             - kunmingg
             - ziamsyed
-            - sasha-gitg
-            - gabrielwen
-            - zhenghuiwang
-            - avdaredevil
-            - zabbasi
-            - rpasricha
-            - prodonjs
-            - quanjielin
-            - rmgogogo
             - dushyanthsc
+            - sasha-gitg
             - james-jwu
-            - luotigerlsx
-            - saurabh24292
-            - realsen
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
             maintainers:
-            - ashahba
             - kkasravi
+            - ashahba
             members:
-            - balajismaniam
             - nqn
+            - balajismaniam
             privacy: closed
+            repos:
+              pytorch-operator: admin
           Red Hat:
             description: Contributors from Red Hat
             members:
@@ -360,12 +627,16 @@ orgs:
             - gsunner
             - ryandawsonuk
             privacy: closed
+            repos:
+              example-seldon: write
           caffe2-team:
             description: Folks working on the caffe2 operator
             members:
             - carmark
             - gaocegege
             privacy: closed
+            repos:
+              caffe2-operator: write
           caipe-dev:
             description: 'One of the Google teams '
             maintainers:
@@ -375,10 +646,80 @@ orgs:
           ci-bots:
             description: Team for bots
             members:
-            - google-oss-robot
             - k8s-ci-robot
             - kubeflow-bot
+            - google-oss-robot
             privacy: closed
+            repos:
+              arena: write
+              batch-predict: write
+              caffe2-operator: write
+              chainer-operator: write
+              code-intelligence: write
+              common: write
+              community: write
+              community-infra: read
+              crd-validation: write
+              example-seldon: write
+              examples: write
+              fairing: write
+              features: write
+              frontend: write
+              gcp-blueprints: write
+              homebrew-cask: write
+              homebrew-core: write
+              internal-acls: write
+              katib: write
+              kfctl: write
+              kfp-tekton: write
+              kfp-tekton-backend: write
+              kfserving: write
+              kubebench: write
+              kubeflow: write
+              manifests: write
+              marketing-materials: write
+              metadata: write
+              mpi-operator: write
+              mxnet-operator: write
+              pipelines: write
+              pytorch-operator: write
+              reporting: write
+              testing: write
+              tf-operator: write
+              triage-issues: read
+              website: write
+              xgboost-operator: write
+              fate-operator: write
+          common-team:
+            description: Team working on kubeflow/common
+            maintainers:
+            - Jeffwan
+            - johnugeorge
+            - terrytangyuan
+            - gaocegege
+            - richardsliu
+            privacy: closed
+            repos:
+              common: write
+          github-actions:
+            description: Team that will create new CI/CD with GitHub Actions
+            maintainers:
+            - jlewi
+            - abhi-g
+            members:
+            - inc0
+            - hamelsmu
+            - imjohnbo
+            privacy: closed
+          katib-release:
+            description: Team working on Katib release; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write
           kube-bench-team:
             description: Kubeflow benchmarking
             maintainers:
@@ -387,94 +728,104 @@ orgs:
             - gaocegege
             - xyhuang
             privacy: closed
+            repos:
+              kubebench: write
           mpi-operator-team:
             description: Team working on MPI Operator
             maintainers:
-            - anfeng
             - rongou
             - terrytangyuan
             members:
-            - cheyang
+            - anfeng
             - everpeace
+            - cheyang
             - gaocegege
             - fisherxu
             privacy: closed
-          xgboost-operator-team:
-            description: Team working on XGBoost Operator
+            repos:
+              mpi-operator: write
+          mxnet-operator-team:
+            description: Team working on MXNet Operator
             maintainers:
             - terrytangyuan
+            - Jeffwan
             members:
-            - johnugeorge
-            - richardsliu
+            - suleisl2000
+            - wackxu
             privacy: closed
-          common-team:
-            description: Team working on kubeflow/common
-            maintainers:
-            - richardsliu
-            - johnugeorge
-            - gaocegege
-            - terrytangyuan
-            privacy: closed
+            repos:
+              mxnet-operator: write
           pipelines:
             description: ""
             maintainers:
             - IronPan
             members:
             - neuromage
-            - yebrahim
             - Ark-kun
-            - ajayalfred
+            - rmgogogo
             - gaoning777
             - paveldournov
-            - katieole
-            - qimingj
-            - rileyjbauer
-            - rmgogogo
-            - hongye-sun
             - jingzhang36
+            - katieole
             - numerology
+            - Realsen
             - dushyanthsc
+            - hongye-sun
             - james-jwu
-            - rui5i
-            - realsen
             privacy: closed
-          github-actions:
-            description: Team that will create new CI/CD with GitHub Actions
-            maintainers:
-            - jlewi
-            - abhi-g
-            members:
-            - hamelsmu
-            - inc0
-            - imjohnbo
-            privacy: closed
+            repos:
+              pipelines: write
           project-maintainers:
             description: Team responsible for managing project kanban boards
             maintainers:
             - jlewi
+            - theadactyl
             - abhi-g
+            - richardsliu
             members:
             - aronchick
-            - avdaredevil
-            - carmine
-            - cspavlou
-            - elviraux
-            - gabrielwen
-            - jbottum
-            - johnugeorge
             - kkasravi
-            - kunmingg
-            - lluunn
-            - pdmack
-            - quanjielin
-            - richardsliu
-            - terrytangyuan
-            - theadactyl
-            - scottilee
-            - swiftdiaries
+            - carmine
             - vkoukis
+            - johnugeorge
+            - pdmack
+            - terrytangyuan
+            - gabrielwen
+            - avdaredevil
+            - elviraux
+            - scottilee
             - zhenghuiwang
+            - jbottum
+            - swiftdiaries
+            - cspavlou
+            - quanjielin
+            - kunmingg
             privacy: closed
+            repos:
+              arena: write
+              batch-predict: write
+              caffe2-operator: write
+              chainer-operator: write
+              code-intelligence: write
+              community: write
+              examples: write
+              fairing: write
+              frontend: write
+              katib: write
+              kfctl: write
+              kfserving: write
+              kubebench: write
+              kubeflow: write
+              manifests: write
+              metadata: write
+              mpi-operator: write
+              mxnet-operator: write
+              pytorch-operator: write
+              reporting: write
+              testing: write
+              tf-operator: write
+              website: write
+              xgboost-operator: write
           release-planning:
             description: Team responsible for planning releases; has write permission on all
               repos to manipulate issues
@@ -482,19 +833,56 @@ orgs:
             - jlewi
             - chrisheecho
             members:
-            - idvoretskyi
-            - carmine
+            - jbottum
+            - jtfogarty
+            - terrytangyuan
             privacy: closed
+            repos:
+              arena: write
+              batch-predict: write
+              chainer-operator: write
+              community: write
+              examples: write
+              fairing: write
+              katib: write
+              kubebench: write
+              kubeflow: write
+              mpi-operator: write
+              mxnet-operator: write
+              pytorch-operator: write
+              testing: write
+              tf-operator: write
+              website: write
           release-team:
             description: Release team; permissions needed to create branches and other actions.
             maintainers:
             - jlewi
             - richardsliu
             members:
-            - kunmingg
-            - zhenghuiwang
+            - Jeffwan
             - gabrielwen
+            - terrytangyuan
+            - zhenghuiwang
             privacy: closed
+            repos:
+              arena: write
+              caffe2-operator: write
+              common: write
+              examples: write
+              fairing: write
+              katib: write
+              kfctl: write
+              kfserving: write
+              kubebench: write
+              kubeflow: write
+              manifests: write
+              metadata: write
+              mpi-operator: write
+              mxnet-operator: write
+              pytorch-operator: write
+              tf-operator: write
+              website: write
+              xgboost-operator: write
           web-team:
             description: Web site team
             maintainers:
@@ -502,3 +890,16 @@ orgs:
             members:
             - inc0
             privacy: closed
+            repos:
+              website: write
+          xgboost-operator-team:
+            description: Team working on XGBoost Operator
+            maintainers:
+            - merlintang
+            - terrytangyuan
+            members:
+            - johnugeorge
+            - richardsliu
+            privacy: closed
+            repos:
+              xgboost-operator: write
