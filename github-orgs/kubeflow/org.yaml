@@ -711,6 +711,13 @@ orgs:
             - hamelsmu
             - imjohnbo
             privacy: closed
+          fairing-release:
+            description: Team working on fairing release.
+            maintainers:
+            - jinchihe
+            privacy: closed
+            repos:
+              fairing: write
           katib-release:
             description: Team working on Katib release; permissions needed to create branches and other actions.
             maintainers:
