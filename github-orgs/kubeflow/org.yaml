@@ -514,8 +514,8 @@ orgs:
             description: Incubating project for xgboost operator
             has_projects: true
         teams:
-          Ant Financial:
-            description: Team of members from Ant Financial
+          Ant Group:
+            description: Team of members from Ant Group
             maintainers:
             - ywskycn
             - terrytangyuan
