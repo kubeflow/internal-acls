@@ -636,10 +636,16 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
+           blog-admin-team:
+            description: Team responsible for administering and troubleshooting issues with the kubeflow blog
+            maintainers:
+            - hamelsmu
+            privacy: closed
+            repos:
+              blog: admin
           blog-team:
             description: Team responsible for maintaining the kubeflow blog
             maintainers:
-            - jlewi
             - hamelsmu
             members:
             - jbottum
@@ -649,7 +655,6 @@ orgs:
             privacy: closed
             repos:
               blog: write
-              fastpages: write
           caffe2-team:
             description: Folks working on the caffe2 operator
             members:
