@@ -639,7 +639,6 @@ orgs:
            blog-admin-team:
             description: Team responsible for administering and troubleshooting issues with the kubeflow blog
             maintainers:
-            - jlewi
             - hamelsmu
             privacy: closed
             repos:
@@ -647,7 +646,6 @@ orgs:
           blog-team:
             description: Team responsible for maintaining the kubeflow blog
             maintainers:
-            - jlewi
             - hamelsmu
             members:
             - jbottum
