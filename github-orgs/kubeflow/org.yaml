@@ -636,6 +636,20 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
+          blog-team:
+            description: Team responsible for maintaining the kubeflow blog
+            maintainers:
+            - jlewi
+            - hamelsmu
+            members:
+            - jbottum
+            - jtfogarty
+            - terrytangyuan
+            - StefanoFioravanzo
+            privacy: closed
+            repos:
+              blog: write
+              fastpages: write
           caffe2-team:
             description: Folks working on the caffe2 operator
             members:
