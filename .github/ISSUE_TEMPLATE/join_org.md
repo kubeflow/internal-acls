@@ -11,7 +11,17 @@ Please read the [guide lines](https://www.kubeflow.org/docs/about/contributing/#
 **Please provide links to PRs or other contributions (2-3):**
 
 
-**Please list 2 existing members who are sponsoring your membership:**
+** Please list 2 existing members who are sponsoring your membership:**
+
+** Please test your PR **
+
+Run
+
+```
+cd github_orgs
+pytest test_org_yaml.py
+```
+Include the output in the PR
 
 **Additional Instructions**
 
