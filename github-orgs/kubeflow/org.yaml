@@ -208,6 +208,7 @@ orgs:
         - rui5i
         - ryandawsonuk
         - ryanolson
+        - SachinVarghese
         - salehay
         - sambaiz
         - sarahmaddox
@@ -634,6 +635,7 @@ orgs:
             - Maximophone
             - gsunner
             - ryandawsonuk
+            - SachinVarghese
             privacy: closed
             repos:
               example-seldon: write
