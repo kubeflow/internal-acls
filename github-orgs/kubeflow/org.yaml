@@ -628,6 +628,12 @@ orgs:
             - tmckayus
             - pdmack
             privacy: closed
+          SUSE:
+            description: Team at SUSE contributing to Kubeflow.
+            members:
+            - alfsuse
+            - gsantomaggio
+            privacy: closed
           Seldon:
             description: Engineers at Seldon contributing to Kubeflow
             maintainers:
