@@ -21,6 +21,7 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
+        - 8bitmp3
         - abcdefgs0324
         - abkosar
         - achalshant
