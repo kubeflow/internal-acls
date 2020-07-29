@@ -684,6 +684,7 @@ orgs:
             repos:
               arena: write
               batch-predict: write
+              blog: write
               caffe2-operator: write
               chainer-operator: write
               code-intelligence: write
