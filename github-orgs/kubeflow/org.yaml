@@ -633,6 +633,7 @@ orgs:
             members:
             - alfsuse
             - gsantomaggio
+            - jcaamano
             privacy: closed
           Seldon:
             description: Engineers at Seldon contributing to Kubeflow
