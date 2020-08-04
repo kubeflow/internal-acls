@@ -31,6 +31,7 @@ orgs:
         - akartsky
         - alexlatchford
         - alexmt
+        - alfsuse
         - alsrgv
         - amsaha
         - amygdala
@@ -104,6 +105,7 @@ orgs:
         - garganubhav
         - google-oss-robot
         - greynutw
+        - gsantomaggio
         - gsunner
         - gyliu513
         - hamelsmu
@@ -633,7 +635,6 @@ orgs:
             members:
             - alfsuse
             - gsantomaggio
-            - jcaamano
             privacy: closed
           Seldon:
             description: Engineers at Seldon contributing to Kubeflow
