@@ -25,3 +25,9 @@ DESCRIPTION="Some group description"
 Currently after modifying org.yaml, pytest should be manually run in
 github-orgs directory to verify the change. This test will be run
 automatically in a future change.
+
+## Setting Up GAM to run `sync_groups.sh`
+
+1. You need a `xxxx@kubeflow.org` email address and you must be an admin in kubeflow.org gsuite. Ask an existing admin to invite you and give you permissions.
+1. Follow instructions in https://github.com/jay0lee/GAM/wiki to set up the GAM CLI tool.
+1. You can now run `sync_groups.sh`.
