@@ -8,10 +8,10 @@ orgs:
         - Bobgy
         - google-admin
         - googlebot
+        - james-jwu
         - jlewi
         - k8s-ci-robot
         - rmgogogo
-        - james-jwu
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
