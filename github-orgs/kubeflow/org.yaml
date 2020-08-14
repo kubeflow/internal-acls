@@ -5,13 +5,13 @@
 orgs:
     kubeflow:
         admins:
-        - abhi-g
+        - Bobgy
         - google-admin
         - googlebot
+        - james-jwu
         - jlewi
         - k8s-ci-robot
-        - richardsliu
-        - theadactyl
+        - rmgogogo
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
