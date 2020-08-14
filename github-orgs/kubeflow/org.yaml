@@ -9,6 +9,7 @@ orgs:
         - google-admin
         - googlebot
         - jlewi
+        - k8s-ci-robot
         - richardsliu
         - theadactyl
         billing_email: vishnukanan@gmail.com
