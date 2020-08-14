@@ -825,14 +825,14 @@ orgs:
             repos:
               mxnet-operator: write
           pipelines:
-            description: ""
+            description: Team responsible for kubeflow/pipelines project
             maintainers:
             - IronPan
             members:
             - neuromage
             - Ark-kun
+            - Bobgy
             - rmgogogo
-            - gaoning777
             - paveldournov
             - jingzhang36
             - katieole
