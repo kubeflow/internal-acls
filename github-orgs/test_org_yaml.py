@@ -25,3 +25,5 @@ def test_team_member_is_in_org():
               assert team_member in org_members or team_member in org_admins, \
                 "{} (team {}) not an admin or member of org {}".format(
                   team_member, team_name, org_name)
+
+test_team_memeber_is_in_org()
