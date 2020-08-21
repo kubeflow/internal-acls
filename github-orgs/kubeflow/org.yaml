@@ -629,6 +629,7 @@ orgs:
           Red Hat:
             description: Contributors from Red Hat
             members:
+            - nakfour
             - willb
             - mattf
             - erikerlandson
