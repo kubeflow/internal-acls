@@ -762,15 +762,6 @@ orgs:
             privacy: closed
             repos:
               fairing: write
-          katib-release:
-            description: Team working on Katib release; permissions needed to create branches and other actions.
-            maintainers:
-            - andreyvelich
-            - gaocegege
-            - johnugeorge
-            privacy: closed
-            repos:
-              katib: write
           kfctl-release:
             description: Team that will cut kfctl releases
             maintainers:
