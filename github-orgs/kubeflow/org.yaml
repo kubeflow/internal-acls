@@ -654,6 +654,15 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
+          automl-leads:
+            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write
           blog-admin-team:
             description: Team responsible for administering and troubleshooting issues with the kubeflow blog
             maintainers:
@@ -943,25 +952,7 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
-          web-team:
-            description: Web site team
-            maintainers:
-            - ewilderj
-            members:
-            - inc0
-            privacy: closed
-            repos:
-              website: write
-          wg-automl-leads:
-            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
-            maintainers:
-            - andreyvelich
-            - gaocegege
-            - johnugeorge
-            privacy: closed
-            repos:
-              katib: write
-          wg-training-leads:
+          training-leads:
             description: Team for Training working group leads; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
@@ -981,6 +972,15 @@ orgs:
               fate-operator: write
               caffe2-operator: write
               common: write
+          web-team:
+            description: Web site team
+            maintainers:
+            - ewilderj
+            members:
+            - inc0
+            privacy: closed
+            repos:
+              website: write
           xgboost-operator-team:
             description: Team working on XGBoost Operator
             maintainers:
