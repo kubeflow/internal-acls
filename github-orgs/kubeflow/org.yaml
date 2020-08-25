@@ -654,6 +654,15 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
+          automl-leads:
+            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write
           blog-admin-team:
             description: Team responsible for administering and troubleshooting issues with the kubeflow blog
             maintainers:
@@ -762,15 +771,6 @@ orgs:
             privacy: closed
             repos:
               fairing: write
-          katib-release:
-            description: Team working on Katib release; permissions needed to create branches and other actions.
-            maintainers:
-            - andreyvelich
-            - gaocegege
-            - johnugeorge
-            privacy: closed
-            repos:
-              katib: write
           kfctl-release:
             description: Team that will cut kfctl releases
             maintainers:
@@ -952,6 +952,26 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          training-leads:
+            description: Team for Training working group leads; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - ChanYiLin
+            - gaocegege
+            - Jeffwan
+            - johnugeorge
+            - terrytangyuan
+            privacy: closed
+            repos:
+              tf-operator: write
+              pytorch-operator: write
+              mpi-operator: write
+              xgboost-operator: write
+              mxnet-operator: write
+              chainer-operator: write
+              fate-operator: write
+              caffe2-operator: write
+              common: write
           web-team:
             description: Web site team
             maintainers:
