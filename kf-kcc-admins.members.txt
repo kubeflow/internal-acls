@@ -3,3 +3,4 @@ hejinchi@cn.ibm.com
 liuyuzhui@google.com
 google-kubeflow-admins@kubeflow.org
 scottleehello@gmail.com
+yuzi.dan@gmail.com
