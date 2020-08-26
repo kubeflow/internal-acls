@@ -654,7 +654,7 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
-          automl-leads:
+          wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
@@ -803,6 +803,18 @@ orgs:
             privacy: closed
             repos:
               mpi-operator: write
+          wg-serving-leads:
+            description: Leads for KFServing workgroup
+            maintainers:
+            - ellistarn
+            - cliveseldon
+            - animeshsingh
+            - yuzisun
+            - rakelkar
+            privacy: closed
+            repos:
+              kfserving: admin
+          # TODO(wg-kfserving-leads): Can we just use wg-kfserving-leads
           kfserving-owners:
             description: Team working on kfserving
             maintainers:
@@ -952,7 +964,7 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
-          training-leads:
+          wg-training-leads:
             description: Team for Training working group leads; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
