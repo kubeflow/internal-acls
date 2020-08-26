@@ -4,6 +4,7 @@ campoa@kubeflow.org
 campoa@google.com
 chasm@kubeflow.org
 ewj@kubeflow.org
+j.007ba7@gmail.com
 jessiezhu@google.com
 jessie@kubeflow.org
 jlewi@google.com
@@ -12,6 +13,7 @@ joe@liedt.ke
 karl@kubeflow.org
 kam.d.kasravi@intel.com
 kweinmeister@google.com
+mathew.wicks@gmail.com
 nju.wzh@gmail.com
 qkmqwe@gmail.com
 richards.liu@gmail.com
