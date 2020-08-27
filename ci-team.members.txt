@@ -1,12 +1,8 @@
-cartick@google.com
-clarketm@google.com
+dsun20@bloomberg.net
 google-team@kubeflow.org
-hejinchi@cn.ibm.com
-kam.d.kasravi@intel.com
-kunming@google.com
-lunkai@google.com
-seedjeffwan@gmail.com
-yangpa@google.com
 gongyuan@google.com
+hejinchi@cn.ibm.com
 hnalla@redhat.com
 scottleehello@gmail.com
+seedjeffwan@gmail.com
+yangpa@google.com
