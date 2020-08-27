@@ -654,15 +654,6 @@ orgs:
             privacy: closed
             repos:
               example-seldon: write
-          automl-leads:
-            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
-            maintainers:
-            - andreyvelich
-            - gaocegege
-            - johnugeorge
-            privacy: closed
-            repos:
-              katib: write
           blog-admin-team:
             description: Team responsible for administering and troubleshooting issues with the kubeflow blog
             maintainers:
@@ -803,6 +794,7 @@ orgs:
             privacy: closed
             repos:
               mpi-operator: write
+          # TODO(wg-kfserving-leads): Can we just use wg-kfserving-leads
           kfserving-owners:
             description: Team working on kfserving
             maintainers:
@@ -952,7 +944,27 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
-          training-leads:
+          wg-automl-leads:
+            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
+            maintainers:
+            - andreyvelich
+            - gaocegege
+            - johnugeorge
+            privacy: closed
+            repos:
+              katib: write            
+          wg-serving-leads:
+            description: Leads for KFServing workgroup
+            maintainers:
+            - ellistarn
+            - cliveseldon
+            - animeshsingh
+            - yuzisun
+            - rakelkar
+            privacy: closed
+            repos:
+              kfserving: admin
+          wg-training-leads:
             description: Team for Training working group leads; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
