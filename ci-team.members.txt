@@ -1,8 +1,8 @@
 dsun20@bloomberg.net
 google-team@kubeflow.org
-hejinchi@cn.ibm.com
-seedjeffwan@gmail.com
-yangpa@google.com
 gongyuan@google.com
+hejinchi@cn.ibm.com
 hnalla@redhat.com
 scottleehello@gmail.com
+seedjeffwan@gmail.com
+yangpa@google.com
