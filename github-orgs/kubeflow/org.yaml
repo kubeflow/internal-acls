@@ -177,6 +177,7 @@ orgs:
         - mpvartak
         - MrXinWang
         - mukulikak
+        - nakfour
         - netankit
         - neuromage
         - nicholas-abad
@@ -630,6 +631,7 @@ orgs:
           Red Hat:
             description: Contributors from Red Hat
             members:
+            - nakfour
             - willb
             - mattf
             - erikerlandson
