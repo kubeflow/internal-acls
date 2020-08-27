@@ -1,6 +1,6 @@
 derekhh@snap.com
 hejinchi@cn.ibm.com
-liuyuzhui@google.com
+liuyuzhui@gmail.com
 google-kubeflow-admins@kubeflow.org
 scottleehello@gmail.com
 yuzi.dan@gmail.com
