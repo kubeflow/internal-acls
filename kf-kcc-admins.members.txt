@@ -1,3 +1,4 @@
+andrey.velichkevich@gmail.com
 derekhh@snap.com
 hejinchi@cn.ibm.com
 google-kubeflow-admins@kubeflow.org
