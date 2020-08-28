@@ -84,10 +84,12 @@ orgs:
         - drewbutlerbb4
         - dsdinter
         - dthomson25
+        - dtzar
         - dushyanthsc
         - dwhitena
         - dynamicwebpaige
         - edlee2121
+        - eedorenko
         - eLco
         - elikatsis
         - ellistarn
@@ -231,6 +233,7 @@ orgs:
         - sshrdp
         - StefanoFioravanzo
         - stpabhi
+        - sudivate
         - suleisl2000
         - surajkota
         - svalleru
@@ -550,6 +553,13 @@ orgs:
             - PatrickXYS
             - RedbackThomson
             - surajkota
+            privacy: closed
+          Azure:
+            description: Contributors from Microsoft
+            members:
+            - dtzar
+            - eedorenko
+            - sudivate
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
