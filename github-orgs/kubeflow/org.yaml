@@ -777,6 +777,18 @@ orgs:
             privacy: closed
             repos:
               fairing: write
+          kf-kcc-admins:
+            description: Team helping with shared Kubeflow community infra 
+            maintainers:
+            - andreyvelich
+            - derekhh
+            - Jeffwan
+            - jinchihe
+            - jlewi
+            - scottilee
+            - yuzisun
+            - yuzliu
+            privacy: closed
           kfctl-release:
             description: Team that will cut kfctl releases
             maintainers:
