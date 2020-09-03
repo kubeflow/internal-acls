@@ -1,3 +1,4 @@
+andrey.velichkevich@gmail.com
 dsun20@bloomberg.net
 google-team@kubeflow.org
 gongyuan@google.com
