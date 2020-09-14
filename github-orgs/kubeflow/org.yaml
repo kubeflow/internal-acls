@@ -537,7 +537,7 @@ orgs:
             allow_squash_merge: false
             description: Incubating project for xgboost operator
             has_projects: true
-        teams:          
+        teams:
           Ant Group:
             description: Team of members from Ant Group
             maintainers:
