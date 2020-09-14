@@ -538,6 +538,14 @@ orgs:
             description: Incubating project for xgboost operator
             has_projects: true
         teams:
+          admins:
+            description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
+            members:
+              - bobgy
+              - james-jwu
+              - neuromage
+              - rmgogogo
+            privacy: closed
           Ant Group:
             description: Team of members from Ant Group
             maintainers:
