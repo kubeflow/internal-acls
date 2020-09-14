@@ -537,15 +537,7 @@ orgs:
             allow_squash_merge: false
             description: Incubating project for xgboost operator
             has_projects: true
-        teams:
-          admins:
-            description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
-            members:
-              - bobgy
-              - james-jwu
-              - neuromage
-              - rmgogogo
-            privacy: closed
+        teams:          
           Ant Group:
             description: Team of members from Ant Group
             maintainers:
@@ -641,6 +633,14 @@ orgs:
             - sasha-gitg
             - james-jwu
             - karkumar
+            privacy: closed
+          google-admins:
+            description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
+            members:
+              - bobgy
+              - james-jwu
+              - neuromage
+              - rmgogogo
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
