@@ -634,6 +634,14 @@ orgs:
             - james-jwu
             - karkumar
             privacy: closed
+          google-admins:
+            description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
+            members:
+              - bobgy
+              - james-jwu
+              - neuromage
+              - rmgogogo
+            privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
             maintainers:
