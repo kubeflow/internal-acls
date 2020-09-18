@@ -634,7 +634,6 @@ orgs:
             - dushyanthsc
             - sasha-gitg
             - james-jwu
-            - karkumar
             privacy: closed
           google-admins:
             description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
@@ -876,7 +875,6 @@ orgs:
             - dushyanthsc
             - hongye-sun
             - james-jwu
-            - karkumar
             privacy: closed
             repos:
               pipelines: write
