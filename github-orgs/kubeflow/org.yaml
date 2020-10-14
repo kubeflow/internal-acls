@@ -46,6 +46,7 @@ orgs:
         - ashahab
         - ashahba
         - avdaredevil
+        - aws-kf-ci-bot
         - axsaucedo
         - b675987273
         - balajismaniam
@@ -724,6 +725,7 @@ orgs:
             - k8s-ci-robot
             - kubeflow-bot
             - google-oss-robot
+            - aws-kf-ci-bot
             privacy: closed
             repos:
               arena: write
