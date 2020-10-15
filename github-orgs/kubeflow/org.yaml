@@ -932,6 +932,12 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          project-steering-group:
+            description: Project steering group as defined by Kubeflow governance
+            members:
+            - jlewi
+            - paveldournov
+            - theadactyl
           release-planning:
             description: Team responsible for planning releases; has write permission on all
               repos to manipulate issues
@@ -996,7 +1002,18 @@ orgs:
             - johnugeorge
             privacy: closed
             repos:
-              katib: write            
+              katib: write
+          wg-pipeline-leads:
+            description: Team for pipeline leads.
+            maintainers:
+            - animeshsingh
+            - bobgy
+            - james-jwu
+            - kramachandran
+            - neuromage
+            - paveldournov
+            - rmgogogo
+            privacy: closed
           wg-serving-leads:
             description: Leads for KFServing workgroup
             maintainers:
