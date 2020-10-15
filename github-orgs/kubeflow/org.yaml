@@ -46,6 +46,7 @@ orgs:
         - ashahab
         - ashahba
         - avdaredevil
+        - aws-kf-ci-bot
         - axsaucedo
         - b675987273
         - balajismaniam
@@ -994,6 +995,14 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          third-party-bots:
+            description: Team for third party bots
+            members:
+            - aws-kf-ci-bot
+            privacy: closed
+            repos:
+              katib: write
+              pytorch-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
