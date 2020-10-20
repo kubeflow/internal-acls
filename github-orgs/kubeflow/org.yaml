@@ -1012,6 +1012,14 @@ orgs:
             privacy: closed
             repos:
               katib: write
+          wg-notebook-leads:
+            description: Team for Notebook working group leads.
+            maintainers:
+            - StefanoFioravanzo
+            - elikatsis
+            - kimwnasptd
+            - thesuperzapper
+            privacy: closed
           wg-pipeline-leads:
             description: Team for pipeline leads.
             maintainers:
