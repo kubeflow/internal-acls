@@ -997,7 +997,7 @@ orgs:
               xgboost-operator: write
           third-party-bots:
             description: Team for third party bots
-            members:
+            maintainers:
             - aws-kf-ci-bot
             privacy: closed
             repos:
