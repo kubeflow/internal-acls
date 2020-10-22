@@ -1005,11 +1005,12 @@ orgs:
               pytorch-operator: admin
           third-party-bots:
             description: Team for third party bots
-            members:
+            maintainers:
             - aws-kf-ci-bot
             privacy: closed
             repos:
               katib: write
+              kfserving: write
               pytorch-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
