@@ -1,0 +1,23 @@
+metadata:
+  creationTimestamp: null
+  name: community-meeting-hosts@kubeflow.org
+spec:
+  allowExternalMembers: "true"
+  description: Hosts for the weekly Kubeflow community meeting
+  email: community-meeting-hosts@kubeflow.org
+  members:
+  - email: ewj@google.com
+    role: OWNER
+  - email: j.007ba7@gmail.com
+    role: MEMBER
+  - email: jlewi@google.com
+    role: OWNER
+  - email: mathew.wicks@gmail.com
+    role: MEMBER
+  - email: michellecasbon@google.com
+    role: MANAGER
+  - email: thealamkin@google.com
+    role: OWNER
+  name: Community Meeting Hosts
+  whoCanJoin: INVITED_CAN_JOIN
+  whoCanPostMessage: ANYONE_CAN_POST
