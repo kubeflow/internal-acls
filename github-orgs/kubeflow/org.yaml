@@ -937,6 +937,7 @@ orgs:
           project-steering-group:
             description: Project steering group as defined by Kubeflow governance
             members:
+            - Bobgy
             - jlewi
             - paveldournov
             - theadactyl
