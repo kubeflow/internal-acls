@@ -1,0 +1,27 @@
+metadata:
+  creationTimestamp: null
+  name: ci-team@kubeflow.org
+spec:
+  allowExternalMembers: "false"
+  description: The team working on continuous integration.
+  email: ci-team@kubeflow.org
+  members:
+  - email: andrey.velichkevich@gmail.com
+    role: MEMBER
+  - email: dsun20@bloomberg.net
+    role: MEMBER
+  - email: gongyuan@google.com
+    role: MEMBER
+  - email: hejinchi@cn.ibm.com
+    role: MEMBER
+  - email: hnalla@redhat.com
+    role: MEMBER
+  - email: scottleehello@gmail.com
+    role: MEMBER
+  - email: seedjeffwan@gmail.com
+    role: MEMBER
+  - email: yangpa@google.com
+    role: MEMBER
+  name: ci-team
+  whoCanJoin: CAN_REQUEST_TO_JOIN
+  whoCanPostMessage: ALL_MEMBERS_CAN_POST

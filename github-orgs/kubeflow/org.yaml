@@ -46,6 +46,7 @@ orgs:
         - ashahab
         - ashahba
         - avdaredevil
+        - aws-kf-ci-bot
         - axsaucedo
         - b675987273
         - balajismaniam
@@ -148,7 +149,7 @@ orgs:
         - josiemundi
         - jtfogarty
         - jzp1025
-        - kandrio98
+        - kandrio
         - karlschriek
         - karthikv2k
         - katieole
@@ -243,6 +244,7 @@ orgs:
         - sshrdp
         - StefanoFioravanzo
         - stpabhi
+        - subodh101
         - sudivate
         - suleisl2000
         - surajkota
@@ -932,6 +934,12 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          project-steering-group:
+            description: Project steering group as defined by Kubeflow governance
+            members:
+            - jlewi
+            - paveldournov
+            - theadactyl
           release-planning:
             description: Team responsible for planning releases; has write permission on all
               repos to manipulate issues
@@ -988,6 +996,23 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
+          temporary-admin-members:
+            description: Team for temporary admin access; Will be Removed at 01/20/2021
+            members:
+            - PatrickXYS
+            privacy: closed
+            repos:
+              katib: admin
+              pytorch-operator: admin
+          third-party-bots:
+            description: Team for third party bots
+            maintainers:
+            - aws-kf-ci-bot
+            privacy: closed
+            repos:
+              katib: write
+              kfserving: write
+              pytorch-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
@@ -996,7 +1021,26 @@ orgs:
             - johnugeorge
             privacy: closed
             repos:
-              katib: write            
+              katib: write
+          wg-notebook-leads:
+            description: Team for Notebook working group leads.
+            maintainers:
+            - StefanoFioravanzo
+            - elikatsis
+            - kimwnasptd
+            - thesuperzapper
+            privacy: closed
+          wg-pipeline-leads:
+            description: Team for pipeline leads.
+            maintainers:
+            - animeshsingh
+            - bobgy
+            - james-jwu
+            - kramachandran
+            - neuromage
+            - paveldournov
+            - rmgogogo
+            privacy: closed
           wg-serving-leads:
             description: Leads for KFServing workgroup
             maintainers:
