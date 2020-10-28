@@ -1,8 +1,0 @@
-andrey.velichkevich@gmail.com
-derekhh@snap.com
-dsun20@bloomberg.net
-hejinchi@cn.ibm.com
-google-kubeflow-admins@kubeflow.org
-scottleehello@gmail.com
-seedjeffwan@gmail.com
-yliu989@bloomberg.net

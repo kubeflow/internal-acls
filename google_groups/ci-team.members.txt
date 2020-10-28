@@ -1,9 +1,0 @@
-andrey.velichkevich@gmail.com
-dsun20@bloomberg.net
-google-team@kubeflow.org
-gongyuan@google.com
-hejinchi@cn.ibm.com
-hnalla@redhat.com
-scottleehello@gmail.com
-seedjeffwan@gmail.com
-yangpa@google.com
