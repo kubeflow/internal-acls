@@ -28,6 +28,8 @@ spec:
     role: MEMBER
   - email: nrchakradhar379@gmail.com
     role: MEMBER
+  - email: subodh.pushkar@gmail.com
+    role: MEMBER
   - email: yliu989@bloomberg.net
     role: MEMBER
   name: ci-viewer
