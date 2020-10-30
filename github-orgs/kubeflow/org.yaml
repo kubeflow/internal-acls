@@ -1004,7 +1004,7 @@ orgs:
             repos:
               katib: admin
               pytorch-operator: admin
-          third-party-bots:
+          third-party-bots-1321:
             description: Team for third party bots
             maintainers:
             - aws-kf-ci-bot
