@@ -1011,6 +1011,7 @@ orgs:
             - aws-kf-ci-bot
             privacy: closed
             repos:
+              caff2-operator: write
               katib: write
               kfctl: write
               kfserving: write
