@@ -38,7 +38,7 @@ spec:
           name: validate-code
       containers:
       - name: sync
-        image: gcr.io/k8s-prow/peribolos@sha256:cb771295078f0a7353f375d39242ecafadcfc46650efb8a5f0adfa10b3f8c050
+        image: gcr.io/k8s-prow/peribolos@sha256:a1248c8793d5c99ed3b31c8ad1e27348cdaf5e11abc501629c9d636921460e9b
         env:
         - name: GITHUB_TOKEN
           valueFrom:
@@ -53,7 +53,7 @@ spec:
         - --fix-team-repos
         - --config-path=/src/kubeflow/internal-acls/github-orgs/kubeflow/org.yaml
         - --github-token-path=/secret/github-token/github_token
-        - --required-admins=jlewi
+        - --required-admins=Bobgy
         - --required-admins=james-jwu
         - --required-admins=google-admin
         - --required-admins=googlebot

@@ -29,8 +29,9 @@ class CheckConfig(object):
 
     # TODO(jlewi): We should load this in via config map
     # Check that each admin is in a whitelist set of admins.
-    allowed_admins = ["Bobgy", "google-admin", "googlebot", "james-jwu", "jlewi",
-                      "k8s-ci-robot", "richardsliu", "rmgogogo", "theadactyl"]
+    allowed_admins = ["Bobgy", "chensun",
+                      "google-admin", "googlebot", "james-jwu", "jlewi",
+                      "k8s-ci-robot", "rmgogogo", "theadactyl"]
 
     for a in admins:
       if not a in allowed_admins:

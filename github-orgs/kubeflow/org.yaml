@@ -6,10 +6,10 @@ orgs:
     kubeflow:
         admins:
         - Bobgy
+        - chensun
         - google-admin
         - googlebot
         - james-jwu
-        - jlewi
         - k8s-ci-robot
         - rmgogogo
         billing_email: vishnukanan@gmail.com
