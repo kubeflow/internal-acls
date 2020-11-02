@@ -1004,15 +1004,19 @@ orgs:
             repos:
               katib: admin
               pytorch-operator: admin
-          third-party-bots:
+          third-party-bots-1321:
             description: Team for third party bots
             maintainers:
             - aws-kf-ci-bot
             privacy: closed
             repos:
               katib: write
+              kfctl: write
               kfserving: write
+              manifests: write
               pytorch-operator: write
+              tf-operator: write
+              xgboost-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
