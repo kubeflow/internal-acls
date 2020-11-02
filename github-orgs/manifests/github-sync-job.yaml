@@ -1,0 +1,76 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  generateName: github-sync-
+  namespace: github-admin
+  labels:
+    app: github-sync
+    job: github-sync
+spec:
+  backoffLimit: 1
+  template:
+    metadata:
+      labels:
+        job: github-sync
+        version: master
+    spec:
+      initContainers:
+      - name: checkout
+        command:
+        - /usr/local/bin/checkout_repos.sh
+        - --repos=kubeflow/internal-acls@HEAD
+        - --src_dir=/src
+        image: gcr.io/kubeflow-admin/test-worker:v20190723-0a32b01-dirty-b7e34b
+        volumeMounts:
+        - mountPath: /src
+          name: src
+      - name: validate
+        command:
+        - python
+        - /code/validate_config.py
+        - check-config
+        - /src/kubeflow/internal-acls/github-orgs/kubeflow/org.yaml
+        image: gcr.io/kubeflow-admin/test-worker:v20190723-0a32b01-dirty-b7e34b
+        volumeMounts:
+        - mountPath: /src
+          name: src
+        - mountPath: /code
+          name: validate-code
+      containers:
+      - name: sync
+        image: gcr.io/k8s-prow/peribolos@sha256:cb771295078f0a7353f375d39242ecafadcfc46650efb8a5f0adfa10b3f8c050
+        env:
+        - name: GITHUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: github-org-admin-token
+              key: github_token
+        command:
+        - /app/prow/cmd/peribolos/app.binary.runfiles/io_k8s_test_infra/prow/cmd/peribolos/linux_amd64_pure_stripped/app.binary
+        - --fix-teams
+        - --fix-team-members
+        - --fix-org-members
+        - --fix-team-repos
+        - --config-path=/src/kubeflow/internal-acls/github-orgs/kubeflow/org.yaml
+        - --github-token-path=/secret/github-token/github_token
+        - --required-admins=jlewi
+        - --required-admins=james-jwu
+        - --required-admins=google-admin
+        - --required-admins=googlebot
+        - --confirm=true
+        volumeMounts:
+        - name: github-token
+          mountPath: /secret/github-token
+          readOnly: true
+        - mountPath: /src
+          name: src
+      restartPolicy: Never
+      volumes:
+      - name: github-token
+        secret:
+          secretName: github-org-admin-token
+      - name: src
+        emptyDir: {}
+      - name: validate-code
+        configMap:
+          name: github-sync-code
