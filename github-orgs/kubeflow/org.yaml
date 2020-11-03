@@ -1015,6 +1015,10 @@ orgs:
               katib: write
               kfctl: write
               kfserving: write
+              manifests: write
+              pytorch-operator: write
+              tf-operator: write
+              xgboost-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
