@@ -999,14 +999,6 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
-          temporary-admin-members:
-            description: Team for temporary admin access; Will be Removed at 01/20/2021
-            members:
-            - PatrickXYS
-            privacy: closed
-            repos:
-              katib: admin
-              pytorch-operator: admin
           third-party-bots-1321:
             description: Team for third party bots
             maintainers:
