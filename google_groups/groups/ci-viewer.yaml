@@ -12,6 +12,8 @@ spec:
     role: MEMBER
   - email: cc@seldon.io
     role: MEMBER
+  - email: chuckxiao1@gmail.com
+    role: MEMBER
   - email: dsun20@bloomberg.net
     role: MEMBER
   - email: gaoce@caicloud.io
