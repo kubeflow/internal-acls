@@ -1021,6 +1021,29 @@ orgs:
             privacy: closed
             repos:
               katib: write
+          wg-deployment-leads:
+            description: Team for Deployment working group leads.
+            maintainers:
+            - animeshsingh
+            - Jeffwan
+            - mameshini
+            - vpavlin
+            - yanniszark
+            privacy: closed
+            repos:
+              kfctl: write
+          wg-manifests-leads:
+            description: Team for Manifests working group lead.
+            maintainers:
+            - Jeffwan
+            - PatrickXYS
+            - StefanoFioravanzo
+            - elikatsis
+            - vkoukis
+            - yanniszark
+            privacy: closed
+            repos:
+              manifests: write
           wg-notebook-leads:
             description: Team for Notebook working group leads.
             maintainers:
