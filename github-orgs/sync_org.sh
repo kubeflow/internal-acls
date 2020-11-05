@@ -39,18 +39,18 @@ usage() {
 
 if [ -z ${test_infra_dir} ]; then
 	usage
-	exit 1	
+	exit 1
 fi
 
 if [ -z ${token_file} ]; then
 	usage
-	exit 1	
+	exit 1
 fi
 
 if [ -z ${confirm} ]; then
 	echo confirm not set defaulting to dryrun mode
     confirm=false
-fi	
+fi
 pushd .
 cd ${test_infra_dir}
 
@@ -69,14 +69,13 @@ elif [ "${action}" == "sync" ]; then
 		--fix-team-members \
 		--fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
 		--github-token-path ${token_file} \
-		--required-admins=jlewi \
-		--required-admins=abhi-g \
+		--required-admins=Bobgy \
+		--required-admins=james-jwu \
 		--required-admins=google-admin \
 		--required-admins=googlebot \
-		--required-admins=richardsliu \
 		--confirm=${confirm}
     echo "Note: if dryrun=true you might get errors updating groups if the group doesn't exist"
-else 
+else
   echo "command=${action} is not a valid command; valid commands are dump and sync"
   exit 1
 fi
