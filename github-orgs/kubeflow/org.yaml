@@ -10,7 +10,6 @@ orgs:
         - google-admin
         - googlebot
         - james-jwu
-        - jlewi
         - k8s-ci-robot
         billing_email: vishnukanan@gmail.com
         company: ""
@@ -142,6 +141,7 @@ orgs:
         - jinchihe
         - jingzhang36
         - jinxingwang
+        - jlewi
         - joeliedtke
         - johnugeorge
         - jose5918
