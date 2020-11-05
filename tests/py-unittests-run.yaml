@@ -17,7 +17,7 @@ spec:
       type: git
       params:
       - name: url
-        value: https://github.com/internal-acls.git
+        value: https://github.com/kubeflow/internal-acls.git
       - name: revision 
         value: master  
   # TODO(https://github.com/kubeflow/testing/issues/769): Stop inlining the pipeline
