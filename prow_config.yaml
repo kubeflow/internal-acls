@@ -1,3 +1,6 @@
 workflows:
   - tekton_run: kubeflow/internal-acls/tests/py-unittests-run.yaml
     name: py-unittests
+
+  - tekton_run: kubeflow/internal-acls/tests/go-test-run.yaml
+    name: go-unittests
