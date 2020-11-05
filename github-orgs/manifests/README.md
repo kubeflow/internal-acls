@@ -4,6 +4,26 @@
 * **cluster**: kf-admin-cluster 
 * **namespace**: github-admin
 
+## Deploy new updates
+
+Each change in this folder need to be deployed to take effect, only Kubeflow admins
+have the permission to do so. Follow these steps to connect to the admin cluster:
+```
+# First time
+gcloud container clusters get-credentials kf-admin-cluster --project kubeflow-admin --region us-central1-a
+# Rename the context to make future usage easier
+kubectl rename-context gke_kubeflow-admin_us-central1-a_kf-admin-cluster kf-admin
+# Next time, we can switch to this context via
+kubectl config use-context kf-admin
+```
+
+To update the deployments:
+```
+git checkout master
+git pull
+make apply
+```
+
 ## Github Token
 
 We need a GitHub token with admin:org priveleges
