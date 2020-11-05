@@ -16,3 +16,6 @@ apply-config-map:
 
 apply-cron-job:
 	kubectl -n github-admin apply -f github-sync-cron-job.yaml
+
+run-github-sync-once:
+	kubectl -n github-admin create -f github-sync-job.yaml

@@ -24,6 +24,13 @@ git pull
 make apply
 ```
 
+## Trigger a github org sync manually
+
+After connecting to `kf-admin` cluster like above:
+```
+make run-github-sync-once
+```
+
 ## Github Token
 
 We need a GitHub token with admin:org priveleges
