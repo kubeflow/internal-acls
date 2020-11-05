@@ -10,7 +10,6 @@ orgs:
         - google-admin
         - googlebot
         - james-jwu
-        - jlewi
         - k8s-ci-robot
         billing_email: vishnukanan@gmail.com
         company: ""
