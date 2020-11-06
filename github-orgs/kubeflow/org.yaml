@@ -784,6 +784,14 @@ orgs:
             privacy: closed
             repos:
               common: write
+          code-intelligence-team:
+            description: Team working on kubeflow/code-intelligence
+            members:
+            - hamelsmu
+            - jlewi
+            privacy: closed
+            repos:
+              code-intelligence: write
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
