@@ -6,12 +6,11 @@ orgs:
     kubeflow:
         admins:
         - Bobgy
+        - chensun
         - google-admin
         - googlebot
         - james-jwu
-        - jlewi
         - k8s-ci-robot
-        - rmgogogo
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
@@ -61,7 +60,6 @@ orgs:
         - carmine
         - ccarpentiere
         - ChanYiLin
-        - chensun
         - cheyang
         - chrisheecho
         - cjwagner
@@ -72,6 +70,7 @@ orgs:
         - ConnorDoyle
         - crobby
         - cspavlou
+        - cvenets
         - cwbeitel
         - danisla
         - deadeyegoodwin
@@ -134,7 +133,7 @@ orgs:
         - jbottum
         - Jeffwan
         - jessesuen
-        - jessiezcc        
+        - jessiezcc
         - jian-he
         - jiahaoc1993
         - jiezhang
@@ -142,6 +141,7 @@ orgs:
         - jinchihe
         - jingzhang36
         - jinxingwang
+        - jlewi
         - joeliedtke
         - johnugeorge
         - jose5918
@@ -193,6 +193,7 @@ orgs:
         - nicholas-abad
         - nickchase
         - NikeNano
+        - nilspohlmann
         - nqn
         - numerology
         - ohmystack
@@ -223,6 +224,7 @@ orgs:
         - RFMVasconcelos
         - richardsliu
         - rlenferink
+        - rmgogogo
         - rongou
         - rpasricha
         - rui5i
@@ -237,7 +239,8 @@ orgs:
         - saurabh24292
         - ScorpioCPH
         - scottilee
-        - shawnzhu
+        - shawnzhu 
+        - shbijlan
         - sijieamoy
         - songole
         - sperlingxx
@@ -260,11 +263,12 @@ orgs:
         - theofpa
         - thesuperzapper
         - tmckayus
-        - Tomcli
+        - Tomcli        
         - vditya
         - vishh
         - vkoukis
         - vpavlin
+        - vsetty-msft
         - wackxu
         - wbuchwalter
         - willb
@@ -280,6 +284,7 @@ orgs:
         - yanniszark
         - yebrahim
         - yeya24
+        - yilun-msft
         - yixinshi
         - yncxcw
         - yph152
@@ -779,6 +784,14 @@ orgs:
             privacy: closed
             repos:
               common: write
+          code-intelligence-team:
+            description: Team working on kubeflow/code-intelligence
+            members:
+            - hamelsmu
+            - jlewi
+            privacy: closed
+            repos:
+              code-intelligence: write
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
@@ -797,7 +810,7 @@ orgs:
             repos:
               fairing: write
           kf-kcc-admins:
-            description: Team helping with shared Kubeflow community infra 
+            description: Team helping with shared Kubeflow community infra
             maintainers:
             - andreyvelich
             - derekhh
@@ -937,6 +950,7 @@ orgs:
           project-steering-group:
             description: Project steering group as defined by Kubeflow governance
             members:
+            - Bobgy
             - jlewi
             - paveldournov
             - theadactyl
@@ -996,23 +1010,19 @@ orgs:
               tf-operator: write
               website: write
               xgboost-operator: write
-          temporary-admin-members:
-            description: Team for temporary admin access; Will be Removed at 01/20/2021
-            members:
-            - PatrickXYS
-            privacy: closed
-            repos:
-              katib: admin
-              pytorch-operator: admin
-          third-party-bots:
+          third-party-bots-1321:
             description: Team for third party bots
             maintainers:
             - aws-kf-ci-bot
             privacy: closed
             repos:
               katib: write
+              kfctl: write
               kfserving: write
+              manifests: write
               pytorch-operator: write
+              tf-operator: write
+              xgboost-operator: write
           wg-automl-leads:
             description: Team for AutoML working group leads; permissions needed to create branches and other actions.
             maintainers:
@@ -1022,6 +1032,29 @@ orgs:
             privacy: closed
             repos:
               katib: write
+          wg-deployment-leads:
+            description: Team for Deployment working group leads.
+            maintainers:
+            - animeshsingh
+            - Jeffwan
+            - mameshini
+            - vpavlin
+            - yanniszark
+            privacy: closed
+            repos:
+              kfctl: write
+          wg-manifests-leads:
+            description: Team for Manifests working group lead.
+            maintainers:
+            - Jeffwan
+            - PatrickXYS
+            - StefanoFioravanzo
+            - elikatsis
+            - vkoukis
+            - yanniszark
+            privacy: closed
+            repos:
+              manifests: write
           wg-notebook-leads:
             description: Team for Notebook working group leads.
             maintainers:

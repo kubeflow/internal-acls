@@ -12,6 +12,8 @@ spec:
     role: MEMBER
   - email: cc@seldon.io
     role: MEMBER
+  - email: chuckxiao1@gmail.com
+    role: MEMBER
   - email: dsun20@bloomberg.net
     role: MEMBER
   - email: gaoce@caicloud.io
@@ -27,6 +29,8 @@ spec:
   - email: iman.tabrizian@gmail.com
     role: MEMBER
   - email: nrchakradhar379@gmail.com
+    role: MEMBER
+  - email: subodh.pushkar@gmail.com
     role: MEMBER
   - email: yliu989@bloomberg.net
     role: MEMBER
