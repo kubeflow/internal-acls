@@ -876,6 +876,14 @@ orgs:
             privacy: closed
             repos:
               mxnet-operator: write
+          oncall-testing:
+            description: Team that will manage testing repo
+            maintainers:
+            - Bobgy
+            - PatrickXYS
+            privacy: closed
+            repos:
+              testing: write
           pipelines:
             description: Team responsible for kubeflow/pipelines project
             maintainers:
@@ -1109,6 +1117,7 @@ orgs:
             description: Web site team
             maintainers:
             - ewilderj
+            - RFMVasconcelos
             members:
             - inc0
             privacy: closed
