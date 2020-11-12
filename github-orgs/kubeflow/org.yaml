@@ -240,7 +240,7 @@ orgs:
         - saurabh24292
         - ScorpioCPH
         - scottilee
-        - shawnzhu 
+        - shawnzhu
         - shbijlan
         - sijieamoy
         - songole
@@ -264,7 +264,7 @@ orgs:
         - theofpa
         - thesuperzapper
         - tmckayus
-        - Tomcli        
+        - Tomcli
         - vditya
         - vishh
         - vkoukis
@@ -562,6 +562,17 @@ orgs:
             - ohmystack
             - sperlingxx
             - zhujl1991
+            privacy: closed
+          Arrikto:
+            description: Team of members from Arrikto
+            maintainers:
+            - cvenets
+            - elikatsis
+            - jbottum
+            - kimwnasptd
+            - StefanoFioravanzo
+            - vkoukis
+            - yanniszark
             privacy: closed
           AWS:
             description: Team of members from AWS
