@@ -16,6 +16,9 @@ spec:
     role: MEMBER
   - email: hnalla@redhat.com
     role: MEMBER
+  # jlewi needs access for ACM management of label bot clusters
+  - email: jeremy@lewi.us
+    role: MEMBER
   - email: scottleehello@gmail.com
     role: MEMBER
   - email: seedjeffwan@gmail.com
