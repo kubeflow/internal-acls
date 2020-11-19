@@ -581,10 +581,10 @@ orgs:
             - Jeffwan
             members:
             - akartsky
+            - mbaijal
             - PatrickXYS
             - RedbackThomson
             - surajkota
-            - mbaijal
             privacy: closed
           Azure:
             description: Contributors from Microsoft
