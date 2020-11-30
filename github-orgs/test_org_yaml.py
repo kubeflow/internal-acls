@@ -26,4 +26,4 @@ def test_team_member_is_in_org():
                 "{} (team {}) not an admin or member of org {}".format(
                   team_member, team_name, org_name)
 
-test_team_memeber_is_in_org()
+test_team_member_is_in_org()
