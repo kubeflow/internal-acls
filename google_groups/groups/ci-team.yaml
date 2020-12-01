@@ -23,6 +23,8 @@ spec:
     role: MEMBER
   - email: seedjeffwan@gmail.com
     role: MEMBER
+  - email: xiyue@google.como
+    role: MEMBER
   - email: yangpa@google.com
     role: MEMBER
   name: ci-team
