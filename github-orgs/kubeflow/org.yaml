@@ -191,6 +191,7 @@ orgs:
         - mpvartak
         - MrXinWang
         - mukulikak
+        - nachocano
         - nakfour
         - netankit
         - neuromage
@@ -661,6 +662,7 @@ orgs:
             - sasha-gitg
             - james-jwu
             - capri-xiyue
+            - nachocano
             privacy: closed
           google-admins:
             description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
@@ -912,6 +914,7 @@ orgs:
             - hongye-sun
             - james-jwu
             - capri-xiyue
+            - nachocano
             privacy: closed
             repos:
               pipelines: write
