@@ -56,6 +56,7 @@ orgs:
         - bikramnehra
         - bmorphism
         - c-bata
+        - capri-xiyue
         - carmark
         - carmine
         - ccarpentiere
@@ -660,12 +661,13 @@ orgs:
             - dushyanthsc
             - sasha-gitg
             - james-jwu
+            - capri-xiyue
             - nachocano
             privacy: closed
           google-admins:
             description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
             members:
-              - bobgy
+              - Bobgy
               - james-jwu
               - neuromage
               - rmgogogo
@@ -911,6 +913,7 @@ orgs:
             - dushyanthsc
             - hongye-sun
             - james-jwu
+            - capri-xiyue
             - nachocano
             privacy: closed
             repos:
@@ -1008,7 +1011,7 @@ orgs:
             description: Team for pipeline leads.
             maintainers:
             - animeshsingh
-            - bobgy
+            - Bobgy
             - james-jwu
             - kramachandran
             - neuromage
