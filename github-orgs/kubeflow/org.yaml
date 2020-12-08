@@ -11,6 +11,7 @@ orgs:
         - googlebot
         - james-jwu
         - k8s-ci-robot
+        - google-oss-robot
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
@@ -111,7 +112,6 @@ orgs:
         - gaocegege
         - gaoning777
         - garganubhav
-        - google-oss-robot
         - greynutw
         - gsantomaggio
         - gsunner
