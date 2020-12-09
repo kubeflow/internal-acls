@@ -1008,6 +1008,7 @@ orgs:
             - elikatsis
             - kimwnasptd
             - thesuperzapper
+            - yanniszark
             privacy: closed
           wg-pipeline-leads:
             description: Team for pipeline leads.
