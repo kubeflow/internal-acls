@@ -582,11 +582,10 @@ orgs:
           AWS:
             description: Team of members from AWS
             maintainers:
-            - Jeffwan
+            - PatrickXYS
             members:
             - akartsky
             - mbaijal
-            - PatrickXYS
             - RedbackThomson
             - surajkota
             privacy: closed
@@ -982,7 +981,7 @@ orgs:
             description: Team for Deployment working group leads.
             maintainers:
             - animeshsingh
-            - Jeffwan
+            - PatrickXYS
             - mameshini
             - vpavlin
             - yanniszark
@@ -992,7 +991,6 @@ orgs:
           wg-manifests-leads:
             description: Team for Manifests working group lead.
             maintainers:
-            - Jeffwan
             - PatrickXYS
             - StefanoFioravanzo
             - elikatsis
