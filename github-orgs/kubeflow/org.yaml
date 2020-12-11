@@ -999,7 +999,7 @@ orgs:
             privacy: closed
             repos:
               manifests: write
-          wg-notebook-leads:
+          wg-notebooks-leads:
             description: Team for Notebook working group leads.
             maintainers:
             - StefanoFioravanzo
