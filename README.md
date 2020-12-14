@@ -18,7 +18,7 @@ To join the Kubeflow GitHub organization, complete the following steps:
 * **Test your PR by running the following:**
 
   ```
-  cd github_orgs
+  cd github-orgs
   pytest test_org_yaml.py
   ```
   Include the output in the PR.
