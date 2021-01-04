@@ -967,6 +967,7 @@ orgs:
               katib: write
               kfctl: write
               kfserving: write
+              kubeflow: write
               manifests: write
               pytorch-operator: write
               tf-operator: write
