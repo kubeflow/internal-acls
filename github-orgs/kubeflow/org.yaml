@@ -922,6 +922,7 @@ orgs:
             - james-jwu
             - capri-xiyue
             - nachocano
+            - zijianjoy
             privacy: closed
             repos:
               pipelines: write
