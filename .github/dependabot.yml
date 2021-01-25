@@ -1,0 +1,26 @@
+updates:
+- assignees:
+  - bobgy
+  - james-jwu
+  - jlewi
+  - neuromage
+  directory: google_groups
+  open-pull-requests-limit: 10
+  package-ecosystem: docker
+  reviewers:
+  - bobgy
+  schedule:
+    interval: daily
+- assignees:
+  - bobgy
+  - james-jwu
+  - jlewi
+  - neuromage
+  directory: google_groups
+  open-pull-requests-limit: 10
+  package-ecosystem: gomod
+  reviewers:
+  - bobgy
+  schedule:
+    interval: daily
+version: 2
