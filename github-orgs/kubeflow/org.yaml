@@ -690,6 +690,19 @@ orgs:
             privacy: closed
             repos:
               pytorch-operator: admin
+          IBM:
+            description: Team at IBM contributing to Kubeflow.
+            maintainers:
+            - animeshsingh
+            members:
+            - ckadner
+            - Tomcli
+            - fenglixa
+            - drewbutlerbb4
+            - jinchihe
+            privacy: closed
+            repos:
+              kfp-tekton: write
           Red Hat:
             description: Contributors from Red Hat
             members:
@@ -972,6 +985,7 @@ orgs:
               katib: write
               kfctl: write
               kfserving: write
+              kfp-tekton: write
               kubeflow: write
               manifests: write
               pytorch-operator: write
