@@ -632,7 +632,6 @@ orgs:
           Google:
             description: Folks from Google working on Kubeflow
             maintainers:
-            - jlewi
             - abhi-g
             - richardsliu
             members:
@@ -763,7 +762,6 @@ orgs:
           caipe-dev:
             description: 'One of the Google teams '
             maintainers:
-            - jlewi
             - frederick0329
             privacy: closed
           ci-bots:
@@ -836,7 +834,6 @@ orgs:
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
-            - jlewi
             - abhi-g
             members:
             - inc0
@@ -946,13 +943,11 @@ orgs:
             description: Project steering group as defined by Kubeflow governance
             members:
             - Bobgy
-            - jlewi
             - paveldournov
             - theadactyl
           release-team:
             description: Release team; permissions needed to create branches and other actions.
             maintainers:
-            - jlewi
             - richardsliu
             members:
             - Jeffwan
