@@ -313,6 +313,7 @@ orgs:
         - ziamsyed
         - zijianjoy
         - zjj2wry
+        - JohanWork
         members_can_create_repositories: false
         name: Kubeflow
         repos:
