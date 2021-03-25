@@ -12,6 +12,8 @@ spec:
     role: MEMBER
   - email: avolkov@google.com
     role: MEMBER
+  - email: chavoshi@google.com
+    role: MEMBER
   - email: dsun20@bloomberg.net
     role: MEMBER
   - email: gongyuan@google.com
