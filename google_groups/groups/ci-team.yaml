@@ -8,6 +8,8 @@ spec:
   members:
   - email: andrey.velichkevich@gmail.com
     role: MEMBER
+  - email: alexey.volkov@ark-kun.com
+    role: MEMBER
   - email: dsun20@bloomberg.net
     role: MEMBER
   - email: gongyuan@google.com
