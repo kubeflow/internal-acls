@@ -10,6 +10,7 @@ orgs:
         - google-admin
         - googlebot
         - james-jwu
+        - theadactyl
         - k8s-ci-robot
         - google-oss-robot
         billing_email: vishnukanan@gmail.com
@@ -270,7 +271,6 @@ orgs:
         - Tabrizian
         - terrytangyuan
         - texasmichelle
-        - theadactyl
         - thedriftofwords
         - TheJaySmith
         - theofpa
