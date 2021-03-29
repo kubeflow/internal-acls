@@ -12,6 +12,7 @@ orgs:
         - james-jwu
         - k8s-ci-robot
         - google-oss-robot
+        - zijianjoy
         billing_email: vishnukanan@gmail.com
         company: ""
         default_repository_permission: read
@@ -311,7 +312,6 @@ orgs:
         - zhenghuiwang
         - zhujl1991
         - ziamsyed
-        - zijianjoy
         - zjj2wry
         - JohanWork
         members_can_create_repositories: false
