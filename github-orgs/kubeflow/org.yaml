@@ -11,7 +11,6 @@ orgs:
         - googlebot
         - james-jwu
         - theadactyl
-        - k8s-ci-robot
         - google-oss-robot
         - zijianjoy
         billing_email: vishnukanan@gmail.com
@@ -769,7 +768,6 @@ orgs:
           ci-bots:
             description: Team for bots
             members:
-            - k8s-ci-robot
             - kubeflow-bot
             - google-oss-robot
             privacy: closed
