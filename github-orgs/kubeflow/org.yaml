@@ -603,9 +603,11 @@ orgs:
           Azure:
             description: Contributors from Microsoft
             members:
+            - berndverst
             - dtzar
             - eedorenko
             - sudivate
+            - yilun-msft
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
