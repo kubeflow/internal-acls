@@ -642,8 +642,10 @@ orgs:
           Google:
             description: Folks from Google working on Kubeflow
             maintainers:
-            - abhi-g
-            - richardsliu
+            - chensun
+            - Bobgy
+            - james-jwu
+            - neuromage
             members:
             - ewilderj
             - bhupc
@@ -656,7 +658,6 @@ orgs:
             - ojarjur
             - rmgogogo
             - gabrielwen
-            - Bobgy
             - avdaredevil
             - cjwagner
             - sarahmaddox
@@ -677,18 +678,19 @@ orgs:
             - ziamsyed
             - dushyanthsc
             - sasha-gitg
-            - james-jwu
             - capri-xiyue
             - nachocano
             - zijianjoy
             privacy: closed
+            repos:
+              gcp-blueprints: write
           google-admins:
             description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
             members:
+              - chensun
               - Bobgy
               - james-jwu
               - neuromage
-              - rmgogogo
             privacy: closed
           Intel:
             description: Team at Intel contributing to Kubeflow.
