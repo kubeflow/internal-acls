@@ -629,7 +629,6 @@ orgs:
             maintainers:
             - ddutta
             members:
-            - johnugeorge
             - xyhuang
             - elviraux
             - krishnadurai
@@ -718,6 +717,10 @@ orgs:
             privacy: closed
             repos:
               kfp-tekton: write
+          Nutanix:
+            description: Team at Nutanix contributing to Kubeflow.
+            maintainers:
+            - johnugeorge
           Red Hat:
             description: Contributors from Red Hat
             members:
