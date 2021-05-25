@@ -153,6 +153,7 @@ orgs:
         - jinchihe
         - jingzhang36
         - jinxingwang
+        - ji-yaqi
         - jlewi
         - joeliedtke
         - johnugeorge
@@ -682,6 +683,7 @@ orgs:
             - capri-xiyue
             - nachocano
             - zijianjoy
+            - ji-yaqi
             privacy: closed
             repos:
               gcp-blueprints: write
