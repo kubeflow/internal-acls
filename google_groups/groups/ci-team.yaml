@@ -27,7 +27,7 @@ spec:
   - email: jamesjwu@google.com
     role: MEMBER
   - email: jamxl@google.com
-    role: MEMBER  
+    role: MEMBER
   # jlewi needs access for ACM management of label bot clusters
   - email: jeremy@lewi.us
     role: MEMBER
@@ -38,6 +38,8 @@ spec:
   - email: xiyue@google.com
     role: MEMBER
   - email: yangpa@google.com
+    role: MEMBER
+  - email: yaqiji@google.com
     role: MEMBER
   name: ci-team
   whoCanJoin: CAN_REQUEST_TO_JOIN
