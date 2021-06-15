@@ -971,10 +971,9 @@ orgs:
             maintainers:
             - richardsliu
             members:
-            - Jeffwan
-            - swiftdiaries
-            - terrytangyuan
-            - yanniszark
+            - DavidSpek
+            - kimwnasptd
+            - RFMVasconcelos
             privacy: closed
             repos:
               arena: write
