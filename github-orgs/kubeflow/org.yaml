@@ -38,6 +38,7 @@ orgs:
         - alexlatchford
         - alexmt
         - alfsuse
+        - alinakuz
         - alsrgv
         - amsaha
         - amygdala
@@ -690,6 +691,7 @@ orgs:
             - nachocano
             - zijianjoy
             - ji-yaqi
+            - alinakuz
             privacy: closed
             repos:
               gcp-blueprints: write
@@ -960,6 +962,7 @@ orgs:
             - capri-xiyue
             - nachocano
             - zijianjoy
+            - alinakuz
             privacy: closed
             repos:
               pipelines: write
