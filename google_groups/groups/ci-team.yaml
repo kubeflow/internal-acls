@@ -33,6 +33,8 @@ spec:
   # jlewi needs access for ACM management of label bot clusters
   - email: jeremy@lewi.us
     role: MEMBER
+  - email: niklas.sven.hansson@gmail.com
+    role: MEMBER
   - email: scottleehello@gmail.com
     role: MEMBER
   - email: seedjeffwan@gmail.com
