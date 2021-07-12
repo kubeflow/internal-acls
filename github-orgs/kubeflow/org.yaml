@@ -977,6 +977,7 @@ orgs:
             - DavidSpek
             - kimwnasptd
             - RFMVasconcelos
+            - mkbhanda
             privacy: closed
             repos:
               arena: write
