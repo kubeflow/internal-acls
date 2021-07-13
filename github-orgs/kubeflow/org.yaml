@@ -586,14 +586,10 @@ orgs:
           Ant Group:
             description: Team of members from Ant Group
             maintainers:
-            - ywskycn
             - terrytangyuan
             members:
-            - ScorpioCPH
             - merlintang
             - ohmystack
-            - sperlingxx
-            - zhujl1991
             privacy: closed
           Arrikto:
             description: Team of members from Arrikto
