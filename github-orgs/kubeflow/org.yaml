@@ -246,7 +246,6 @@ orgs:
         - RFMVasconcelos
         - richardsliu
         - rlenferink
-        - rmgogogo
         - rongou
         - rpasricha
         - rui5i
@@ -663,7 +662,6 @@ orgs:
             - krzyzacy
             - IronPan
             - ojarjur
-            - rmgogogo
             - gabrielwen
             - avdaredevil
             - cjwagner
@@ -947,7 +945,6 @@ orgs:
             - Ark-kun
             - Bobgy
             - hilcj
-            - rmgogogo
             - paveldournov
             - jingzhang36
             - katieole
@@ -1063,7 +1060,6 @@ orgs:
             - kramachandran
             - neuromage
             - paveldournov
-            - rmgogogo
             privacy: closed
           wg-serving-leads:
             description: Leads for KFServing workgroup
