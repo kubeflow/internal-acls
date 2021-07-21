@@ -20,14 +20,6 @@ spec:
     role: MEMBER
   - email: j.007ba7@gmail.com
     role: MEMBER
-  - email: jessie@kubeflow.org
-    role: MEMBER
-  - email: jessiezhu@google.com
-    role: MEMBER
-  - email: jlewi@google.com
-    role: MEMBER
-  - email: jlewi@kubeflow.org
-    role: MEMBER
   - email: joe@liedt.ke
     role: MEMBER
   - email: kam.d.kasravi@intel.com
@@ -42,8 +34,6 @@ spec:
     role: MEMBER
   - email: qkmqwe@gmail.com
     role: MEMBER
-  - email: richards.liu@gmail.com
-    role: MEMBER
   - email: sarahmaddox@google.com
     role: MEMBER
   - email: sarahmaddoxmail@gmail.com
@@ -51,6 +41,8 @@ spec:
   - email: sun428@gmail.com
     role: MEMBER
   - email: thea@kubeflow.org
+    role: MEMBER
+  - email: gongyuan@google.com
     role: MEMBER
   name: drive-content-managers
   whoCanJoin: INVITED_CAN_JOIN
