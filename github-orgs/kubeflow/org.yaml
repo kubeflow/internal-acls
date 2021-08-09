@@ -732,6 +732,7 @@ orgs:
             description: Team at Nutanix contributing to Kubeflow.
             maintainers:
             - johnugeorge
+            privacy: closed
           Red Hat:
             description: Contributors from Red Hat
             members:
