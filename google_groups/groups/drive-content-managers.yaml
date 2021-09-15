@@ -43,7 +43,9 @@ spec:
   - email: thea@kubeflow.org
     role: MEMBER
   - email: gongyuan@google.com
-    role: MEMBER    
+    role: MEMBER
+  - email: gongyuan@kubeflow.org
+    role: MEMBER
   - email: ajaygopinathan@google.com
     role: MEMBER
   name: drive-content-managers
