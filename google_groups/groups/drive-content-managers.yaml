@@ -43,6 +43,8 @@ spec:
   - email: thea@kubeflow.org
     role: MEMBER
   - email: gongyuan@google.com
+    role: MEMBER    
+  - email: ajaygopinathan@google.com
     role: MEMBER
   name: drive-content-managers
   whoCanJoin: INVITED_CAN_JOIN
