@@ -34,7 +34,7 @@ spec:
     role: MEMBER
   - email: yliu989@bloomberg.net
     role: MEMBER
-  - email: judahrand@gmail.net
+  - email: judahrand@gmail.com
     role: MEMBER
   name: ci-viewer
   whoCanJoin: CAN_REQUEST_TO_JOIN
