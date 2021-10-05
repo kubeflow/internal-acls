@@ -1088,7 +1088,7 @@ orgs:
             - terrytangyuan
             privacy: closed
             repos:
-              tf-operator: write
+              training-operator: write
               pytorch-operator: write
               mpi-operator: write
               xgboost-operator: write
