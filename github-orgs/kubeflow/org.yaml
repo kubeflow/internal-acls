@@ -495,12 +495,6 @@ orgs:
             allow_squash_merge: false
             description: Experimental project plugging Tekton yaml behind KFP API and UI engine
             has_projects: true
-          kfserving:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            description: Serverless Inferencing on Kubernetes
-            has_projects: true
           kubebench:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -822,7 +816,6 @@ orgs:
               kfctl: write
               kfp-tekton: write
               kfp-tekton-backend: write
-              kfserving: write
               kubebench: write
               kubeflow: write
               manifests: write
@@ -910,18 +903,6 @@ orgs:
             privacy: closed
             repos:
               mpi-operator: write
-          # TODO(wg-kfserving-leads): Can we just use wg-kfserving-leads
-          kfserving-owners:
-            description: Team working on kfserving
-            maintainers:
-            - ellistarn
-            - cliveseldon
-            - animeshsingh
-            - yuzisun
-            - rakelkar
-            privacy: closed
-            repos:
-              kfserving: admin
           mxnet-operator-team:
             description: Team working on MXNet Operator
             maintainers:
@@ -990,7 +971,6 @@ orgs:
               fairing: write
               katib: write
               kfctl: write
-              kfserving: write
               kubebench: write
               kubeflow: write
               manifests: write
@@ -1009,7 +989,6 @@ orgs:
             repos:
               katib: write
               kfctl: write
-              kfserving: write
               kfp-tekton: write
               kubeflow: write
               manifests: write
@@ -1066,17 +1045,6 @@ orgs:
             - neuromage
             - paveldournov
             privacy: closed
-          wg-serving-leads:
-            description: Leads for KFServing workgroup
-            maintainers:
-            - ellistarn
-            - cliveseldon
-            - animeshsingh
-            - yuzisun
-            - rakelkar
-            privacy: closed
-            repos:
-              kfserving: admin
           wg-training-leads:
             description: Team for Training working group leads; permissions needed to create branches and other actions.
             maintainers:
