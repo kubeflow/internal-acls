@@ -15,7 +15,7 @@ class CheckConfig(object):
       config: Path to YAML file
     """
     with open(config) as hf:
-      org = yaml.load(hf)
+      org = yaml.load(hf, Loader=yaml.CLoader)
 
     admins = org.get("orgs").get("kubeflow").get("admins")
 
