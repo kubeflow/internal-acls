@@ -23,7 +23,6 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
-        - juliusvonkohout
         - 8bitmp3
         - abcdefgs0324
         - abchoo
@@ -178,6 +177,7 @@ orgs:
         - js-ts
         - jtfogarty
         - judahrand
+        - juliusvonkohout
         - jzp1025
         - kandrio
         - karlschriek
