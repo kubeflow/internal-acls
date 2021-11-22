@@ -978,10 +978,15 @@ orgs:
             maintainers:
             - richardsliu
             members:
-            - DavidSpek
+            - annajung
+            - DomFleischmann
+            - DnPlas
+            - jbottum
+            - js-ts
             - kimwnasptd
-            - RFMVasconcelos
-            - mkbhanda
+            - shannonbradshaw
+            - surajkota
+            - thesuperzapper
             privacy: closed
             repos:
               arena: write
