@@ -12,6 +12,8 @@ spec:
     role: MEMBER
   - email: jinchihe@gmail.com
     role: MEMBER
+  - email: vedantpadwalinfi@gmail.com
+    role: MEMBER
   name: example-maintainers
   whoCanJoin: INVITED_CAN_JOIN
   whoCanPostMessage: ANYONE_CAN_POST
