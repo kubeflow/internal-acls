@@ -1044,6 +1044,8 @@ orgs:
             - thesuperzapper
             - yanniszark
             privacy: closed
+            repos:
+              kubeflow: write
           wg-pipeline-leads:
             description: Team for pipeline leads.
             maintainers:
