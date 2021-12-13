@@ -973,6 +973,15 @@ orgs:
             - Bobgy
             - paveldournov
             - theadactyl
+          release-managers:
+            description: Release team managers
+            members:
+              - kimwnasptd
+            privacy: closed
+            repos:
+              kubeflow: write
+              manifests: write
+              website: write
           release-team:
             description: Release team; permissions needed to create branches and other actions.
             maintainers:
