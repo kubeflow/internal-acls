@@ -974,9 +974,7 @@ orgs:
             - paveldournov
             - theadactyl
           release-team:
-            description: Release team; permissions needed to create branches and other actions.
-            maintainers:
-            - richardsliu
+            description: Release team members
             members:
             - annajung
             - DomFleischmann
@@ -988,24 +986,6 @@ orgs:
             - surajkota
             - thesuperzapper
             privacy: closed
-            repos:
-              arena: write
-              caffe2-operator: write
-              common: write
-              examples: write
-              fairing: write
-              katib: write
-              kfctl: write
-              kubebench: write
-              kubeflow: write
-              manifests: write
-              metadata: write
-              mpi-operator: write
-              mxnet-operator: write
-              pytorch-operator: write
-              training-operator: write
-              website: write
-              xgboost-operator: write
           third-party-bots-1321:
             description: Team for third party bots
             maintainers:
