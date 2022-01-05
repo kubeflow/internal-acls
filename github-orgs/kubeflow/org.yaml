@@ -1061,7 +1061,6 @@ orgs:
             description: Team for Training working group leads; permissions needed to create branches and other actions.
             maintainers:
             - andreyvelich
-            - ChanYiLin
             - gaocegege
             - Jeffwan
             - johnugeorge
