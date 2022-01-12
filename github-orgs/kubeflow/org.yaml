@@ -863,6 +863,14 @@ orgs:
             privacy: closed
             repos:
               code-intelligence: write
+          examples-team:
+            description: Team working on kubeflow/examples
+            members:
+            - jinchihe
+            - js-ts
+            privacy: closed
+            repos:
+              examples: write              
           github-actions:
             description: Team that will create new CI/CD with GitHub Actions
             maintainers:
