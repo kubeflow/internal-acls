@@ -69,7 +69,6 @@ elif [ "${action}" == "sync" ]; then
 		--fix-team-members \
 		--fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
 		--github-token-path ${token_file} \
-		--required-admins=Bobgy \
 		--required-admins=james-jwu \
 		--required-admins=google-admin \
 		--required-admins=googlebot \

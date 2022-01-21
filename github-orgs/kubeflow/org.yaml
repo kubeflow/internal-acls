@@ -5,7 +5,7 @@
 orgs:
     kubeflow:
         admins:
-        - Bobgy
+        - Bobgy # TODO(Bobgy): migrate github-sync cronjob and remove me from admins
         - chensun
         - google-admin
         - googlebot
@@ -659,7 +659,6 @@ orgs:
             description: Folks from Google working on Kubeflow
             maintainers:
             - chensun
-            - Bobgy
             - james-jwu
             - neuromage
             members:
@@ -705,7 +704,6 @@ orgs:
             description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
             members:
               - chensun
-              - Bobgy
               - james-jwu
               - neuromage
             privacy: closed
@@ -937,8 +935,8 @@ orgs:
           oncall-testing:
             description: Team that will manage testing repo
             maintainers:
-            - Bobgy
             - PatrickXYS
+            - zijianjoy
             privacy: closed
             repos:
               testing: write
@@ -949,7 +947,6 @@ orgs:
             members:
             - neuromage
             - Ark-kun
-            - Bobgy
             - hilcj
             - paveldournov
             - jingzhang36
@@ -970,7 +967,7 @@ orgs:
           project-steering-group:
             description: Project steering group as defined by Kubeflow governance
             members:
-            - Bobgy
+            - james-jwu
             - paveldournov
             - theadactyl
           release-managers:
@@ -1053,7 +1050,7 @@ orgs:
             description: Team for pipeline leads.
             maintainers:
             - animeshsingh
-            - Bobgy
+            - chensun
             - james-jwu
             - kramachandran
             - neuromage
