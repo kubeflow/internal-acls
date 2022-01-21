@@ -8,10 +8,10 @@ orgs:
         - Bobgy
         - chensun
         - google-admin
+        - google-oss-robot
         - googlebot
         - james-jwu
         - theadactyl
-        - google-oss-robot
         - zijianjoy
         billing_email: vishnukanan@gmail.com
         company: ""
@@ -138,6 +138,7 @@ orgs:
         - gsantomaggio
         - gsunner
         - gyliu513
+        - hackerboy01
         - hamelsmu
         - haozheng95
         - hilcj
@@ -145,7 +146,6 @@ orgs:
         - holdenk
         - hongye-sun
         - hougangliu
-        - hackerboy01
         - iamlovingit
         - iancoffey
         - idvoretskyi
@@ -161,24 +161,25 @@ orgs:
         - Jeffwan
         - jessesuen
         - jessiezcc
-        - jian-he
+        - ji-yaqi
         - jiahaoc1993
+        - jian-he
         - jiezhang
         - Jimexist
         - jinchihe
         - jingzhang36
         - jinxingwang
-        - ji-yaqi
         - jlbutler
         - jlewi
         - joeliedtke
+        - JohanWork
         - johnugeorge
-        - jose5918
         - Jose-Matsuda
-        - jrykr
+        - jose5918
         - josiemundi
-        - jstamel
+        - jrykr
         - js-ts
+        - jstamel
         - jtfogarty
         - judahrand
         - juliusvonkohout
@@ -353,7 +354,6 @@ orgs:
         - ziamsyed
         - zjj2wry
         - zw0610
-        - JohanWork
         members_can_create_repositories: false
         name: Kubeflow
         repos:
@@ -367,7 +367,7 @@ orgs:
             allow_merge_commit: false
             allow_rebase_merge: false
             allow_squash_merge: false
-            description: 'A CLI for Kubeflow. '
+            description: A CLI for Kubeflow.
             has_projects: true
           batch-predict:
             allow_merge_commit: false
@@ -423,8 +423,7 @@ orgs:
             allow_merge_commit: false
             allow_rebase_merge: false
             allow_squash_merge: false
-            description: Example for end-to-end machine learning on Kubernetes using Kubeflow
-              and Seldon Core
+            description: Example for end-to-end machine learning on Kubernetes using Kubeflow and Seldon Core
             has_projects: true
           examples:
             allow_merge_commit: false
@@ -438,12 +437,6 @@ orgs:
             allow_squash_merge: false
             description: Python SDK for building, training, and deploying ML models
             has_projects: true
-          features:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            description: Repository for features; used by PMs
-            has_projects: true
           frontend:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -456,27 +449,6 @@ orgs:
             allow_squash_merge: false
             description: Blueprints for Deploying Kubeflow on Google Cloud Platform and Anthos
             has_projects: true
-          homebrew-cask:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            archived: true
-            description: "\U0001F37B A CLI workflow for the administration of macOS applications
-              distributed as binaries"
-            has_issues: false
-            has_projects: true
-            has_wiki: false
-            homepage: https://brew.sh
-          homebrew-core:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            description: "\U0001F37B Default formulae for the missing package manager for
-              macOS"
-            has_issues: false
-            has_projects: true
-            has_wiki: false
-            homepage: https://brew.sh
           internal-acls:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -499,7 +471,7 @@ orgs:
             allow_merge_commit: false
             allow_rebase_merge: false
             allow_squash_merge: false
-            description: 'Kubeflow Pipeline compiler to compile KFP DSL to Tekton YAML. '
+            description: Kubeflow Pipeline compiler to compile KFP DSL to Tekton YAML.
             has_projects: true
           kfp-tekton-backend:
             allow_merge_commit: false
@@ -580,13 +552,6 @@ orgs:
             allow_squash_merge: false
             description: Training operators on Kubernetes.
             has_projects: true
-          triage-issues:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            archived: true
-            description: For triaging issues in kubeflow
-            has_projects: true
           website:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -602,7 +567,7 @@ orgs:
         teams:
           Arrikto:
             description: Team of members from Arrikto
-            maintainers:
+            members:
             - cvenets
             - elikatsis
             - jbottum
@@ -614,16 +579,15 @@ orgs:
             privacy: closed
           AWS:
             description: Team of members from AWS
-            maintainers:
-            - PatrickXYS
             members:
             - akartsky
             - mbaijal
+            - PatrickXYS
             - RedbackThomson
             - surajkota
             privacy: closed
           Azure:
-            description: Contributors from Microsoft
+            description: Team of members from Azure
             members:
             - berndverst
             - dtzar
@@ -633,152 +597,145 @@ orgs:
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
-            maintainers:
-            - ddysher
-            - gaocegege
             members:
             - codeflitting
+            - ddysher
+            - gaocegege
             privacy: closed
           Cisco:
-            description: Team @Cisco contributing to KubeFlow
-            maintainers:
-            - ddutta
+            description: Team of members from Cisco
             members:
-            - xyhuang
-            - elviraux
-            - krishnadurai
             - Akado2009
-            - libbyandhelen
+            - ddutta
+            - elviraux
             - garganubhav
-            - swiftdiaries
+            - krishnadurai
+            - libbyandhelen
             - ramdootp
+            - swiftdiaries
+            - xyhuang
             privacy: closed
             repos:
               kubebench: write
           Google:
-            description: Folks from Google working on Kubeflow
-            maintainers:
-            - chensun
-            - Bobgy
-            - james-jwu
-            - neuromage
+            description: Team of members from Google
             members:
-            - ewilderj
-            - bhupc
-            - danisla
-            - karthikv2k
-            - r2d4
-            - BenTheElder
-            - krzyzacy
-            - IronPan
-            - ojarjur
-            - gabrielwen
+            - alinakuz
             - avdaredevil
+            - BenTheElder
+            - bhupc
+            - Bobgy
+            - capri-xiyue
+            - chensun
+            - chrisheecho
             - cjwagner
-            - sarahmaddox
+            - danisla
+            - dushyanthsc
+            - ewilderj
+            - gabrielwen
+            - IronPan
+            - james-jwu
+            - ji-yaqi
+            - karthikv2k
+            - krzyzacy
+            - kunmingg
+            - luotigerlsx
+            - moxyoron
+            - nachocano
+            - neuromage
+            - ojarjur
             - prodonjs
-            - vishh
+            - quanjielin
+            - r2d4
+            - Realsen
+            - sarahmaddox
+            - sasha-gitg
+            - saurabh24292
             - texasmichelle
             - TheJaySmith
-            - saurabh24292
-            - zhenghuiwang
-            - luotigerlsx
-            - zabbasi
-            - chrisheecho
-            - moxyoron
+            - vishh
             - yixinshi
-            - Realsen
-            - quanjielin
-            - kunmingg
+            - zabbasi
+            - zhenghuiwang
             - ziamsyed
-            - dushyanthsc
-            - sasha-gitg
-            - capri-xiyue
-            - nachocano
             - zijianjoy
-            - ji-yaqi
-            - alinakuz
             privacy: closed
             repos:
               gcp-blueprints: write
           google-admins:
-            description: Googlers to ping for help regarding Kubeflow GitHub org or gsuite org
+            description: Googlers to ping for help regarding Kubeflow's GitHub org and Google Groups
             members:
-              - chensun
-              - Bobgy
-              - james-jwu
-              - neuromage
+            - Bobgy
+            - chensun
+            - james-jwu
+            - neuromage
             privacy: closed
           Intel:
-            description: Team at Intel contributing to Kubeflow.
-            maintainers:
-            - kkasravi
-            - ashahba
+            description: Team of members from Intel
             members:
+            - ashahba
+            - kkasravi
             - nqn
             - balajismaniam
             privacy: closed
             repos:
               pytorch-operator: admin
           IBM:
-            description: Team at IBM contributing to Kubeflow.
-            maintainers:
-            - animeshsingh
+            description: Team of members from IBM
             members:
+            - animeshsingh
             - ckadner
-            - Tomcli
-            - fenglixa
             - drewbutlerbb4
+            - fenglixa
             - jinchihe
+            - Tomcli
             privacy: closed
             repos:
               kfp-tekton: write
           Nutanix:
-            description: Team at Nutanix contributing to Kubeflow.
-            maintainers:
+            description: Team of members from Nutanix
+            members:
             - johnugeorge
             privacy: closed
           Red Hat:
-            description: Contributors from Red Hat
+            description: Team of members from Red Hat
             members:
-            - nakfour
-            - willb
-            - mattf
             - erikerlandson
-            - tmckayus
+            - mattf
+            - nakfour
             - pdmack
+            - tmckayus
+            - willb
             privacy: closed
           SUSE:
-            description: Team at SUSE contributing to Kubeflow.
+            description: Team of members from SUSE
             members:
             - alfsuse
             - gsantomaggio
             privacy: closed
           Seldon:
-            description: Engineers at Seldon contributing to Kubeflow
-            maintainers:
-            - cliveseldon
+            description: Team of members from Seldon
             members:
             - axsaucedo
-            - Maximophone
+            - cliveseldon
             - gsunner
+            - Maximophone
             - ryandawsonuk
             - SachinVarghese
             privacy: closed
             repos:
               example-seldon: write
           blog-admin-team:
-            description: Team responsible for administering and troubleshooting issues with the kubeflow blog
-            maintainers:
+            description: Admins of `kubeflow/blog`
+            members:
             - hamelsmu
             privacy: closed
             repos:
               blog: admin
           blog-team:
-            description: Team responsible for maintaining the kubeflow blog
-            maintainers:
-            - hamelsmu
+            description: Maintainers of `kubeflow/blog`
             members:
+            - hamelsmu
             - jbottum
             - jtfogarty
             - terrytangyuan
@@ -786,7 +743,7 @@ orgs:
             repos:
               blog: write
           caffe2-team:
-            description: Folks working on the caffe2 operator
+            description: Maintainers of `kubeflow/caffe2-operator`
             members:
             - carmark
             - gaocegege
@@ -794,15 +751,15 @@ orgs:
             repos:
               caffe2-operator: write
           caipe-dev:
-            description: 'One of the Google teams '
-            maintainers:
+            description: One of the Google teams
+            members:
             - frederick0329
             privacy: closed
           ci-bots:
             description: Team for bots
             members:
-            - kubeflow-bot
             - google-oss-robot
+            - kubeflow-bot
             privacy: closed
             repos:
               arena: write
@@ -812,22 +769,20 @@ orgs:
               chainer-operator: write
               code-intelligence: write
               common: write
-              community: write
               community-infra: read
+              community: write
               crd-validation: write
               example-seldon: write
               examples: write
               fairing: write
-              features: write
+              fate-operator: write
               frontend: write
               gcp-blueprints: write
-              homebrew-cask: write
-              homebrew-core: write
               internal-acls: write
               katib: write
               kfctl: write
-              kfp-tekton: write
               kfp-tekton-backend: write
+              kfp-tekton: write
               kubebench: write
               kubeflow: write
               manifests: write
@@ -840,23 +795,21 @@ orgs:
               reporting: write
               testing: write
               training-operator: write
-              triage-issues: read
               website: write
               xgboost-operator: write
-              fate-operator: write
           common-team:
-            description: Team working on kubeflow/common
-            maintainers:
+            description: Maintainers of `kubeflow/common`
+            members:
+            - gaocegege
             - Jeffwan
             - johnugeorge
-            - terrytangyuan
-            - gaocegege
             - richardsliu
+            - terrytangyuan
             privacy: closed
             repos:
               common: write
           code-intelligence-team:
-            description: Team working on kubeflow/code-intelligence
+            description: Maintainers of `kubeflow/code-intelligence`
             members:
             - hamelsmu
             - jlewi
@@ -864,7 +817,7 @@ orgs:
             repos:
               code-intelligence: write
           examples-team:
-            description: Team working on kubeflow/examples
+            description: Maintainers of `kubeflow/examples`
             members:
             - jinchihe
             - js-ts
@@ -872,24 +825,23 @@ orgs:
             repos:
               examples: write              
           github-actions:
-            description: Team that will create new CI/CD with GitHub Actions
-            maintainers:
-            - abhi-g
+            description: Maintainers of GitHub Actions
             members:
-            - inc0
+            - abhi-g
             - hamelsmu
             - imjohnbo
+            - inc0
             privacy: closed
           fairing-release:
-            description: Team working on fairing release.
-            maintainers:
+            description: Maintainers of `kubeflow/fairing`
+            members:
             - jinchihe
             privacy: closed
             repos:
               fairing: write
           kf-kcc-admins:
             description: Team helping with shared Kubeflow community infra
-            maintainers:
+            members:
             - andreyvelich
             - derekhh
             - Jeffwan
@@ -900,81 +852,77 @@ orgs:
             - yuzliu
             privacy: closed
           kube-bench-team:
-            description: Kubeflow benchmarking
-            maintainers:
-            - jlewi
+            description: Maintainers of `kubeflow/kubebench`
             members:
             - gaocegege
+            - jlewi
             - xyhuang
             privacy: closed
             repos:
               kubebench: write
           mpi-operator-team:
-            description: Team working on MPI Operator
-            maintainers:
-            - rongou
-            - terrytangyuan
+            description: Maintainers of `kubeflow/mpi-operator`
             members:
             - anfeng
-            - everpeace
             - cheyang
-            - gaocegege
+            - everpeace
             - fisherxu
+            - gaocegege
+            - rongou
+            - terrytangyuan
             privacy: closed
             repos:
               mpi-operator: write
           mxnet-operator-team:
-            description: Team working on MXNet Operator
-            maintainers:
-            - terrytangyuan
-            - Jeffwan
+            description: Maintainers of `kubeflow/mxnet-operator`
             members:
+            - Jeffwan
             - suleisl2000
+            - terrytangyuan
             - wackxu
             privacy: closed
             repos:
               mxnet-operator: write
           oncall-testing:
-            description: Team that will manage testing repo
-            maintainers:
+            description: Maintainers of `kubeflow/testing`
+            members:
             - Bobgy
             - PatrickXYS
             privacy: closed
             repos:
               testing: write
           pipelines:
-            description: Team responsible for kubeflow/pipelines project
-            maintainers:
-            - IronPan
+            description: Maintainers of `kubeflow/pipelines`
             members:
-            - neuromage
+            - alinakuz
             - Ark-kun
             - Bobgy
+            - capri-xiyue
+            - dushyanthsc
             - hilcj
-            - paveldournov
+            - hongye-sun
+            - IronPan
+            - james-jwu
             - jingzhang36
             - katieole
+            - nachocano
+            - neuromage
             - numerology
+            - paveldournov
             - Realsen
             - rui5i
-            - dushyanthsc
-            - hongye-sun
-            - james-jwu
-            - capri-xiyue
-            - nachocano
             - zijianjoy
-            - alinakuz
             privacy: closed
             repos:
               pipelines: write
           project-steering-group:
-            description: Project steering group as defined by Kubeflow governance
+            description: Project Steering Group; Defined by Kubeflow governance
             members:
             - Bobgy
             - paveldournov
             - theadactyl
           release-managers:
-            description: Release team managers
+            description: Kubeflow Release Team - Managers
             members:
               - kimwnasptd
             privacy: closed
@@ -983,7 +931,7 @@ orgs:
               manifests: write
               website: write
           release-team:
-            description: Release team members
+            description: Kubeflow Release Team
             members:
             - annajung
             - DomFleischmann
@@ -997,7 +945,7 @@ orgs:
             privacy: closed
           third-party-bots-1321:
             description: Team for third party bots
-            maintainers:
+            members:
             - aws-kf-ci-bot
             privacy: closed
             repos:
@@ -1010,8 +958,8 @@ orgs:
               training-operator: write
               xgboost-operator: write
           wg-automl-leads:
-            description: Team for AutoML working group leads; permissions needed to create branches and other actions.
-            maintainers:
+            description: Team of AutoML Working Group leads
+            members:
             - andreyvelich
             - gaocegege
             - johnugeorge
@@ -1019,39 +967,39 @@ orgs:
             repos:
               katib: write
           wg-deployment-leads:
-            description: Team for Deployment working group leads.
-            maintainers:
+            description: Team of Deployment Working Group leads
+            members:
             - animeshsingh
-            - PatrickXYS
             - mameshini
+            - PatrickXYS
             - vpavlin
             - yanniszark
             privacy: closed
             repos:
               kfctl: write
           wg-manifests-leads:
-            description: Team for Manifests working group lead.
-            maintainers:
+            description: Team of Manifests Working Group Leads
+            members:
+            - elikatsis
             - PatrickXYS
             - StefanoFioravanzo
-            - elikatsis
             - vkoukis
             - yanniszark
             privacy: closed
             repos:
               manifests: write
           wg-notebooks-leads:
-            description: Team for Notebook working group leads.
-            maintainers:
-            - StefanoFioravanzo
+            description: Team of Notebooks Working Group leads
+            members:
             - elikatsis
             - kimwnasptd
+            - StefanoFioravanzo
             - thesuperzapper
             - yanniszark
             privacy: closed
           wg-pipeline-leads:
-            description: Team for pipeline leads.
-            maintainers:
+            description: Team of Pipeline Working Group leads
+            members:
             - animeshsingh
             - Bobgy
             - james-jwu
@@ -1060,8 +1008,8 @@ orgs:
             - paveldournov
             privacy: closed
           wg-training-leads:
-            description: Team for Training working group leads; permissions needed to create branches and other actions.
-            maintainers:
+            description: Team of Training Working Group leads
+            members:
             - andreyvelich
             - gaocegege
             - Jeffwan
@@ -1069,17 +1017,17 @@ orgs:
             - terrytangyuan
             privacy: closed
             repos:
-              training-operator: write
-              pytorch-operator: write
-              mpi-operator: write
-              xgboost-operator: write
-              mxnet-operator: write
-              chainer-operator: write
-              fate-operator: write
               caffe2-operator: write
+              chainer-operator: write
               common: write
+              fate-operator: write
+              mpi-operator: write
+              mxnet-operator: write
+              pytorch-operator: write
+              training-operator: write
+              xgboost-operator: write
           web-team:
-            description: Web site team
+            description: Maintainers of `kubeflow/website`
             maintainers:
             - ewilderj
             - RFMVasconcelos
@@ -1089,13 +1037,12 @@ orgs:
             repos:
               website: write
           xgboost-operator-team:
-            description: Team working on XGBoost Operator
-            maintainers:
-            - merlintang
-            - terrytangyuan
+            description: Maintainers of `kubeflow/xgboost-operator`
             members:
             - johnugeorge
+            - merlintang
             - richardsliu
+            - terrytangyuan
             privacy: closed
             repos:
               xgboost-operator: write
