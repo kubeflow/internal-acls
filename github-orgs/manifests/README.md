@@ -13,7 +13,7 @@ have the permission to do so. Follow these steps to connect to the admin cluster
 # First time
 gcloud container clusters get-credentials kf-admin-cluster --project kubeflow-admin --region us-central1-a
 # Rename the context to make future usage easier
-kubectl rename-context gke_kubeflow-admin_us-central1-a_kf-admin-cluster kf-admin
+kubectl config rename-context gke_kubeflow-admin_us-central1-a_kf-admin-cluster kf-admin
 # Next time, we can switch to this context via
 kubectl config use-context kf-admin
 ```
@@ -36,13 +36,13 @@ make run-github-sync-once
 
 ## Github Token
 
-We need a GitHub token with admin:org priveleges
+We need a [GitHub token](https://github.com/settings/tokens) with admin:org privileges.
 
 ```bash
-kubectl -n github-admin create secret generic github-org-admin-token-bobgy --from-file=github_token=<PATH TO TOKEN>
+kubectl -n github-admin create secret generic github-org-admin-token-bobgy --from-literal=github_token=<TOKEN>
 ```
 
-* We are currently using the token **peribolos-kubeflow-org-admin** owned by Bobgy
+* We are currently using the token **Kubeflow github-admin token** owned by zijianjoy.
 
 ## Validate config map
 
