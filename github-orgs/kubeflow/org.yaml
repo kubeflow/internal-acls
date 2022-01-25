@@ -5,7 +5,6 @@
 orgs:
     kubeflow:
         admins:
-        - Bobgy # TODO(Bobgy): migrate github-sync cronjob and remove me from admins
         - chensun
         - google-admin
         - google-oss-robot
@@ -65,6 +64,7 @@ orgs:
         - bhupc
         - bikramnehra
         - bmorphism
+        - Bobgy
         - c-bata
         - ca-scribner
         - capri-xiyue
