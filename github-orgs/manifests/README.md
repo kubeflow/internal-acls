@@ -39,7 +39,7 @@ make run-github-sync-once
 We need a [GitHub token](https://github.com/settings/tokens) with admin:org privileges.
 
 ```bash
-kubectl -n github-admin create secret generic github-org-admin-token-bobgy --from-literal=github_token=<TOKEN>
+kubectl -n github-admin create secret generic github-org-admin-token-zijianjoy --from-literal=github_token=<TOKEN>
 ```
 
 * We are currently using the token **Kubeflow github-admin token** owned by zijianjoy.
