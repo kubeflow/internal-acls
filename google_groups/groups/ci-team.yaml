@@ -18,6 +18,8 @@ spec:
     role: MEMBER
   - email: chesu@google.com
     role: MEMBER
+  - email: cjmccarthy@google.com
+    role: MEMBER
   - email: dsun20@bloomberg.net
     role: MEMBER
   - email: gongyuan@google.com
