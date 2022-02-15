@@ -900,22 +900,16 @@ orgs:
             description: Maintainers of `kubeflow/pipelines`
             members:
             - alinakuz
-            - Ark-kun
-            - capri-xiyue
+            - chensun
             - connor-mccarthy
-            - dushyanthsc
+            - ji-yaqi
             - hilcj
-            - hongye-sun
             - IronPan
             - james-jwu
-            - jingzhang36
-            - katieole
-            - nachocano
-            - neuromage
-            - numerology
-            - paveldournov
-            - Realsen
+            - joeliedtke
+            - Linchin
             - rui5i
+            - sasha-gitg
             - zijianjoy
             privacy: closed
             repos:
