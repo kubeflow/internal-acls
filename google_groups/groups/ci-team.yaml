@@ -51,6 +51,8 @@ spec:
     role: MEMBER
   - email: yaqiji@google.com
     role: MEMBER
+  - eamil: yyjoeli@google.com
+    role: MEMBER
   name: ci-team
   whoCanJoin: CAN_REQUEST_TO_JOIN
   whoCanPostMessage: ALL_MEMBERS_CAN_POST
