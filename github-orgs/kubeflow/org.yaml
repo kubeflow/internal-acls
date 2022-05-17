@@ -359,6 +359,7 @@ orgs:
         - zhujl1991
         - ziamsyed
         - zjj2wry
+        - zpChris
         - zw0610
         members_can_create_repositories: false
         name: Kubeflow
@@ -666,6 +667,7 @@ orgs:
             - zhenghuiwang
             - ziamsyed
             - zijianjoy
+            - zpChris
             privacy: closed
             repos:
               gcp-blueprints: write
@@ -913,6 +915,7 @@ orgs:
             - rui5i
             - sasha-gitg
             - zijianjoy
+            - zpChris
             privacy: closed
             repos:
               pipelines: write

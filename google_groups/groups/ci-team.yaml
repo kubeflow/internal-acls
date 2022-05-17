@@ -16,6 +16,8 @@ spec:
     role: MEMBER
   - email: avolkov@google.com
     role: MEMBER
+  - email: cell@google.com
+    role: MEMBER
   - email: chesu@google.com
     role: MEMBER
   - email: cjmccarthy@google.com
