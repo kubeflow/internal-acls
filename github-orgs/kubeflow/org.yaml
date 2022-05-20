@@ -150,6 +150,7 @@ orgs:
         - holdenk
         - hongye-sun
         - hougangliu
+        - hsinhoyeh
         - iamlovingit
         - iancoffey
         - idvoretskyi
@@ -916,6 +917,7 @@ orgs:
             - sasha-gitg
             - zijianjoy
             - zpChris
+            - hsinhoyeh
             privacy: closed
             repos:
               pipelines: write
