@@ -909,6 +909,7 @@ orgs:
             - ji-yaqi
             - jlyaoyuli
             - hilcj
+            - hsinhoyeh
             - IronPan
             - james-jwu
             - joeliedtke
@@ -917,7 +918,6 @@ orgs:
             - sasha-gitg
             - zijianjoy
             - zpChris
-            - hsinhoyeh
             privacy: closed
             repos:
               pipelines: write
