@@ -929,7 +929,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - kimwnasptd
+              - annajung
             privacy: closed
             repos:
               kubeflow: write
@@ -938,15 +938,14 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
+            - akartsky
             - annajung
             - DomFleischmann
             - DnPlas
             - jbottum
             - js-ts
             - kimwnasptd
-            - shannonbradshaw
             - surajkota
-            - thesuperzapper
             privacy: closed
           third-party-bots-1321:
             description: Team for third party bots
