@@ -45,6 +45,8 @@ spec:
     role: MEMBER
   - email: scottleehello@gmail.com
     role: MEMBER
+  - email: scottxu@google.com
+    role: MEMBER
   - email: seedjeffwan@gmail.com
     role: MEMBER
   - email: xiyue@google.com
