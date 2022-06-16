@@ -6,6 +6,8 @@ spec:
   description: The team working on continuous integration.
   email: ci-team@kubeflow.org
   members:
+  - email: ablai@google.com
+    role: MEMBER
   - email: ajaygopinathan@google.com
     role: MEMBER
   - email: alexey.volkov.313373@gmail.com
