@@ -158,7 +158,6 @@ orgs:
         - iancoffey
         - idvoretskyi
         - ifilonenko
-        - imjohnbo
         - inc0
         - ioandr
         - IronPan
@@ -844,7 +843,6 @@ orgs:
             members:
             - abhi-g
             - hamelsmu
-            - imjohnbo
             - inc0
             privacy: closed
           fairing-release:
