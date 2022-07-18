@@ -837,7 +837,7 @@ orgs:
             - js-ts
             privacy: closed
             repos:
-              examples: write              
+              examples: write
           github-actions:
             description: Maintainers of GitHub Actions
             members:
@@ -991,9 +991,9 @@ orgs:
             description: Team of Manifests Working Group Leads
             members:
             - elikatsis
+            - kimwnasptd
             - PatrickXYS
             - StefanoFioravanzo
-            - vkoukis
             - yanniszark
             privacy: closed
             repos:
