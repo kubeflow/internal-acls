@@ -10,6 +10,8 @@ spec:
     role: OWNER
   - email: j.007ba7@gmail.com
     role: MEMBER
+  - email: jamxl@google.com
+    role: OWNER
   - email: jlewi@google.com
     role: OWNER
   - email: mathew.wicks@gmail.com
