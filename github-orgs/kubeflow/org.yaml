@@ -364,6 +364,7 @@ orgs:
         - zjj2wry
         - zpChris
         - zw0610
+        - andreeamun
         members_can_create_repositories: false
         name: Kubeflow
         repos:
