@@ -39,6 +39,8 @@ spec:
   # jlewi needs access for ACM management of label bot clusters
   - email: jeremy@lewi.us
     role: MEMBER
+  - email: joshogbonda@google.com
+    role: MEMBER
   - email: judahrand@gmail.com
     role: MEMBER
   - email: lingqinggan@google.com
