@@ -936,7 +936,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - annajung
+              - DomFleischmann
             privacy: closed
             repos:
               kubeflow: write
@@ -945,14 +945,18 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
-            - akartsky
+            - anencore94
             - annajung
+            - bradleykcardwell
+            - charlesa101
             - DomFleischmann
             - DnPlas
             - jbottum
-            - js-ts
             - kimwnasptd
+            - shivaylamba
             - surajkota
+            - Rishit-dagli
+            - yubozhao
             privacy: closed
           third-party-bots-1321:
             description: Team for third party bots
