@@ -48,6 +48,8 @@ spec:
     role: MEMBER
   - email: ajaygopinathan@google.com
     role: MEMBER
+  - email: zijianliu.john@gmail.com
+    role: MEMBER
   name: drive-content-managers
   whoCanJoin: INVITED_CAN_JOIN
   whoCanPostMessage: ANYONE_CAN_POST
