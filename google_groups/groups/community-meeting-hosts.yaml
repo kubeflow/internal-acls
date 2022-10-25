@@ -26,6 +26,8 @@ spec:
     role: MEMBER
   - email: joshbottum@gmail.com   
     role: MEMBER
+  - email: zijianliu.john@gmail.com
+    role: MEMBER
   name: Community Meeting Hosts
   whoCanJoin: INVITED_CAN_JOIN
   whoCanPostMessage: ANYONE_CAN_POST
