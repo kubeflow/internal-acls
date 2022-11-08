@@ -212,6 +212,7 @@ orgs:
         - krishnadurai
         - krzyzacy
         - kubeflow-bot
+        - kuizhiqing
         - kunmingg
         - kwasi
         - lalithvaka
@@ -1030,6 +1031,7 @@ orgs:
             - gaocegege
             - Jeffwan
             - johnugeorge
+            - kuizhiqing
             - terrytangyuan
             privacy: closed
             repos:
