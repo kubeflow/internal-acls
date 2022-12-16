@@ -44,6 +44,7 @@ orgs:
         - alsrgv
         - amsaha
         - amygdala
+        - ananth102
         - andreyvelich
         - anencore94
         - anfeng
@@ -597,6 +598,7 @@ orgs:
             description: Team of members from AWS
             members:
             - akartsky
+            - ananth102
             - mbaijal
             - PatrickXYS
             - RedbackThomson
