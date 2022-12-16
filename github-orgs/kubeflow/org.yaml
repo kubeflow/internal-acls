@@ -191,6 +191,7 @@ orgs:
         - josiemundi
         - jrykr
         - js-ts
+        - jsitu777
         - jstamel
         - jtfogarty
         - judahrand
@@ -288,6 +289,7 @@ orgs:
         - Ruminateer
         - ryandawsonuk
         - ryanolson
+        - ryansteakley
         - ryantd
         - SachinVarghese
         - salanki
@@ -599,9 +601,11 @@ orgs:
             members:
             - akartsky
             - ananth102
+            - jsitu777
             - mbaijal
             - PatrickXYS
             - RedbackThomson
+            - ryansteakley
             - surajkota
             privacy: closed
           Azure:
