@@ -44,6 +44,7 @@ orgs:
         - alsrgv
         - amsaha
         - amygdala
+        - ananth102
         - andreyvelich
         - anencore94
         - anfeng
@@ -190,6 +191,7 @@ orgs:
         - josiemundi
         - jrykr
         - js-ts
+        - jsitu777
         - jstamel
         - jtfogarty
         - judahrand
@@ -287,6 +289,7 @@ orgs:
         - Ruminateer
         - ryandawsonuk
         - ryanolson
+        - ryansteakley
         - ryantd
         - SachinVarghese
         - salanki
@@ -597,9 +600,10 @@ orgs:
             description: Team of members from AWS
             members:
             - akartsky
-            - mbaijal
-            - PatrickXYS
+            - ananth102
+            - jsitu777
             - RedbackThomson
+            - ryansteakley
             - surajkota
             privacy: closed
           Azure:
