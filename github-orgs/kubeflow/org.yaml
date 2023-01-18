@@ -44,12 +44,14 @@ orgs:
         - alsrgv
         - amsaha
         - amygdala
+        - ananth102
         - andreyvelich
         - anencore94
         - anfeng
         - animeshsingh
         - annajung
         - AnyISalIn
+        - apo-ger
         - Arhell
         - Ark-kun
         - aronchick
@@ -117,6 +119,7 @@ orgs:
         - edlee2121
         - eedorenko
         - eLco
+        - elenzio9
         - eliaskoromilas
         - elikatsis
         - ellistarn
@@ -188,6 +191,7 @@ orgs:
         - josiemundi
         - jrykr
         - js-ts
+        - jsitu777
         - jstamel
         - jtfogarty
         - judahrand
@@ -210,6 +214,7 @@ orgs:
         - krishnadurai
         - krzyzacy
         - kubeflow-bot
+        - kuizhiqing
         - kunmingg
         - kwasi
         - lalithvaka
@@ -251,6 +256,7 @@ orgs:
         - numerology
         - ohmystack
         - ojarjur
+        - orfeas-k
         - owlet42
         - PatrickXYS
         - paveldournov
@@ -283,6 +289,7 @@ orgs:
         - Ruminateer
         - ryandawsonuk
         - ryanolson
+        - ryansteakley
         - ryantd
         - SachinVarghese
         - salanki
@@ -294,6 +301,7 @@ orgs:
         - ScorpioCPH
         - scottilee
         - ScrapCodes
+        - sen-sam
         - seong7
         - shannonbradshaw
         - shawnzhu
@@ -592,9 +600,10 @@ orgs:
             description: Team of members from AWS
             members:
             - akartsky
-            - mbaijal
-            - PatrickXYS
+            - ananth102
+            - jsitu777
             - RedbackThomson
+            - ryansteakley
             - surajkota
             privacy: closed
           Azure:
@@ -665,6 +674,7 @@ orgs:
             - sarahmaddox
             - sasha-gitg
             - saurabh24292
+            - sen-sam
             - texasmichelle
             - vishh
             - yixinshi
