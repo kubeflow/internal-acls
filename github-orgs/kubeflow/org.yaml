@@ -947,7 +947,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - annajung
+              - DomFleischmann
             privacy: closed
             repos:
               kubeflow: write
@@ -956,12 +956,11 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
-            - akartsky
+            - anencore94
             - annajung
             - DomFleischmann
             - DnPlas
             - jbottum
-            - js-ts
             - kimwnasptd
             - surajkota
             privacy: closed
