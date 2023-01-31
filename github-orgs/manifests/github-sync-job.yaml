@@ -38,7 +38,7 @@ spec:
           name: validate-code
       containers:
       - name: sync
-        image: gcr.io/k8s-prow/peribolos@sha256:a1248c8793d5c99ed3b31c8ad1e27348cdaf5e11abc501629c9d636921460e9b
+        image: gcr.io/k8s-prow/peribolos:v20230128-8b677bb83b
         env:
         - name: GITHUB_TOKEN
           valueFrom:
@@ -46,7 +46,7 @@ spec:
               name: github-org-admin-token-zijianjoy
               key: github_token
         command:
-        - /app/prow/cmd/peribolos/app.binary.runfiles/io_k8s_test_infra/prow/cmd/peribolos/linux_amd64_pure_stripped/app.binary
+        - peribolos
         - --fix-teams
         - --fix-team-members
         - --fix-org-members
