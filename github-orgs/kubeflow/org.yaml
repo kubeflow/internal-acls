@@ -463,12 +463,6 @@ orgs:
             allow_squash_merge: false
             description: Repository for kubeflow frontend
             has_projects: true
-          gcp-blueprints:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            description: Blueprints for Deploying Kubeflow on Google Cloud Platform and Anthos
-            has_projects: true
           internal-acls:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -686,8 +680,6 @@ orgs:
             - zijianjoy
             - zpChris
             privacy: closed
-            repos:
-              gcp-blueprints: write
           google-admins:
             description: Googlers to ping for help regarding Kubeflow's GitHub org and Google Groups
             members:
@@ -797,7 +789,6 @@ orgs:
               fairing: write
               fate-operator: write
               frontend: write
-              gcp-blueprints: write
               internal-acls: write
               katib: write
               kfctl: write
