@@ -44,10 +44,10 @@ kubectl -n github-admin create secret generic github-org-admin-token-zijianjoy -
 
 * We are currently using the token **Kubeflow github-admin token** owned by zijianjoy.
 
-## Validate config map
+## Apply config map
 
-We use a config map to provide the python code used to validate the config
+We use a config map to provide the python code used to apply the config
 
 ```bash
-make create-config-map
+make apply-config-map
 ```
