@@ -135,7 +135,6 @@ orgs:
         - fediazgon
         - fenglixa
         - fisherxu
-        - frederick0329
         - gabrielwen
         - gaocegege
         - gaoning777
@@ -776,11 +775,6 @@ orgs:
             privacy: closed
             repos:
               caffe2-operator: write
-          caipe-dev:
-            description: One of the Google teams
-            members:
-            - frederick0329
-            privacy: closed
           ci-bots:
             description: Team for bots
             members:
