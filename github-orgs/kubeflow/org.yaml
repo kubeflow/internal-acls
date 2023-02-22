@@ -711,11 +711,6 @@ orgs:
             privacy: closed
             repos:
               kfp-tekton: write
-          Intuit:
-            description: Team of members from Intuit
-            members:
-            - deepk2u
-            privacy: closed
           Nutanix:
             description: Team of members from Nutanix
             members:
