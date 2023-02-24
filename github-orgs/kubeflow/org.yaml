@@ -75,8 +75,10 @@ orgs:
         - carmine
         - ccarpentiere
         - ChanYiLin
+        - chaselyall
         - chauhang
         - cheimu
+        - chensun
         - cheyang
         - chrisheecho
         - cjwagner
@@ -905,23 +907,20 @@ orgs:
           pipelines:
             description: Maintainers of `kubeflow/pipelines`
             members:
-            - alinakuz
+            - chaselyall
             - chensun
             - connor-mccarthy
             - gkcalat
             - hilcj
             - IronPan
             - james-jwu
-            - ji-yaqi
             - jlyaoyuli
             - JOCSTAA
             - joeliedtke
             - Linchin
             - rui5i
             - sasha-gitg
-            - zichuan-scott-xu
             - zijianjoy
-            - zpChris
             privacy: closed
             repos:
               pipelines: write
