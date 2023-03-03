@@ -376,6 +376,7 @@ orgs:
         - zjj2wry
         - zpChris
         - zw0610
+        - zzmao
         members_can_create_repositories: false
         name: Kubeflow
         repos:
@@ -681,6 +682,7 @@ orgs:
             - zichuan-scott-xu
             - zijianjoy
             - zpChris
+            - zzmao
             privacy: closed
           google-admins:
             description: Googlers to ping for help regarding Kubeflow's GitHub org and Google Groups
@@ -920,6 +922,7 @@ orgs:
             - rui5i
             - sasha-gitg
             - zijianjoy
+            - zzmao
             privacy: closed
             repos:
               pipelines: write
