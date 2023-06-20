@@ -692,7 +692,7 @@ orgs:
             members:
             - chensun
             - james-jwu
-            - neuromage
+            - IronPan
             privacy: closed
           Intel:
             description: Team of members from Intel
@@ -933,8 +933,8 @@ orgs:
             description: Project Steering Group; Defined by Kubeflow governance
             members:
             - james-jwu
-            - paveldournov
             - theadactyl
+            - jbottum
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
@@ -1015,9 +1015,8 @@ orgs:
             - animeshsingh
             - chensun
             - james-jwu
-            - kramachandran
-            - neuromage
-            - paveldournov
+            - IronPan
+            - zijianjoy
             privacy: closed
           wg-training-leads:
             description: Team of Training Working Group leads
