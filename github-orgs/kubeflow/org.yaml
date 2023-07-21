@@ -244,6 +244,7 @@ orgs:
         - mitake
         - mkbhanda
         - moficodes
+        - mosabami
         - moxyoron
         - mpvartak
         - MrXinWang
@@ -613,11 +614,7 @@ orgs:
           Azure:
             description: Team of members from Azure
             members:
-            - berndverst
-            - dtzar
-            - eedorenko
-            - sudivate
-            - yilun-msft
+            - mosabami
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
