@@ -614,7 +614,12 @@ orgs:
           Azure:
             description: Team of members from Azure
             members:
+            - berndverst
+            - dtzar
+            - eedorenko
             - mosabami
+            - sudivate
+            - yilun-msft
             privacy: closed
           Caicloud:
             description: Team of members from Caicloud
