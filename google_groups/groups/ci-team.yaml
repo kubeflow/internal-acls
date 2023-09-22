@@ -43,6 +43,8 @@ spec:
     role: MEMBER
   - email: judahrand@gmail.com
     role: MEMBER
+  - email: kglee@google.com
+    role: MEMBER
   - email: lingqinggan@google.com
     role: MEMBER
   - email: niklas.sven.hansson@gmail.com
