@@ -1021,6 +1021,7 @@ orgs:
             description: Team of Manifests Working Group Leads
             members:
             - elikatsis
+            - juliusvonkohout
             - kimwnasptd
             - PatrickXYS
             - StefanoFioravanzo
