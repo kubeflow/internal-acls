@@ -299,7 +299,6 @@ orgs:
         - Realsen
         - rebeccamcfadden
         - RedbackThomson
-        - RFMVasconcelos
         - richardsliu
         - rickyxie0929
         - rimolive
@@ -1074,7 +1073,6 @@ orgs:
             description: Maintainers of `kubeflow/website`
             maintainers:
             - ewilderj
-            - RFMVasconcelos
             members:
             - connor-mccarthy
             - inc0
