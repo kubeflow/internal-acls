@@ -5,12 +5,14 @@
 orgs:
     kubeflow:
         admins:
+        - caniszczyk
         - chensun
         - google-admin
         - google-oss-robot
         - googlebot
         - james-jwu
         - theadactyl
+        - thelinuxfoundation
         - zijianjoy
         billing_email: vishnukanan@gmail.com
         company: ""
@@ -59,6 +61,7 @@ orgs:
         - ashahba
         - avdaredevil
         - aws-kf-ci-bot
+        - axel7083
         - axsaucedo
         - b675987273
         - balajismaniam
@@ -92,6 +95,7 @@ orgs:
         - cvenets
         - cwbeitel
         - danisla
+        - Davidnet
         - DavidSpek
         - davidxia
         - ddutta
@@ -103,6 +107,7 @@ orgs:
         - DeliangFan
         - denkensk
         - derekhh
+        - DharmitD
         - difince
         - discordianfish
         - disktnk
@@ -152,6 +157,7 @@ orgs:
         - hackerboy01
         - hamelsmu
         - haozheng95
+        - helloericsf
         - hilcj
         - hmtai
         - holdenk
@@ -197,13 +203,16 @@ orgs:
         - jtfogarty
         - judahrand
         - juliusvonkohout
+        - junggil
         - jzp1025
         - kandrio
         - karlschriek
         - karthikv2k
         - katieole
         - katsiapis
+        - kbthu
         - kevinbnaughton
+        - KevinGrantLee
         - kevinstumpf
         - kevinyu98
         - kimwnasptd
@@ -213,6 +222,7 @@ orgs:
         - knkski
         - kramachandran
         - krishnadurai
+        - kromanow94
         - krzyzacy
         - kubeflow-bot
         - kuizhiqing
@@ -222,9 +232,11 @@ orgs:
         - LaynePeng
         - ldcastell
         - lehrig
+        - lianghao208
         - libbyandhelen
         - lienhua34
         - Linchin
+        - lowang-bh
         - lresende
         - luotigerlsx
         - lynnmatrix
@@ -242,6 +254,7 @@ orgs:
         - mitake
         - mkbhanda
         - moficodes
+        - mosabami
         - moxyoron
         - mpvartak
         - MrXinWang
@@ -256,6 +269,7 @@ orgs:
         - nickchase
         - NikeNano
         - nilspohlmann
+        - NohaIhab
         - nqn
         - numerology
         - ohmystack
@@ -267,6 +281,7 @@ orgs:
         - pdmack
         - pineking
         - pingsutw
+        - pratyusharavi
         - prodonjs
         - pugangxa
         - puneith
@@ -284,13 +299,17 @@ orgs:
         - Realsen
         - rebeccamcfadden
         - RedbackThomson
+        - RFMVasconcelos
         - richardsliu
+        - rickyxie0929
+        - rimolive
         - rlenferink
         - rongou
         - rpasricha
         - rui5i
         - Ruminateer
         - ryandawsonuk
+        - ryanjung-jm
         - ryanolson
         - ryansteakley
         - ryantd
@@ -338,6 +357,7 @@ orgs:
         - Tomcli
         - toshi-k
         - vditya
+        - vikas-saxena02
         - vincent-pli
         - vishh
         - vkoukis
@@ -612,6 +632,7 @@ orgs:
             - berndverst
             - dtzar
             - eedorenko
+            - mosabami
             - sudivate
             - yilun-msft
             privacy: closed
@@ -658,7 +679,9 @@ orgs:
             - ji-yaqi
             - jlyaoyuli
             - JOCSTAA
+            - junggil
             - karthikv2k
+            - KevinGrantLee
             - krzyzacy
             - kunmingg
             - Linchin
@@ -667,10 +690,13 @@ orgs:
             - nachocano
             - neuromage
             - ojarjur
+            - pratyusharavi
             - prodonjs
             - quanjielin
             - r2d4
             - Realsen
+            - rickyxie0929
+            - ryanjung-jm
             - sarahmaddox
             - sasha-gitg
             - saurabh24292
@@ -920,7 +946,9 @@ orgs:
             - jlyaoyuli
             - JOCSTAA
             - joeliedtke
+            - KevinGrantLee
             - Linchin
+            - rickyxie0929
             - rui5i
             - sasha-gitg
             - zijianjoy
@@ -937,7 +965,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - DomFleischmann
+              - DnPlas
             privacy: closed
             repos:
               kubeflow: write
@@ -946,12 +974,17 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
-            - anencore94
             - annajung
+            - Davidnet
             - DomFleischmann
             - DnPlas
+            - helloericsf
             - jbottum
+            - juliusvonkohout
             - kimwnasptd
+            - nagar-ajay
+            - NohaIhab
+            - ryansteakley
             - surajkota
             privacy: closed
           third-party-bots-1321:
@@ -992,6 +1025,7 @@ orgs:
             description: Team of Manifests Working Group Leads
             members:
             - elikatsis
+            - juliusvonkohout
             - kimwnasptd
             - PatrickXYS
             - StefanoFioravanzo
@@ -1040,6 +1074,7 @@ orgs:
             description: Maintainers of `kubeflow/website`
             maintainers:
             - ewilderj
+            - RFMVasconcelos
             members:
             - connor-mccarthy
             - inc0
