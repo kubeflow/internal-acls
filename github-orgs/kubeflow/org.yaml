@@ -1010,6 +1010,13 @@ orgs:
             privacy: closed
             repos:
               katib: write
+          wg-model-registry-leads:
+            description: Team of Model Registry
+            members:
+            - andreyvelich
+            - ckadner
+            - Tomcli
+            privacy: closed
           wg-deployment-leads:
             description: Team of Deployment Working Group leads
             members:
