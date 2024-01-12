@@ -1010,22 +1010,13 @@ orgs:
             privacy: closed
             repos:
               katib: write
-          wg-data-leads:
-            description: Team of Model Registry and Spark Operator
+          wg-model-registry-leads:
+            description: Team of Model Registry
             members:
             - andreyvelich
             - ckadner
-            - dhirajsb
-            - isinyaaa
-            - lampajr
-            - rareddy
-            - rkubis
-            - tarilabs
             - Tomcli
-            - tonyxrmdavidson
             privacy: closed
-            repos:
-              model-registry: write
           wg-deployment-leads:
             description: Team of Deployment Working Group leads
             members:
