@@ -829,6 +829,7 @@ orgs:
               kubebench: write
               kubeflow: write
               manifests: write
+              model-registry: write
               marketing-materials: write
               metadata: write
               mpi-operator: write
@@ -1017,6 +1018,8 @@ orgs:
             - ckadner
             - Tomcli
             privacy: closed
+            repos:
+              model-registry: write
           wg-deployment-leads:
             description: Team of Deployment Working Group leads
             members:
