@@ -966,7 +966,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - DnPlas
+              - rimolive
             privacy: closed
             repos:
               kubeflow: write
@@ -975,18 +975,12 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
-            - annajung
-            - Davidnet
-            - DomFleischmann
-            - DnPlas
-            - helloericsf
-            - jbottum
-            - juliusvonkohout
-            - kimwnasptd
+            - StefanoFioravanzo
+            - rimolive
             - nagar-ajay
-            - NohaIhab
-            - ryansteakley
-            - surajkota
+            - thesuperzapper
+            - ca-scribner
+            - juliusvonkohout
             privacy: closed
           third-party-bots-1321:
             description: Team for third party bots
