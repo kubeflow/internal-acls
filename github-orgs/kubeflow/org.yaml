@@ -11,6 +11,7 @@ orgs:
         - google-oss-robot
         - googlebot
         - james-jwu
+        - krook
         - theadactyl
         - thelinuxfoundation
         - zijianjoy
@@ -73,6 +74,7 @@ orgs:
         - Bobgy
         - c-bata
         - ca-scribner
+        - caniszczyk
         - capri-xiyue
         - carmark
         - carmine
@@ -223,6 +225,7 @@ orgs:
         - kramachandran
         - krishnadurai
         - kromanow94
+        - krook
         - krzyzacy
         - kubeflow-bot
         - kuizhiqing
@@ -350,6 +353,7 @@ orgs:
         - terrytangyuan
         - texasmichelle
         - thedriftofwords
+        - thelinuxfoundation
         - theofpa
         - thesuperzapper
         - tmckayus
