@@ -31,7 +31,7 @@ class CheckConfig(object):
     # Check that each admin is in a whitelist set of admins.
     allowed_admins = ["caniszczyk", "chensun", "google-admin", "googlebot",
                       "google-oss-robot", "james-jwu", "jlewi", "k8s-ci-robot",
-                      "theadactyl", "thelinuxfoundation", "zijianjoy"]
+                      "theadactyl", "krook", "thelinuxfoundation", "zijianjoy"]
 
     for a in admins:
       if not a in allowed_admins:
