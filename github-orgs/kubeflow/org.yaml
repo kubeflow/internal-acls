@@ -298,6 +298,7 @@ orgs:
         - rakelkar
         - ramdootp
         - randxie
+        - rareddy
         - raviranjan0309
         - Realsen
         - rebeccamcfadden
@@ -1015,6 +1016,7 @@ orgs:
             - andreyvelich
             - ckadner
             - Tomcli
+            - rareddy
             privacy: closed
             repos:
               model-registry: write
