@@ -1015,6 +1015,7 @@ orgs:
             members:
             - andreyvelich
             - ckadner
+            - tarilabs
             - Tomcli
             - rareddy
             privacy: closed
