@@ -962,12 +962,14 @@ orgs:
             privacy: closed
             repos:
               pipelines: write
-          project-steering-group:
-            description: Project Steering Group; Defined by Kubeflow governance
+          kubeflow-steering-committee:
+            description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
+            - andreyvelich
             - james-jwu
-            - theadactyl
             - jbottum
+            - johnugeorge
+            - terrytangyuan
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
