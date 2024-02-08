@@ -1,7 +1,9 @@
 approvers:
   - chensun
-  - james-jwu
   - neuromage
   - zijianjoy
-reviewers:
-  - zijianjoy
+  - andreyvelich
+  - james-jwu
+  - jbottum
+  - johnugeorge
+  - terrytangyuan
