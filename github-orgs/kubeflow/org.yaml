@@ -1039,23 +1039,16 @@ orgs:
           wg-manifests-leads:
             description: Team of Manifests Working Group Leads
             members:
-            - elikatsis
             - juliusvonkohout
             - kimwnasptd
-            - PatrickXYS
-            - StefanoFioravanzo
-            - yanniszark
             privacy: closed
             repos:
               manifests: write
           wg-notebooks-leads:
             description: Team of Notebooks Working Group leads
             members:
-            - elikatsis
             - kimwnasptd
-            - StefanoFioravanzo
             - thesuperzapper
-            - yanniszark
             privacy: closed
           wg-pipeline-leads:
             description: Team of Pipeline Working Group leads
