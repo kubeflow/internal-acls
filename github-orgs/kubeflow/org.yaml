@@ -1051,6 +1051,8 @@ orgs:
             - kimwnasptd
             - thesuperzapper
             privacy: closed
+            repos:
+              kubeflow: write
           wg-pipeline-leads:
             description: Team of Pipeline Working Group leads
             members:
