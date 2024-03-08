@@ -744,10 +744,10 @@ orgs:
           IBM:
             description: Team of members from IBM
             members:
-            - animeshsingh
             - ckadner
-            - fenglixa
-            - jinchihe
+            - JosepSampe
+            - revit13
+            - roytman
             - Tomcli
             - yhwang
             privacy: closed
