@@ -758,12 +758,12 @@ orgs:
           Red Hat:
             description: Team of members from Red Hat
             members:
-            - erikerlandson
-            - mattf
-            - nakfour
-            - pdmack
-            - tmckayus
-            - willb
+            - DharmitD
+            - diegolovison
+            - hbelmiro
+            - HumairAK
+            - rimolive
+            - terrytangyuan
             privacy: closed
           SUSE:
             description: Team of members from SUSE
