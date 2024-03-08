@@ -759,6 +759,7 @@ orgs:
             description: Team of members from Red Hat
             members:
             - DharmitD
+            - erikerlandson
             - diegolovison
             - hbelmiro
             - HumairAK
