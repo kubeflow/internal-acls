@@ -974,6 +974,7 @@ orgs:
             - jbottum
             - johnugeorge
             - terrytangyuan
+            privacy: closed
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
