@@ -1089,7 +1089,8 @@ orgs:
               xgboost-operator: write
           web-team:
             description: Maintainers of `kubeflow/website`
-            members: []
+            members:
+            - connor-mccarthy
             privacy: closed
             repos:
               website: write
