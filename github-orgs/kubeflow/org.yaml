@@ -1089,11 +1089,7 @@ orgs:
               xgboost-operator: write
           web-team:
             description: Maintainers of `kubeflow/website`
-            maintainers:
-            - ewilderj
-            members:
-            - connor-mccarthy
-            - inc0
+            members: []
             privacy: closed
             repos:
               website: write
