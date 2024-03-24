@@ -1025,6 +1025,7 @@ orgs:
             - andreyvelich
             - gaocegege
             - johnugeorge
+            - tenzen-y
             privacy: closed
             repos:
               katib: write
@@ -1081,6 +1082,7 @@ orgs:
             - Jeffwan
             - johnugeorge
             - terrytangyuan
+            - tenzen-y
             privacy: closed
             repos:
               caffe2-operator: write
