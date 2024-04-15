@@ -1031,17 +1031,20 @@ orgs:
             privacy: closed
             repos:
               katib: write
-          wg-model-registry-leads:
-            description: Team of Model Registry
+          wg-data-leads:
+            description: Team of Data Working Group leads
             members:
             - andreyvelich
             - ckadner
             - tarilabs
             - Tomcli
             - rareddy
+            - vara-bonthu
+            - yuchaoran2011
             privacy: closed
             repos:
               model-registry: write
+              spark-operator: write
           wg-deployment-leads:
             description: Team of Deployment Working Group leads
             members:
