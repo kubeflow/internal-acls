@@ -87,7 +87,6 @@ orgs:
         - cjwagner
         - ckadner
         - clarketm
-        - cliveseldon
         - codeflitting
         - connor-mccarthy
         - ConnorDoyle
@@ -101,7 +100,6 @@ orgs:
         - davidxia
         - ddutta
         - ddysher
-        - deadeyegoodwin
         - deepak-muley
         - deepanker13
         - DeeperMind
@@ -791,7 +789,6 @@ orgs:
             description: Team of members from Seldon
             members:
             - axsaucedo
-            - cliveseldon
             - gsunner
             - Maximophone
             - ryandawsonuk
