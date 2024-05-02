@@ -580,6 +580,12 @@ orgs:
             allow_squash_merge: false
             description: A Kubernetes operator for mxnet jobs
             has_projects: true
+          notebooks:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubeflow Notebooks lets you run web-based development environments on your Kubernetes cluster by running them inside Pods.
+            has_projects: true
           pipelines:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -856,6 +862,7 @@ orgs:
               metadata: write
               mpi-operator: write
               mxnet-operator: write
+              notebooks: write
               pipelines: write
               pytorch-operator: write
               reporting: write
@@ -1072,6 +1079,7 @@ orgs:
             privacy: closed
             repos:
               kubeflow: write
+              notebooks: write
           wg-pipeline-leads:
             description: Team of Pipeline Working Group leads
             members:
