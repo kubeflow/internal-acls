@@ -125,6 +125,7 @@ orgs:
         - dushyanthsc
         - dwhitena
         - dynamicwebpaige
+        - ederign
         - edlee2121
         - eedorenko
         - eLco
@@ -777,8 +778,9 @@ orgs:
             description: Team of members from Red Hat
             members:
             - DharmitD
-            - erikerlandson
             - diegolovison
+            - ederign
+            - erikerlandson
             - gmfrasca
             - hbelmiro
             - HumairAK
