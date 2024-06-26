@@ -1,0 +1,29 @@
+name: Github Org Tests
+on:
+  pull_request:
+    paths:
+      - github-orgs/kubeflow/org.yaml
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      PYTHON_VERSION: "3.10"
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: "pip"
+
+    - name: Install PyTest
+      run: |
+        pip install -r .github/requirements.txt
+        pytest --version
+
+    - name: Run tests
+      working-directory: ./github-orgs
+      run: |
+        pytest test_org_yaml.py
