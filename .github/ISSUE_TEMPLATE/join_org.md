@@ -4,26 +4,27 @@ about: Request to join or modify Kubeflow GitHub membership
 
 ---
 
-/kind area/process
+# Membership Request
 
-Please read the [guide lines](https://www.kubeflow.org/docs/about/contributing/#joining-the-community) for joining the Kubeflow GitHub org before opening an issue
+Please read the [guidelines](https://www.kubeflow.org/docs/about/contributing/#joining-the-community) for joining the Kubeflow GitHub org before opening an issue
 
 **Please provide links to PRs or other contributions (2-3):**
 
-** Please list 2 existing members who are sponsoring your membership:**
+**Please list 2 existing members who are sponsoring your membership:**
 
-** Please test your PR **
+## Please test your PR
 
 Run
 
-```
+```bash
 cd github_orgs
 pytest test_org_yaml.py
 ```
+
 Include the output in the PR
 
-**Additional Instructions**
+## Additional Instructions
 
-After your PR is merged please wait at least 1 hour for changes to propogate. 
+After your PR is merged please wait at least 1 hour for changes to propogate.
 
 If after an hour you haven't recieved an invite to join the GitHub org please open an issue.
