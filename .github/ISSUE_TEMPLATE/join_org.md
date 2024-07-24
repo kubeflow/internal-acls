@@ -10,7 +10,6 @@ Please read the [guide lines](https://www.kubeflow.org/docs/about/contributing/#
 
 **Please provide links to PRs or other contributions (2-3):**
 
-
 ** Please list 2 existing members who are sponsoring your membership:**
 
 ** Please test your PR **
@@ -28,5 +27,3 @@ Include the output in the PR
 After your PR is merged please wait at least 1 hour for changes to propogate. 
 
 If after an hour you haven't recieved an invite to join the GitHub org please open an issue.
-
-You can contact build copy in #buildcop in kubeflow.slack.com
