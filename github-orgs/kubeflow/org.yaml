@@ -52,6 +52,7 @@ orgs:
         - anencore94
         - anfeng
         - animeshsingh
+        - anishasthana
         - annajung
         - AnyISalIn
         - apo-ger
@@ -784,6 +785,7 @@ orgs:
           Red Hat:
             description: Team of members from Red Hat
             members:
+            - anishasthana
             - DharmitD
             - diegolovison
             - ederign
