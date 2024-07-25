@@ -429,6 +429,7 @@ orgs:
         - zpChris
         - zw0610
         - zzmao
+        - Shridhar2104
         members_can_create_repositories: false
         name: Kubeflow
         repos:
