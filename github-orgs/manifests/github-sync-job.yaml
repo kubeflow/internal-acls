@@ -54,7 +54,6 @@ spec:
         - --config-path=/src/kubeflow/internal-acls/github-orgs/kubeflow/org.yaml
         - --github-token-path=/secret/github-token/github_token
         - --required-admins=james-jwu
-        - --required-admins=google-admin
         - --required-admins=googlebot
         - --confirm=true
         volumeMounts:

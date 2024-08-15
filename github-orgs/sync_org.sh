@@ -70,7 +70,6 @@ elif [ "${action}" == "sync" ]; then
 		--fix-org-members ${FIX_ADMINS} --config-path ${DIR}/kubeflow/org.yaml \
 		--github-token-path ${token_file} \
 		--required-admins=james-jwu \
-		--required-admins=google-admin \
 		--required-admins=googlebot \
 		--confirm=${confirm}
     echo "Note: if dryrun=true you might get errors updating groups if the group doesn't exist"
