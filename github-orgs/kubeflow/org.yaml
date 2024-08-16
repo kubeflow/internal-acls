@@ -7,7 +7,6 @@ orgs:
         admins:
         - caniszczyk
         - chensun
-        - google-admin
         - google-oss-robot
         - googlebot
         - james-jwu
@@ -157,6 +156,7 @@ orgs:
         - Garrybest
         - gkcalat
         - gmfrasca
+        - google-admin
         - goswamig
         - gregsheremeta
         - greynutw
