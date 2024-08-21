@@ -49,6 +49,8 @@ spec:
     role: MEMBER
   - email: niklas.sven.hansson@gmail.com
     role: MEMBER
+  - email: paulinapk@google.com
+    role: MEMBER
   - email: rickyxie@google.com
     role: MEMBER
   - email: scottleehello@gmail.com
