@@ -39,6 +39,7 @@ orgs:
         - akgraner
         - alculquicondor
         - alembiewski
+        - alexcreasy
         - alexlatchford
         - alexmt
         - alfsuse
@@ -790,6 +791,7 @@ orgs:
           Red Hat:
             description: Team of members from Red Hat
             members:
+            - alexcreasy
             - anishasthana
             - DharmitD
             - diegolovison
