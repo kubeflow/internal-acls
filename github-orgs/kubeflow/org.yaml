@@ -5,13 +5,16 @@
 orgs:
     kubeflow:
         admins:
+        - andreyvelich
         - caniszczyk
         - chensun
         - google-oss-robot
         - googlebot
         - james-jwu
+        - jbottum
+        - johnugeorge
         - krook
-        - theadactyl
+        - terrytangyuan
         - thelinuxfoundation
         - zijianjoy
         billing_email: vishnukanan@gmail.com
