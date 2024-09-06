@@ -498,6 +498,12 @@ orgs:
             allow_squash_merge: false
             description: Validation Generation for Kubeflow CRD on Kubernetes
             has_projects: true
+          dashboard:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubeflow Central Dashboard is the web interface for Kubeflow
+            has_projects: true
           example-seldon:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -866,6 +872,7 @@ orgs:
               community-infra: read
               community: write
               crd-validation: write
+              dashboard: write
               example-seldon: write
               examples: write
               fairing: write
@@ -1100,6 +1107,7 @@ orgs:
             - thesuperzapper
             privacy: closed
             repos:
+              dashboard: write
               kubeflow: write
               notebooks: write
           wg-pipeline-leads:
