@@ -387,6 +387,7 @@ orgs:
         - tmckayus
         - TobiasGoerke
         - Tomcli
+        - tonyxrmdavidson
         - toshi-k
         - vara-bonthu
         - vditya
@@ -813,6 +814,7 @@ orgs:
             - rimolive
             - tarilabs
             - terrytangyuan
+            - tonyxrmdavidson
             privacy: closed
           SUSE:
             description: Team of members from SUSE
