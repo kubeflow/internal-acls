@@ -27,6 +27,7 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
+        - tombuuz
         - 8bitmp3
         - abcdefgs0324
         - abchoo
