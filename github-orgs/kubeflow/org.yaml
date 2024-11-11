@@ -41,6 +41,7 @@ orgs:
         - Akado2009
         - akartsky
         - akgraner
+        - Al-Pragliola
         - alculquicondor
         - alembiewski
         - alexcreasy
@@ -808,6 +809,7 @@ orgs:
           Red Hat:
             description: Team of members from Red Hat
             members:
+            - Al-Pragliola
             - alexcreasy
             - anishasthana
             - DharmitD
