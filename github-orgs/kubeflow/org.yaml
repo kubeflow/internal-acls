@@ -646,11 +646,11 @@ orgs:
             allow_squash_merge: false
             description: Test infrastructure and tooling for Kubeflow.
             has_projects: true
-          training-operator:
+          trainer:
             allow_merge_commit: false
             allow_rebase_merge: false
             allow_squash_merge: false
-            description: Training operators on Kubernetes.
+            description: Distributed ML Training and Fine-Tuning on Kubernetes
             has_projects: true
           website:
             allow_merge_commit: false
@@ -917,7 +917,7 @@ orgs:
               pytorch-operator: write
               reporting: write
               testing: write
-              training-operator: write
+              trainer: write
               website: write
               xgboost-operator: write
           common-team:
@@ -1076,7 +1076,7 @@ orgs:
               kubeflow: write
               manifests: write
               pytorch-operator: write
-              training-operator: write
+              trainer: write
               xgboost-operator: write
           wg-automl-leads:
             description: Team of AutoML Working Group leads
@@ -1159,7 +1159,7 @@ orgs:
               mpi-operator: write
               mxnet-operator: write
               pytorch-operator: write
-              training-operator: write
+              trainer: write
               xgboost-operator: write
           web-team:
             description: Maintainers of `kubeflow/website`
