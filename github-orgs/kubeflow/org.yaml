@@ -1044,6 +1044,8 @@ orgs:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
             - andreyvelich
+            - franciscojavierarceo
+            - juliusvonkohout
             - james-jwu
             - jbottum
             - johnugeorge
