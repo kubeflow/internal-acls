@@ -8,12 +8,12 @@ orgs:
         - andreyvelich
         - caniszczyk
         - chensun
+        - franciscojavierarceo
         - google-oss-robot
         - googlebot
         - james-jwu
-        - franciscojavierarceo
-        - juliusvonkohout 
         - johnugeorge
+        - juliusvonkohout 
         - krook
         - terrytangyuan
         - thelinuxfoundation
@@ -28,8 +28,6 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
-        - jbottum
-        - tombuuz
         - 8bitmp3
         - abcdefgs0324
         - abchoo
@@ -203,6 +201,7 @@ orgs:
         - jagadeeshi2i
         - janeman98
         - jasonliu747
+        - jbottum
         - Jeffwan
         - jessesuen
         - jessiezcc
@@ -401,6 +400,7 @@ orgs:
         - thesuperzapper
         - tmckayus
         - TobiasGoerke
+        - tombuuz
         - Tomcli
         - toshi-k
         - VaniHaripriya
@@ -1047,8 +1047,8 @@ orgs:
             members:
             - andreyvelich
             - franciscojavierarceo
-            - juliusvonkohout
             - johnugeorge
+            - juliusvonkohout
             - terrytangyuan
             privacy: closed
           release-managers:
