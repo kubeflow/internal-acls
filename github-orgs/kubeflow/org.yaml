@@ -8,11 +8,12 @@ orgs:
         - andreyvelich
         - caniszczyk
         - chensun
+        - franciscojavierarceo
         - google-oss-robot
         - googlebot
         - james-jwu
-        - jbottum
         - johnugeorge
+        - juliusvonkohout 
         - krook
         - terrytangyuan
         - thelinuxfoundation
@@ -27,7 +28,6 @@ orgs:
         has_repository_projects: true
         location: ""
         members:
-        - tombuuz
         - 8bitmp3
         - abcdefgs0324
         - abchoo
@@ -201,6 +201,7 @@ orgs:
         - jagadeeshi2i
         - janeman98
         - jasonliu747
+        - jbottum
         - Jeffwan
         - jenny-s51
         - jessesuen
@@ -399,6 +400,7 @@ orgs:
         - thesuperzapper
         - tmckayus
         - TobiasGoerke
+        - tombuuz
         - Tomcli
         - toshi-k
         - VaniHaripriya
@@ -1046,9 +1048,9 @@ orgs:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
             - andreyvelich
-            - james-jwu
-            - jbottum
+            - franciscojavierarceo
             - johnugeorge
+            - juliusvonkohout
             - terrytangyuan
             privacy: closed
           release-managers:
