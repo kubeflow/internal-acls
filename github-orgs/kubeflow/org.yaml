@@ -263,6 +263,7 @@ orgs:
       - ldcastell
       - lehrig
       - lianghao208
+      - liavweiss
       - libbyandhelen
       - lienhua34
       - Linchin
@@ -435,7 +436,6 @@ orgs:
       - yixinshi
       - yncxcw
       - YosiElias
-      - liavweiss
       - yph152
       - yubozhao
       - yuchaoran2011
@@ -835,6 +835,7 @@ orgs:
           - isinyaaa
           - jenny-s51
           - jiridanek
+          - liavweiss
           - lucferbux
           - paulovmr
           - rareddy
@@ -842,7 +843,6 @@ orgs:
           - tarilabs
           - terrytangyuan
           - YosiElias
-          - liavweiss
         privacy: closed
       SUSE:
         description: Team of members from SUSE
