@@ -36,6 +36,7 @@ orgs:
         - achalshant
         - adrian555
         - adriangonz
+        - adysenrothman
         - ahousley
         - ajchili
         - Akado2009
@@ -822,6 +823,7 @@ orgs:
           Red Hat:
             description: Team of members from Red Hat
             members:
+            - adysenrothman
             - Al-Pragliola
             - alexcreasy
             - anishasthana
