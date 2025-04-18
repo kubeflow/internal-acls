@@ -997,6 +997,15 @@ orgs:
             privacy: closed
             repos:
               kubebench: write
+          kubeflow-trainer-team:
+            description: Maintainers of `kubeflow/trainer`
+            members:
+            - andreyvelich
+            - Electronic-Waste
+            - johnugeorge
+            - terrytangyuan
+            - tenzen-y
+            privacy: closed
           mpi-operator-team:
             description: Maintainers of `kubeflow/mpi-operator`
             members:
