@@ -654,6 +654,12 @@ orgs:
             allow_squash_merge: false
             description: Repository for collecting and analyzing metrics about Kubeflow usage.
             has_projects: true
+          sdk:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubeflow SDK for ML Experience
+            has_projects: true
           testing:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -936,6 +942,7 @@ orgs:
               pipelines: write
               pytorch-operator: write
               reporting: write
+              sdk: write
               testing: write
               trainer: write
               website: write
@@ -1188,6 +1195,7 @@ orgs:
               mpi-operator: write
               mxnet-operator: write
               pytorch-operator: write
+              sdk: write
               trainer: write
               xgboost-operator: write
           web-team:
