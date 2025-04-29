@@ -1080,9 +1080,6 @@ orgs:
             - chasecadet
             - varodrig
             privacy: closed
-            repos:
-              community: write
-              website: write
           kubeflow-steering-committee:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
