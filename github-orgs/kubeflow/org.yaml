@@ -1076,6 +1076,12 @@ orgs:
             privacy: closed
             repos:
               pipelines: write
+          kubeflow-outreach-committee:
+            description: Kubeflow Outreach Committee
+            members:
+            - chasecadet
+            - varodrig
+            privacy: closed
           kubeflow-steering-committee:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
