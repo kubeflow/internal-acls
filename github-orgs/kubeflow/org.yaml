@@ -464,6 +464,7 @@ orgs:
         - zpChris
         - zw0610
         - zzmao
+        - shekharrajak
         members_can_create_repositories: false
         name: Kubeflow
         repos:
