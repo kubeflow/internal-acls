@@ -1096,7 +1096,7 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - rimolive
+              - varodrig
             privacy: closed
             repos:
               kubeflow: write
@@ -1111,6 +1111,7 @@ orgs:
             - thesuperzapper
             - ca-scribner
             - juliusvonkohout
+            - varodrig
             privacy: closed
           third-party-bots-1321:
             description: Team for third party bots
