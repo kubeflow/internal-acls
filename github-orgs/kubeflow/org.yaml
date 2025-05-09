@@ -1083,6 +1083,7 @@ orgs:
             members:
             - chasecadet
             - varodrig
+            - StefanoFioravanzo
             privacy: closed
           kubeflow-steering-committee:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
