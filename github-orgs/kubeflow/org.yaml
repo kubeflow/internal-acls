@@ -381,6 +381,7 @@ orgs:
         - shannonbradshaw
         - shawnzhu
         - shbijlan
+        - shekharrajak
         - shinytang6
         - shrinath-suresh
         - sijieamoy
@@ -464,7 +465,6 @@ orgs:
         - zpChris
         - zw0610
         - zzmao
-        - shekharrajak
         members_can_create_repositories: false
         name: Kubeflow
         repos:
