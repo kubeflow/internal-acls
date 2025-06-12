@@ -1151,6 +1151,7 @@ orgs:
           wg-data-leads:
             description: Team of Data Working Group leads
             members:
+            - Al-Pragliola
             - andreyvelich
             - ChenYi015
             - ckadner
