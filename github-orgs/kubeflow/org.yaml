@@ -1085,24 +1085,13 @@ orgs:
           pipelines:
             description: Maintainers of `kubeflow/pipelines`
             members:
-            - chaselyall
             - chensun
-            - connor-mccarthy
-            - gkcalat
-            - hilcj
-            - IronPan
+            - droctothorpe
             - james-jwu
-            - jlyaoyuli
-            - JOCSTAA
-            - joeliedtke
-            - KevinGrantLee
-            - Linchin
-            - rickyxie0929
-            - rui5i
-            - sasha-gitg
-            - zijianjoy
-            - zzmao
-            privacy: closed
+            - HumairAK
+            - mprahl
+            - zazulam
+            privacy: open
             repos:
               pipelines: write
           kubeflow-outreach-committee:
@@ -1213,11 +1202,12 @@ orgs:
           wg-pipeline-leads:
             description: Team of Pipeline Working Group leads
             members:
-            - animeshsingh
             - chensun
+            - droctothorpe
             - james-jwu
-            - IronPan
-            - zijianjoy
+            - HumairAK
+            - mprahl
+            - zazulam
             privacy: closed
           wg-training-leads:
             description: Team of Training Working Group leads
