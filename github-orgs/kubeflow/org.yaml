@@ -550,6 +550,12 @@ orgs:
             allow_squash_merge: false
             description: Kubeflow Central Dashboard is the web interface for Kubeflow
             has_projects: true
+          docs-agent:
+            allow_merge_commit: false
+            allow_rebase_merge: false
+            allow_squash_merge: false
+            description: Kubeflow Documentation AI Agent to power the Kubeflow Website
+            has_projects: true
           example-seldon:
             allow_merge_commit: false
             allow_rebase_merge: false
@@ -676,12 +682,6 @@ orgs:
             allow_rebase_merge: false
             allow_squash_merge: false
             description: Kubeflow SDK for ML Experience
-            has_projects: true
-          docs-agent:
-            allow_merge_commit: false
-            allow_rebase_merge: false
-            allow_squash_merge: false
-            description: Kubeflow Documentation AI Agent to power the Kubeflow Website
             has_projects: true
           testing:
             allow_merge_commit: false
