@@ -1200,7 +1200,10 @@ orgs:
             - HumairAK
             - mprahl
             - zazulam
-            privacy: open
+            privacy: closed
+            repos:
+              kfp-tekton: write
+              pipelines: write
           wg-training-leads:
             description: Team of Training Working Group leads
             members:
