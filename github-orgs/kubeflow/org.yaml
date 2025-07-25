@@ -894,7 +894,6 @@ orgs:
           kubeflow-outreach-committee:
             description: Kubeflow Outreach Committee
             members:
-            - chasecadet
             - varodrig
             - StefanoFioravanzo
             privacy: closed
