@@ -717,14 +717,6 @@ orgs:
             description: Incubating project for xgboost operator
             has_projects: true
         teams:
-          caffe2-team:
-            description: Maintainers of `kubeflow/caffe2-operator`
-            members:
-            - carmark
-            - gaocegege
-            privacy: closed
-            repos:
-              caffe2-operator: write
           ci-bots:
             description: Team for bots
             members:
@@ -770,47 +762,6 @@ orgs:
               trainer: write
               website: write
               xgboost-operator: write
-          common-team:
-            description: Maintainers of `kubeflow/common`
-            members:
-            - gaocegege
-            - Jeffwan
-            - johnugeorge
-            - richardsliu
-            - terrytangyuan
-            privacy: closed
-            repos:
-              common: write
-          code-intelligence-team:
-            description: Maintainers of `kubeflow/code-intelligence`
-            members:
-            - hamelsmu
-            - jlewi
-            privacy: closed
-            repos:
-              code-intelligence: write
-          examples-team:
-            description: Maintainers of `kubeflow/examples`
-            members:
-            - jinchihe
-            - js-ts
-            privacy: closed
-            repos:
-              examples: write
-          github-actions:
-            description: Maintainers of GitHub Actions
-            members:
-            - abhi-g
-            - hamelsmu
-            - inc0
-            privacy: closed
-          fairing-release:
-            description: Maintainers of `kubeflow/fairing`
-            members:
-            - jinchihe
-            privacy: closed
-            repos:
-              fairing: write
           kf-kcc-admins:
             description: Team helping with shared Kubeflow community infra
             members:
