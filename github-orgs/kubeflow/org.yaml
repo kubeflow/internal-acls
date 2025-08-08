@@ -724,6 +724,95 @@ orgs:
             - james-jwu
             - IronPan
             privacy: closed
+          Nutanix:
+            description: Team of members from Nutanix
+            members:
+            - johnugeorge
+            privacy: closed
+          Red Hat:
+            description: Team of members from Red Hat
+            members:
+            - adysenrothman
+            - Al-Pragliola
+            - alexcreasy
+            - andyatmiami
+            - anishasthana
+            - asaadbalum
+            - astefanutti
+            - caponetto
+            - Crazyglue
+            - christianvogt
+            - dandawg
+            - dbasunag
+            - DharmitD
+            - dhirajsb
+            - diegolovison
+            - ederign
+            - erikerlandson
+            - fege
+            - Griffin-Sullivan
+            - gmfrasca
+            - gregsheremeta
+            - hbelmiro
+            - HumairAK
+            - isinyaaa
+            - jenny-s51
+            - jiridanek
+            - liavweiss
+            - lucferbux
+            - lugi0
+            - paulovmr
+            - rareddy
+            - rimolive
+            - syntaxsdev
+            - tarilabs
+            - terrytangyuan
+            - thaorell
+            - yehudit1987
+            - YosiElias
+            privacy: closed
+          SUSE:
+            description: Team of members from SUSE
+            members:
+            - alfsuse
+            - gsantomaggio
+            privacy: closed
+          Seldon:
+            description: Team of members from Seldon
+            members:
+            - axsaucedo
+            - gsunner
+            - Maximophone
+            - ryandawsonuk
+            - SachinVarghese
+            privacy: closed
+            repos:
+              example-seldon: write
+          blog-admin-team:
+            description: Admins of `kubeflow/blog`
+            members:
+            - hamelsmu
+            privacy: closed
+            repos:
+              blog: admin
+          blog-team:
+            description: Maintainers of `kubeflow/blog`
+            members:
+            - hamelsmu
+            - jbottum
+            - jtfogarty
+            - terrytangyuan
+            privacy: closed
+            repos:
+              blog: write
+          caffe2-team:
+            description: Maintainers of `kubeflow/caffe2-operator`
+            members:
+            - carmark
+            - gaocegege
+            privacy: closed
+            repos:
+              caffe2-operator: write
           ci-bots:
             description: Team for bots
             members:
@@ -803,6 +892,13 @@ orgs:
             - hamelsmu
             - inc0
             privacy: closed
+          fairing-release:
+            description: Maintainers of `kubeflow/fairing`
+            members:
+            - jinchihe
+            privacy: closed
+            repos:
+              fairing: write
           kf-kcc-admins:
             description: Team helping with shared Kubeflow community infra
             members:
@@ -815,6 +911,15 @@ orgs:
             - yuzisun
             - yuzliu
             privacy: closed
+          kube-bench-team:
+            description: Maintainers of `kubeflow/kubebench`
+            members:
+            - gaocegege
+            - jlewi
+            - xyhuang
+            privacy: closed
+            repos:
+              kubebench: write
           kubeflow-trainer-team:
             description: Maintainers of `kubeflow/trainer`
             members:
@@ -837,6 +942,24 @@ orgs:
             privacy: closed
             repos:
               mpi-operator: write
+          mxnet-operator-team:
+            description: Maintainers of `kubeflow/mxnet-operator`
+            members:
+            - Jeffwan
+            - suleisl2000
+            - terrytangyuan
+            - wackxu
+            privacy: closed
+            repos:
+              mxnet-operator: write
+          oncall-testing:
+            description: Maintainers of `kubeflow/testing`
+            members:
+            - PatrickXYS
+            - zijianjoy
+            privacy: closed
+            repos:
+              testing: write
           kubeflow-outreach-committee:
             description: Kubeflow Outreach Committee
             members:
@@ -872,6 +995,20 @@ orgs:
             - juliusvonkohout
             - varodrig
             privacy: closed
+          third-party-bots-1321:
+            description: Team for third party bots
+            members:
+            - aws-kf-ci-bot
+            privacy: closed
+            repos:
+              katib: write
+              kfctl: write
+              kfp-tekton: write
+              kubeflow: write
+              manifests: write
+              pytorch-operator: write
+              trainer: write
+              xgboost-operator: write
           wg-automl-leads:
             description: Team of AutoML Working Group leads
             members:
@@ -959,4 +1096,21 @@ orgs:
               pytorch-operator: write
               sdk: write
               trainer: write
+              xgboost-operator: write
+          web-team:
+            description: Maintainers of `kubeflow/website`
+            members:
+            - connor-mccarthy
+            privacy: closed
+            repos:
+              website: write
+          xgboost-operator-team:
+            description: Maintainers of `kubeflow/xgboost-operator`
+            members:
+            - johnugeorge
+            - merlintang
+            - richardsliu
+            - terrytangyuan
+            privacy: closed
+            repos:
               xgboost-operator: write
