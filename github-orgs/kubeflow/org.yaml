@@ -919,10 +919,3 @@ orgs:
               sdk: write
               trainer: write
               xgboost-operator: write
-          web-team:
-            description: Maintainers of `kubeflow/website`
-            members:
-            - connor-mccarthy
-            privacy: closed
-            repos:
-              website: write
