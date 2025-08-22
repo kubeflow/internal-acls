@@ -20,6 +20,12 @@ spec:
     role: MEMBER
   - email: yliu989@bloomberg.net
     role: MEMBER
+  - email: ignatowicz@gmail.com
+    role: MEMBER
+  - email: andrey.velichkevich@gmail.com
+    role: MEMBER
+  - email: mathew.wicks@gmail.com
+    role: MEMBER
   name: calendar-admins
   whoCanJoin: INVITED_CAN_JOIN
   whoCanPostMessage: ANYONE_CAN_POST
