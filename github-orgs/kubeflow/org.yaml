@@ -777,10 +777,20 @@ orgs:
             - yuzisun
             - yuzliu
             privacy: closed
+          kubeflow-sdk-team:
+            description: Maintainers of `kubeflow/sdk`
+            members:
+            - andreyvelich
+            - astefanutti
+            - Electronic-Waste
+            - kramaranya
+            - szaher
+            privacy: closed
           kubeflow-trainer-team:
             description: Maintainers of `kubeflow/trainer`
             members:
             - andreyvelich
+            - astefanutti
             - Electronic-Waste
             - johnugeorge
             - terrytangyuan
