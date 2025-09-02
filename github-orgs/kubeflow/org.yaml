@@ -824,6 +824,14 @@ orgs:
             - juliusvonkohout
             - terrytangyuan
             privacy: closed
+          notebooks-security:
+            description: Security reviewer role in kubeflow/notebooks
+            members:
+            - andyatmiami
+            - ederign
+            - paulovmr
+            - thesuperzapper
+            privacy: closed
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
