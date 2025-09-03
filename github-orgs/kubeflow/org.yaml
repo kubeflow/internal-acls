@@ -13,7 +13,7 @@ orgs:
         - googlebot
         - james-jwu
         - johnugeorge
-        - juliusvonkohout 
+        - juliusvonkohout
         - krook
         - terrytangyuan
         - thelinuxfoundation
@@ -898,6 +898,14 @@ orgs:
               dashboard: write
               kubeflow: write
               notebooks: write
+          kubeflow-notebooks-security:
+            description: Team of Kubeflow Notebooks members who can review Security issues
+            members:
+            - andyatmiami
+            - paulovmr
+            - ederign
+            - thesuperzapper
+            privacy: closed
           wg-pipeline-leads:
             description: Team of Pipeline Working Group leads
             members:
