@@ -815,6 +815,14 @@ orgs:
             - varodrig
             - StefanoFioravanzo
             privacy: closed
+          kubeflow-notebooks-security:
+            description: Security reviewer role in kubeflow/notebooks
+            members:
+            - andyatmiami
+            - ederign
+            - paulovmr
+            - thesuperzapper
+            privacy: closed
           kubeflow-steering-committee:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
