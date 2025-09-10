@@ -825,6 +825,11 @@ orgs:
             - paulovmr
             - thesuperzapper
             privacy: closed
+            repos:
+              # NOTE: we have created a custom "security" role on the Kubeflow org which inherits from the "read" role:
+              #       https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/about-custom-repository-roles
+              #       this is because peribolos only knows the standard roles, but will NOT remove the custom role as long as its inherited role is listed here.
+              notebooks: read
           kubeflow-steering-committee:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
