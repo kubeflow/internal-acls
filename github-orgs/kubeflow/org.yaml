@@ -884,6 +884,7 @@ orgs:
             repos:
               model-registry: write
               spark-operator: write
+              mcp-apache-spark-history-server: write
           wg-deployment-leads:
             description: Team of Deployment Working Group leads
             members:
