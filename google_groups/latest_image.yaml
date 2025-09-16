@@ -1,4 +1,0 @@
-image: none
-kf-infra-gitops:
-  groups:
-    image: gcr.io/kf-infra-gitops/groups-sync:f933775@sha256:ec4d1ea45b47ce34c14f6c023d40d562ff26db5ae874af6947a17a6199520ad6
