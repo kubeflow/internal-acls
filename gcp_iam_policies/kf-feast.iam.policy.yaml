@@ -1,7 +1,0 @@
-bindings:
-- members:
-  - user:jlewi@google.com
-  - group:feast-team@kubeflow.org
-  role: roles/owner
-etag: BwV-AfrOkMw=
-version: 1
