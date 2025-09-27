@@ -860,6 +860,48 @@ orgs:
             - juliusvonkohout
             - varodrig
             privacy: closed
+          security-team:
+            description: Security reviewer role in Kubeflow projects
+            members:
+            - AdamKorcz
+            - andreyvelich
+            - andyatmiami
+            - astefanutti
+            - ChenYi015
+            - droctothorpe
+            - ederign
+            - Electronic-Waste
+            - franciscojavierarceo
+            - johnugeorge
+            - juliusvonkohout
+            - HumairAK
+            - kimwnasptd
+            - kramaranya
+            - mprahl
+            - nabuskey
+            - paulovmr
+            - rareddy
+            - szaher
+            - tarilabs
+            - tenzen-y
+            - terrytangyuan
+            - thesuperzapper
+            - vara-bonthu
+            - varodrig
+            - zazulam
+            privacy: closed
+            repos:
+              # NOTE: we have created a custom "security" role on the Kubeflow org which inherits from the "read" role:
+              # https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/about-custom-repository-roles
+              # This is because peribolos only knows the standard roles, but will NOT remove the custom role as long as its inherited role is listed here.
+              katib: read
+              manifests: read
+              model-registry: read
+              notebooks: read
+              pipelines: read
+              sdk: read
+              spark-operator: read
+              trainer: read
           wg-automl-leads:
             description: Team of AutoML Working Group leads
             members:
