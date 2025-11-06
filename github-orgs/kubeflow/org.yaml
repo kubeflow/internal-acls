@@ -13,7 +13,7 @@ orgs:
         - googlebot
         - james-jwu
         - johnugeorge
-        - juliusvonkohout 
+        - juliusvonkohout
         - krook
         - terrytangyuan
         - thelinuxfoundation
@@ -828,6 +828,7 @@ orgs:
             members:
             - andyatmiami
             - ederign
+            - liavweiss
             - paulovmr
             - thesuperzapper
             privacy: closed
