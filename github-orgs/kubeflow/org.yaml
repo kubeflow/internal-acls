@@ -826,6 +826,7 @@ orgs:
             members:
             - varodrig
             - StefanoFioravanzo
+            - tarekabouzeid
             privacy: closed
           kubeflow-notebooks-security:
             description: Security reviewer role in kubeflow/notebooks
