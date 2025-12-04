@@ -5,12 +5,15 @@ The tests in this file validates:
   - All team maintainers and members appear under org admins or members
 """
 
+import os.path as osp
+
 import yaml
 
 ORG_YAML = "kubeflow/org.yaml"
 
 def test_team_member_is_in_org():
-  with open(ORG_YAML) as stream:
+  path = osp.join(osp.dirname(__file__), ORG_YAML)
+  with open(path) as stream:
     org_data = yaml.safe_load(stream)
     
     for org_name, org in org_data["orgs"].items():
