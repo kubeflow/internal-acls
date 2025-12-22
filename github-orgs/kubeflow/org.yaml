@@ -793,6 +793,14 @@ orgs:
             - yuzisun
             - yuzliu
             privacy: closed
+          kubeflow-kale-team:
+            description: Maintainers of `kubeflow/kale`
+            members:
+            - ederign
+            - StefanoFioravanzo
+            privacy: closed
+            repos:
+              kale: write
           kubeflow-sdk-team:
             description: Maintainers of `kubeflow/sdk`
             members:
