@@ -795,6 +795,17 @@ orgs:
             - yuzisun
             - yuzliu
             privacy: closed
+          kubeflow-hub-team:
+            description: Maintainers of `kubeflow/model-registry` (aka "Kubeflow Hub")
+            members:
+            - Al-Pragliola
+            - ederign
+            - pboyd
+            - rareddy
+            - tarilabs
+            privacy: closed
+            repos:
+              model-registry: write
           kubeflow-kale-team:
             description: Maintainers of `kubeflow/kale`
             members:
