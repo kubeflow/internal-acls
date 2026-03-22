@@ -892,6 +892,8 @@ orgs:
             description: Kubeflow Release Team - Managers
             members:
               - varodrig
+              - tarekabouzeid
+              - juliusvonkohout
             privacy: closed
             repos:
               kubeflow: write
