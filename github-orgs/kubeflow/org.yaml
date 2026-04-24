@@ -785,7 +785,7 @@ orgs:
               kubebench: write
               kubeflow: write
               manifests: write
-              model-registry: write
+              hub: write
               marketing-materials: write
               metadata: write
               mpi-operator: write
@@ -812,7 +812,7 @@ orgs:
             - yuzliu
             privacy: closed
           kubeflow-hub-team:
-            description: Maintainers of `kubeflow/model-registry` (aka "Kubeflow Hub")
+            description: Maintainers of `kubeflow/hub` (fka "Model Registry")
             members:
             - Al-Pragliola
             - ederign
@@ -822,7 +822,7 @@ orgs:
             - tarilabs
             privacy: closed
             repos:
-              model-registry: write
+              hub: write
           kubeflow-kale-team:
             description: Maintainers of `kubeflow/kale`
             members:
@@ -951,7 +951,7 @@ orgs:
               # This is because peribolos only knows the standard roles, but will NOT remove the custom role as long as its inherited role is listed here.
               katib: read
               manifests: read
-              model-registry: read
+              hub: read
               notebooks: read
               pipelines: read
               sdk: read
@@ -981,7 +981,7 @@ orgs:
             - yuchaoran2011
             privacy: closed
             repos:
-              model-registry: write
+              hub: write
               spark-operator: write
               mcp-apache-spark-history-server: write
           wg-deployment-leads:
