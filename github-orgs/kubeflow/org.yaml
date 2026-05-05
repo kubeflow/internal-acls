@@ -814,6 +814,7 @@ orgs:
           kubeflow-hub-team:
             description: Maintainers of `kubeflow/hub` (fka "Model Registry")
             members:
+            - adysenrothman
             - Al-Pragliola
             - ederign
             - jonburdo
