@@ -11,11 +11,13 @@ orgs:
         - franciscojavierarceo
         - google-oss-robot
         - googlebot
+        - chasecadet
         - james-jwu
         - johnugeorge
         - juliusvonkohout
         - krook
         - terrytangyuan
+        - thesuperzapper
         - thelinuxfoundation
         - zijianjoy
         billing_email: vishnukanan@gmail.com
@@ -894,10 +896,10 @@ orgs:
             description: Kubeflow Steering Committee; Defined by Kubeflow governance
             members:
             - andreyvelich
+            - chasecadet
             - franciscojavierarceo
-            - johnugeorge
             - juliusvonkohout
-            - terrytangyuan
+            - thesuperzapper
             privacy: closed
           release-managers:
             description: Kubeflow Release Team - Managers
