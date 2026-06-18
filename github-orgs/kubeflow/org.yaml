@@ -883,6 +883,8 @@ orgs:
             - juliusvonkohout
             - tarekabouzeid
             privacy: closed
+            repos:
+              community-distribution: write
           kubeflow-notebooks-security:
             description: Security reviewer role in kubeflow/notebooks
             members:
