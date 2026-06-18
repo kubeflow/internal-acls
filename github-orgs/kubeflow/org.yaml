@@ -872,9 +872,9 @@ orgs:
           kubeflow-outreach-committee:
             description: Kubeflow Outreach Committee
             members:
-            - varodrig
             - StefanoFioravanzo
             - tarekabouzeid
+            - varodrig
             - yashpal2104
             privacy: closed
           kubeflow-distribution-committee:
@@ -973,8 +973,8 @@ orgs:
           wg-data-chairs:
             description: Team of Data Working Group Chairs
             members:
-            - ChenYi015
             - andreyvelich
+            - ChenYi015
             - franciscojavierarceo
             - jonburdo
             - nabuskey
