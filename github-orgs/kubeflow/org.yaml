@@ -673,11 +673,11 @@ orgs:
             allow_squash_merge: false
             description: Machine Learning Toolkit for Kubernetes
             has_projects: true
-          manifests:
+          community-distribution:
             allow_merge_commit: false
             allow_rebase_merge: false
             allow_squash_merge: false
-            description: A repository for Kustomize manifests
+            description: A repository for Kubeflow Community Distribution
             has_projects: true
           marketing-materials:
             allow_merge_commit: false
@@ -789,7 +789,7 @@ orgs:
               kfp-tekton: write
               kubebench: write
               kubeflow: write
-              manifests: write
+              community-distribution: write
               hub: write
               marketing-materials: write
               metadata: write
@@ -917,7 +917,7 @@ orgs:
             privacy: closed
             repos:
               kubeflow: write
-              manifests: write
+              community-distribution: write
               website: write
           release-team:
             description: Kubeflow Release Team
@@ -965,7 +965,7 @@ orgs:
               # https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/about-custom-repository-roles
               # This is because peribolos only knows the standard roles, but will NOT remove the custom role as long as its inherited role is listed here.
               katib: read
-              manifests: read
+              community-distribution: read
               hub: read
               notebooks: read
               pipelines: read
