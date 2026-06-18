@@ -875,6 +875,13 @@ orgs:
             - varodrig
             - StefanoFioravanzo
             - tarekabouzeid
+            - yashpal2104
+            privacy: closed
+          kubeflow-distribution-committee:
+            description: Kubeflow Distribution Committee
+            members:
+            - juliusvonkohout
+            - tarekabouzeid
             privacy: closed
           kubeflow-notebooks-security:
             description: Security reviewer role in kubeflow/notebooks
@@ -963,101 +970,64 @@ orgs:
               sdk: read
               spark-operator: read
               trainer: read
-          wg-automl-leads:
-            description: Team of AutoML Working Group leads
+          wg-data-chairs:
+            description: Team of Data Working Group Chairs
             members:
-            - andreyvelich
-            - gaocegege
-            - johnugeorge
-            privacy: closed
-            repos:
-              katib: write
-          wg-data-leads:
-            description: Team of Data Working Group leads
-            members:
-            - Al-Pragliola
-            - andreyvelich
             - ChenYi015
-            - ckadner
-            - ederign
+            - andreyvelich
+            - franciscojavierarceo
+            - jonburdo
             - nabuskey
-            - tarilabs
-            - Tomcli
             - rareddy
+            - tarilabs
             - vara-bonthu
-            - yuchaoran2011
             privacy: closed
             repos:
               hub: write
               spark-operator: write
               mcp-apache-spark-history-server: write
-          wg-deployment-leads:
-            description: Team of Deployment Working Group leads
-            members:
-            - animeshsingh
-            - mameshini
-            - PatrickXYS
-            - vpavlin
-            - yanniszark
-            privacy: closed
-            repos:
-              kfctl: write
-          wg-manifests-leads:
-            description: Team of Manifests Working Group Leads
-            members:
-            - juliusvonkohout
-            - kimwnasptd
-            privacy: closed
-            repos:
-              manifests: write
-          wg-ml-experience-leads:
-            description: Team of ML Experience Working Group leads and chairs
+          wg-ml-experience-chairs:
+            description: Team of ML Experience Working Group Chairs
             members:
             - andreyvelich
             - ederign
             - StefanoFioravanzo
             privacy: closed
-          wg-notebooks-leads:
-            description: Team of Notebooks Working Group leads
+            repos:
+              kale: write
+              mcp-server: write
+              sdk: write
+          wg-notebooks-chairs:
+            description: Team of Notebooks Working Group Chairs
             members:
-            - kimwnasptd
+            - andyatmiami
             - thesuperzapper
             privacy: closed
             repos:
               dashboard: write
-              kubeflow: write
               notebooks: write
-          wg-pipeline-leads:
-            description: Team of Pipeline Working Group leads
+          wg-pipeline-chairs:
+            description: Team of Pipelines Working Group Chairs
             members:
             - chensun
             - droctothorpe
-            - james-jwu
             - HumairAK
             - mprahl
             - zazulam
             privacy: closed
             repos:
-              kfp-tekton: write
+              mlflow-integration: write
               pipelines: write
-          wg-training-leads:
-            description: Team of Training Working Group leads
+              pipelines-components: write
+          wg-training-chairs:
+            description: Team of Training Working Group Chairs
             members:
             - andreyvelich
-            - gaocegege
-            - Jeffwan
-            - johnugeorge
-            - terrytangyuan
+            - astefanutti
             - tenzen-y
+            - terrytangyuan
             privacy: closed
             repos:
-              caffe2-operator: write
-              chainer-operator: write
-              common: write
-              fate-operator: write
+              katib: write
               mpi-operator: write
-              mxnet-operator: write
-              pytorch-operator: write
-              sdk: write
               trainer: write
-              xgboost-operator: write
