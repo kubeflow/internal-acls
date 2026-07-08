@@ -917,9 +917,9 @@ orgs:
           release-managers:
             description: Kubeflow Release Team - Managers
             members:
-              - varodrig
-              - tarekabouzeid
-              - juliusvonkohout
+            - Dominikkawka
+            - juliusvonkohout
+            - tarekabouzeid
             privacy: closed
             repos:
               kubeflow: write
@@ -928,13 +928,15 @@ orgs:
           release-team:
             description: Kubeflow Release Team
             members:
-            - StefanoFioravanzo
-            - rimolive
-            - nagar-ajay
-            - thesuperzapper
-            - ca-scribner
-            - juliusvonkohout
-            - varodrig
+            - adysenrothman
+            - alyssacgoins
+            - christian-heusel
+            - dhanishaphadate
+            - Dominikkawka
+            - nabuskey
+            - robert-bell
+            - tarekabouzeid
+            - vrajjbhatt
             privacy: closed
           security-team:
             description: Security reviewer role in Kubeflow projects
