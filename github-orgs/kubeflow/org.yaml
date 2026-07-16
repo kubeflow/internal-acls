@@ -941,6 +941,7 @@ orgs:
           security-team:
             description: Security reviewer role in Kubeflow projects
             members:
+            - abhijeet-dhumal
             - AdamKorcz
             - andreyvelich
             - andyatmiami
@@ -950,6 +951,7 @@ orgs:
             - ederign
             - Electronic-Waste
             - franciscojavierarceo
+            - jaiakash
             - jeffspahr
             - johnugeorge
             - jonburdo
@@ -957,6 +959,7 @@ orgs:
             - HumairAK
             - kimwnasptd
             - kramaranya
+            - Krishna-kg732
             - mprahl
             - nabuskey
             - paulovmr
@@ -975,6 +978,7 @@ orgs:
               # NOTE: we have created a custom "security" role on the Kubeflow org which inherits from the "read" role:
               # https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/about-custom-repository-roles
               # This is because peribolos only knows the standard roles, but will NOT remove the custom role as long as its inherited role is listed here.
+              mcp-server: read
               katib: read
               community-distribution: read
               hub: read
