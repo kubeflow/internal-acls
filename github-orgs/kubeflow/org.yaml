@@ -848,6 +848,7 @@ orgs:
           kubeflow-sdk-team:
             description: Maintainers of `kubeflow/sdk`
             members:
+            - abhijeet-dhumal
             - andreyvelich
             - astefanutti
             - Electronic-Waste
