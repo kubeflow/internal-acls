@@ -56,6 +56,7 @@ orgs:
         - alexlatchford
         - alexmt
         - alfsuse
+        - alimaredia
         - alinakuz
         - alsrgv
         - alyssacgoins
@@ -487,6 +488,7 @@ orgs:
         - vikas-saxena02
         - vincent-pli
         - vishh
+        - vjanelle
         - vkoukis
         - vpavlin
         - vrajjbhatt
@@ -937,6 +939,7 @@ orgs:
             members:
             - abhijeet-dhumal
             - AdamKorcz
+            - alimaredia
             - andreyvelich
             - andyatmiami
             - astefanutti
@@ -959,13 +962,17 @@ orgs:
             - paulovmr
             - pboyd
             - rareddy
+            - roburishabh
             - szaher
             - tarilabs
             - tenzen-y
+            - tariq-hasan
             - terrytangyuan
             - thesuperzapper
             - vara-bonthu
             - varodrig
+            - vikas-saxena02
+            - vjanelle
             - zazulam
             privacy: closed
             repos:
