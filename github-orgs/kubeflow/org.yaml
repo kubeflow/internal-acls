@@ -29,6 +29,8 @@ orgs:
         location: ""
         members:
         - roburishabh
+        - alimaredia
+        - vjanelle
         - 8bitmp3
         - abcdefgs0324
         - abchoo
@@ -921,6 +923,11 @@ orgs:
           security-team:
             description: Security reviewer role in Kubeflow projects
             members:
+            - roburishabh
+            - alimaredia
+            - vikas-saxena02
+            - vjanelle
+            - tariq-hasan
             - AdamKorcz
             - andreyvelich
             - andyatmiami
