@@ -880,6 +880,8 @@ orgs:
           kubeflow-outreach-committee:
             description: Kubeflow Outreach Committee
             members:
+            - Dominikkawka
+            - jaiakash
             - StefanoFioravanzo
             - tarekabouzeid
             - varodrig
