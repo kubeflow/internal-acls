@@ -851,6 +851,7 @@ orgs:
             members:
             - ederign
             - StefanoFioravanzo
+            - jesuino
             privacy: closed
             repos:
               kale: write
