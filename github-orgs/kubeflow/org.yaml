@@ -864,20 +864,24 @@ orgs:
             - abhijeet-dhumal
             - andreyvelich
             - astefanutti
-            - Electronic-Waste
+            - Fiona-Waters
             - kramaranya
+            - shekharrajak
             - szaher
+            - tariq-hasan
             privacy: closed
           kubeflow-trainer-team:
             description: Maintainers of `kubeflow/trainer`
             members:
+            - akshaychitneni
             - andreyvelich
             - astefanutti
-            - Electronic-Waste
-            - johnugeorge
+            - robert-bell
             - terrytangyuan
             - tenzen-y
             privacy: closed
+            repos:
+              trainer: write
           mpi-operator-team:
             description: Maintainers of `kubeflow/mpi-operator`
             members:
