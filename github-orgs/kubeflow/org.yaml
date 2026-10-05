@@ -906,14 +906,23 @@ orgs:
             - varodrig
             - yashpal2104
             privacy: closed
+          # https://github.com/kubeflow/community/tree/master/committee-distribution
           kubeflow-distribution-committee:
             description: Kubeflow Distribution Committee
             members:
+            # Vendor representatives
+            - grobbie
+            - vikas-saxena02
+            # Kubeflow Community Distribution representatives
             - juliusvonkohout
             - tarekabouzeid
+            # Kubeflow subproject representatives
+            - adysenrothman
+            - akshaychitneni
+            - christian-heusel
+            - tariq-hasan
+            - zazulam
             privacy: closed
-            repos:
-              community-distribution: write
           kubeflow-notebooks-security:
             description: Security reviewer role in kubeflow/notebooks
             members:
