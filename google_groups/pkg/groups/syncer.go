@@ -104,7 +104,7 @@ func (s *GroupSyncer) syncGroupSettings(gDef *v1alpha1.GoogleGroup,service *admi
 	// program
 	gSettings.WhoCanJoin = gDef.Spec.WhoCanJoin
 	// Most members will be joining with their non kubeflow accounts
-	gSettings.AllowExternalMembers = gSettings.AllowExternalMembers
+	gSettings.AllowExternalMembers = gDef.Spec.AllowExternalMembers
 
 	// TODO(jlewi): How should we validate its set to a correct value?
 	gSettings.WhoCanPostMessage = gDef.Spec.WhoCanPostMessage
